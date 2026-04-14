@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "data:build-sub-loot": "node scripts/build-sub-loot-data.mjs",
     "data:build-submarine-voyages": "node scripts/build-submarine-voyages.mjs",
-    "data:build-sea-area": "node scripts/build-sub-loot-data.mjs"
+    "data:build-sea-area": "node scripts/build-sub-loot-data.mjs",
+    "data:build-sub-parts-combinations": "node scripts/build-sub-parts-combinations.mjs"
   },
   "dependencies": {
     "react": "^19.2.4",

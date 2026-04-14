@@ -3,6 +3,7 @@ import { NavLink, Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
 import { HomePage } from "./HomePage.tsx";
 import { SiteAccessGate } from "./SiteAccessGate.tsx";
+import { SubCalculatorPage } from "./SubCalculatorPage.tsx";
 import { SubLootPage } from "./SubLootPage.tsx";
 import { hasSiteAccess } from "./siteAccess.ts";
 
@@ -33,6 +34,12 @@ function AppTopNav() {
               className={({ isActive }) => navTabClass(isActive)}
             >
               打撈表
+            </NavLink>
+            <NavLink
+              to="/SubCalculator"
+              className={({ isActive }) => navTabClass(isActive)}
+            >
+              零件計算器
             </NavLink>
           </nav>
         </div>
@@ -74,6 +81,7 @@ export function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/SubLoot" element={<SubLootPage />} />
+          <Route path="/SubCalculator" element={<SubCalculatorPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>

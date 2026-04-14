@@ -1,0 +1,464 @@
+{
+  "meta": {
+    "description": "潛水艇四類船體零件數值表（船體／船尾／船首／艦橋）",
+    "columns": {
+      "name": "零件名稱",
+      "minRank": "Min. rank",
+      "surveillance": "Surveillance",
+      "retrieval": "Retrieval",
+      "speed": "Speed",
+      "range": "Range",
+      "favor": "Favor",
+      "buildCost": "Build cost",
+      "magitekRepairMaterials": "Magitek repair materials"
+    }
+  },
+  "hulls": [
+    {
+      "name": "鯊魚級",
+      "minRank": 1,
+      "surveillance": -10,
+      "retrieval": 30,
+      "speed": 20,
+      "range": 40,
+      "favor": 20,
+      "buildCost": 5,
+      "magitekRepairMaterials": 1
+    },
+    {
+      "name": "甲鱟級",
+      "minRank": 15,
+      "surveillance": 15,
+      "retrieval": 10,
+      "speed": 0,
+      "range": 60,
+      "favor": 15,
+      "buildCost": 9,
+      "magitekRepairMaterials": 2
+    },
+    {
+      "name": "鬚鯨級",
+      "minRank": 25,
+      "surveillance": -15,
+      "retrieval": 55,
+      "speed": 35,
+      "range": 15,
+      "favor": 20,
+      "buildCost": 12,
+      "magitekRepairMaterials": 3
+    },
+    {
+      "name": "腔棘魚級",
+      "minRank": 35,
+      "surveillance": 40,
+      "retrieval": -10,
+      "speed": 25,
+      "range": 40,
+      "favor": 25,
+      "buildCost": 14,
+      "magitekRepairMaterials": 4
+    },
+    {
+      "name": "希爾德拉級",
+      "minRank": 45,
+      "surveillance": 10,
+      "retrieval": 75,
+      "speed": 30,
+      "range": -15,
+      "favor": 5,
+      "buildCost": 17,
+      "magitekRepairMaterials": 5
+    },
+    {
+      "name": "鯊魚級改",
+      "minRank": 50,
+      "surveillance": -5,
+      "retrieval": 40,
+      "speed": 25,
+      "range": 45,
+      "favor": 35,
+      "buildCost": 20,
+      "magitekRepairMaterials": 6
+    },
+    {
+      "name": "甲鱟級改",
+      "minRank": 50,
+      "surveillance": 20,
+      "retrieval": 15,
+      "speed": 5,
+      "range": 65,
+      "favor": 25,
+      "buildCost": 20,
+      "magitekRepairMaterials": 6
+    },
+    {
+      "name": "鬚鯨級改",
+      "minRank": 50,
+      "surveillance": -10,
+      "retrieval": 55,
+      "speed": 40,
+      "range": 20,
+      "favor": 30,
+      "buildCost": 20,
+      "magitekRepairMaterials": 6
+    },
+    {
+      "name": "腔棘魚級改",
+      "minRank": 50,
+      "surveillance": 40,
+      "retrieval": -5,
+      "speed": 30,
+      "range": 40,
+      "favor": 30,
+      "buildCost": 20,
+      "magitekRepairMaterials": 6
+    },
+    {
+      "name": "希爾德拉級改",
+      "minRank": 50,
+      "surveillance": 10,
+      "retrieval": 80,
+      "speed": 30,
+      "range": -15,
+      "favor": 10,
+      "buildCost": 20,
+      "magitekRepairMaterials": 6
+    }
+  ],
+  "sterns": [
+    {
+      "name": "鯊魚級",
+      "minRank": 1,
+      "surveillance": -30,
+      "retrieval": 20,
+      "speed": 60,
+      "range": 30,
+      "favor": 15,
+      "buildCost": 5,
+      "magitekRepairMaterials": 1
+    },
+    {
+      "name": "甲鱟級",
+      "minRank": 15,
+      "surveillance": 15,
+      "retrieval": 0,
+      "speed": 30,
+      "range": 40,
+      "favor": 25,
+      "buildCost": 9,
+      "magitekRepairMaterials": 2
+    },
+    {
+      "name": "鬚鯨級",
+      "minRank": 25,
+      "surveillance": 15,
+      "retrieval": 20,
+      "speed": 0,
+      "range": 55,
+      "favor": 15,
+      "buildCost": 12,
+      "magitekRepairMaterials": 3
+    },
+    {
+      "name": "腔棘魚級",
+      "minRank": 35,
+      "surveillance": 10,
+      "retrieval": 25,
+      "speed": 35,
+      "range": 25,
+      "favor": 25,
+      "buildCost": 14,
+      "magitekRepairMaterials": 4
+    },
+    {
+      "name": "希爾德拉級",
+      "minRank": 45,
+      "surveillance": 20,
+      "retrieval": 60,
+      "speed": 35,
+      "range": -15,
+      "favor": 5,
+      "buildCost": 17,
+      "magitekRepairMaterials": 5
+    },
+    {
+      "name": "鯊魚級改",
+      "minRank": 50,
+      "surveillance": -25,
+      "retrieval": 25,
+      "speed": 70,
+      "range": 35,
+      "favor": 25,
+      "buildCost": 20,
+      "magitekRepairMaterials": 6
+    },
+    {
+      "name": "甲鱟級改",
+      "minRank": 50,
+      "surveillance": 20,
+      "retrieval": 5,
+      "speed": 35,
+      "range": 45,
+      "favor": 35,
+      "buildCost": 20,
+      "magitekRepairMaterials": 6
+    },
+    {
+      "name": "鬚鯨級改",
+      "minRank": 50,
+      "surveillance": 20,
+      "retrieval": 20,
+      "speed": 5,
+      "range": 60,
+      "favor": 20,
+      "buildCost": 20,
+      "magitekRepairMaterials": 6
+    },
+    {
+      "name": "腔棘魚級改",
+      "minRank": 50,
+      "surveillance": 10,
+      "retrieval": 25,
+      "speed": 40,
+      "range": 30,
+      "favor": 30,
+      "buildCost": 20,
+      "magitekRepairMaterials": 6
+    },
+    {
+      "name": "希爾德拉級改",
+      "minRank": 50,
+      "surveillance": 20,
+      "retrieval": 60,
+      "speed": 35,
+      "range": -10,
+      "favor": 10,
+      "buildCost": 20,
+      "magitekRepairMaterials": 6
+    }
+  ],
+  "bows": [
+    {
+      "name": "鯊魚級",
+      "minRank": 1,
+      "surveillance": 50,
+      "retrieval": 40,
+      "speed": 10,
+      "range": -20,
+      "favor": 15,
+      "buildCost": 5,
+      "magitekRepairMaterials": 1
+    },
+    {
+      "name": "甲鱟級",
+      "minRank": 15,
+      "surveillance": 60,
+      "retrieval": 20,
+      "speed": 20,
+      "range": -15,
+      "favor": 10,
+      "buildCost": 9,
+      "magitekRepairMaterials": 2
+    },
+    {
+      "name": "鬚鯨級",
+      "minRank": 25,
+      "surveillance": 25,
+      "retrieval": 60,
+      "speed": -15,
+      "range": 20,
+      "favor": 15,
+      "buildCost": 12,
+      "magitekRepairMaterials": 3
+    },
+    {
+      "name": "腔棘魚級",
+      "minRank": 35,
+      "surveillance": 65,
+      "retrieval": 10,
+      "speed": -10,
+      "range": 30,
+      "favor": 0,
+      "buildCost": 14,
+      "magitekRepairMaterials": 4
+    },
+    {
+      "name": "希爾德拉級",
+      "minRank": 45,
+      "surveillance": 45,
+      "retrieval": 30,
+      "speed": -15,
+      "range": 40,
+      "favor": 40,
+      "buildCost": 17,
+      "magitekRepairMaterials": 5
+    },
+    {
+      "name": "鯊魚級改",
+      "minRank": 50,
+      "surveillance": 55,
+      "retrieval": 50,
+      "speed": 15,
+      "range": -15,
+      "favor": 25,
+      "buildCost": 20,
+      "magitekRepairMaterials": 6
+    },
+    {
+      "name": "甲鱟級改",
+      "minRank": 50,
+      "surveillance": 65,
+      "retrieval": 25,
+      "speed": 25,
+      "range": -10,
+      "favor": 20,
+      "buildCost": 20,
+      "magitekRepairMaterials": 6
+    },
+    {
+      "name": "鬚鯨級改",
+      "minRank": 50,
+      "surveillance": 25,
+      "retrieval": 65,
+      "speed": -10,
+      "range": 25,
+      "favor": 25,
+      "buildCost": 20,
+      "magitekRepairMaterials": 6
+    },
+    {
+      "name": "腔棘魚級改",
+      "minRank": 50,
+      "surveillance": 70,
+      "retrieval": 15,
+      "speed": -10,
+      "range": 30,
+      "favor": 5,
+      "buildCost": 20,
+      "magitekRepairMaterials": 6
+    },
+    {
+      "name": "希爾德拉級改",
+      "minRank": 50,
+      "surveillance": 45,
+      "retrieval": 30,
+      "speed": -10,
+      "range": 40,
+      "favor": 40,
+      "buildCost": 20,
+      "magitekRepairMaterials": 6
+    }
+  ],
+  "bridges": [
+    {
+      "name": "鯊魚級",
+      "minRank": 1,
+      "surveillance": 20,
+      "retrieval": 20,
+      "speed": 20,
+      "range": 20,
+      "favor": 20,
+      "buildCost": 5,
+      "magitekRepairMaterials": 1
+    },
+    {
+      "name": "甲鱟級",
+      "minRank": 15,
+      "surveillance": 25,
+      "retrieval": 5,
+      "speed": 25,
+      "range": 30,
+      "favor": 30,
+      "buildCost": 9,
+      "magitekRepairMaterials": 2
+    },
+    {
+      "name": "鬚鯨級",
+      "minRank": 25,
+      "surveillance": 0,
+      "retrieval": 25,
+      "speed": 20,
+      "range": 45,
+      "favor": 40,
+      "buildCost": 12,
+      "magitekRepairMaterials": 3
+    },
+    {
+      "name": "腔棘魚級",
+      "minRank": 35,
+      "surveillance": 55,
+      "retrieval": 20,
+      "speed": 35,
+      "range": -15,
+      "favor": 50,
+      "buildCost": 14,
+      "magitekRepairMaterials": 4
+    },
+    {
+      "name": "希爾德拉級",
+      "minRank": 45,
+      "surveillance": 55,
+      "retrieval": 20,
+      "speed": -5,
+      "range": 30,
+      "favor": 60,
+      "buildCost": 17,
+      "magitekRepairMaterials": 5
+    },
+    {
+      "name": "鯊魚級改",
+      "minRank": 50,
+      "surveillance": 25,
+      "retrieval": 25,
+      "speed": 30,
+      "range": 25,
+      "favor": 35,
+      "buildCost": 20,
+      "magitekRepairMaterials": 6
+    },
+    {
+      "name": "甲鱟級改",
+      "minRank": 50,
+      "surveillance": 30,
+      "retrieval": 10,
+      "speed": 30,
+      "range": 35,
+      "favor": 40,
+      "buildCost": 20,
+      "magitekRepairMaterials": 6
+    },
+    {
+      "name": "鬚鯨級改",
+      "minRank": 50,
+      "surveillance": 0,
+      "retrieval": 30,
+      "speed": 25,
+      "range": 50,
+      "favor": 45,
+      "buildCost": 20,
+      "magitekRepairMaterials": 6
+    },
+    {
+      "name": "腔棘魚級改",
+      "minRank": 50,
+      "surveillance": 60,
+      "retrieval": 20,
+      "speed": 35,
+      "range": -10,
+      "favor": 55,
+      "buildCost": 20,
+      "magitekRepairMaterials": 6
+    },
+    {
+      "name": "希爾德拉級改",
+      "minRank": 50,
+      "surveillance": 60,
+      "retrieval": 20,
+      "speed": -5,
+      "range": 30,
+      "favor": 60,
+      "buildCost": 20,
+      "magitekRepairMaterials": 6
+    }
+  ]
+}
