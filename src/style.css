@@ -1,0 +1,185 @@
+/* 風格對齊 FFXIVGardeningHelper：src/index.css + HomePage 區塊變數 */
+:root {
+  color-scheme: dark;
+  --app-bg: #120c1d;
+  --app-page-max-width: min(100%, 42rem);
+  --scrollbar-track: rgba(15, 23, 42, 0.9);
+  --scrollbar-thumb: #7c3aed;
+  --scrollbar-thumb-hover: #8b5cf6;
+  --scrollbar-thumb-active: #6d28d9;
+}
+
+html {
+  height: 100%;
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--scrollbar-thumb) 0%, #4c1d95 100%);
+  border: 2px solid var(--scrollbar-track);
+  border-radius: 999px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, var(--scrollbar-thumb-hover) 0%, #5b21b6 100%);
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(180deg, var(--scrollbar-thumb-active) 0%, #4c1d95 100%);
+}
+
+*::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    "Noto Sans TC",
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #e5e7eb;
+  background: var(--app-bg);
+  background-image:
+    radial-gradient(ellipse 100% 80% at 50% -30%, rgba(88, 28, 135, 0.35) 0%, transparent 55%),
+    radial-gradient(ellipse 80% 50% at 100% 50%, rgba(30, 27, 75, 0.4) 0%, transparent 45%),
+    linear-gradient(180deg, #120c1d 0%, #0d0814 100%);
+}
+
+#app {
+  min-height: 100vh;
+}
+
+/* —— 首頁版型（對齊 HomePage.css）—— */
+.home-page {
+  --surface: rgba(26, 20, 40, 0.75);
+  --border: rgba(167, 139, 250, 0.22);
+  --text-muted: #9ca3af;
+  --gold: #fbbf24;
+
+  width: 100%;
+  max-width: var(--app-page-max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 1.25rem 3.5rem;
+  box-sizing: border-box;
+}
+
+.home-page-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.home-page-eyebrow {
+  margin: 0 0 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.home-page-title {
+  margin: 0 0 0.35rem;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--gold);
+  text-shadow: 0 0 24px rgba(251, 191, 36, 0.25);
+}
+
+.home-page-lead {
+  margin: 0 0 1rem;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+.home-page-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+}
+
+.home-intro-code {
+  font-size: 0.9em;
+  padding: 0.35rem 0.65rem;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(167, 139, 250, 0.25);
+  color: #e9d5ff;
+}
+
+.home-section {
+  margin-bottom: 1.75rem;
+  padding: 1.25rem 1.35rem;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
+}
+
+.home-section:last-child {
+  margin-bottom: 0;
+}
+
+.home-section-title {
+  margin: 0 0 0.85rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #e5e7eb;
+  border-bottom: 1px solid rgba(167, 139, 250, 0.2);
+  padding-bottom: 0.5rem;
+}
+
+.home-section-body {
+  color: #d1d5db;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.home-intro-list {
+  margin: 0;
+  padding-left: 1.35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.home-intro-list li {
+  padding-left: 0.15rem;
+}
+
+.home-intro-list .home-intro-code {
+  font-size: 0.88em;
+}
