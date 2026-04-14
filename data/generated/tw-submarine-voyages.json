@@ -149,404 +149,404 @@
     "id": 30,
     "location": "AD"
   },
-  "32": {
+  "31": {
     "tw": "佐佐納恩島南端",
-    "id": 32,
+    "id": 31,
     "location": "A"
+  },
+  "32": {
+    "tw": "風行者的殘骸",
+    "id": 32,
+    "location": "B"
   },
   "33": {
-    "tw": "風行者的殘骸",
+    "tw": "佐佐納恩島北端",
     "id": 33,
-    "location": "B"
+    "location": "C"
   },
   "34": {
-    "tw": "佐佐納恩島北端",
+    "tw": "灰海1",
     "id": 34,
-    "location": "C"
+    "location": "D"
   },
   "35": {
-    "tw": "灰海1",
+    "tw": "火葬爐海溝南端",
     "id": 35,
-    "location": "D"
+    "location": "E"
   },
   "36": {
-    "tw": "火葬爐海溝南端",
+    "tw": "灰海2",
     "id": 36,
-    "location": "E"
+    "location": "F"
   },
   "37": {
-    "tw": "灰海2",
+    "tw": "灰海3",
     "id": 37,
-    "location": "F"
+    "location": "G"
   },
   "38": {
-    "tw": "灰海3",
+    "tw": "修道士墓碑",
     "id": 38,
-    "location": "G"
+    "location": "H"
   },
   "39": {
-    "tw": "修道士墓碑",
+    "tw": "火葬爐海溝中部",
     "id": 39,
-    "location": "H"
+    "location": "I"
   },
   "40": {
-    "tw": "火葬爐海溝中部",
+    "tw": "神父的岩窟",
     "id": 40,
-    "location": "I"
+    "location": "J"
   },
   "41": {
-    "tw": "神父的岩窟",
+    "tw": "灰海4",
     "id": 41,
-    "location": "J"
+    "location": "K"
   },
   "42": {
-    "tw": "灰海4",
+    "tw": "砂礫海盆",
     "id": 42,
-    "location": "K"
+    "location": "L"
   },
   "43": {
-    "tw": "砂礫海盆",
+    "tw": "單只手套島",
     "id": 43,
-    "location": "L"
+    "location": "M"
   },
   "44": {
-    "tw": "單只手套島",
+    "tw": "破洞襪子島",
     "id": 44,
-    "location": "M"
+    "location": "N"
   },
   "45": {
-    "tw": "破洞襪子島",
+    "tw": "走私客的交易場",
     "id": 45,
-    "location": "N"
+    "location": "O"
   },
   "46": {
-    "tw": "走私客的交易場",
+    "tw": "磨破袍子島",
     "id": 46,
-    "location": "O"
+    "location": "P"
   },
   "47": {
-    "tw": "磨破袍子島",
+    "tw": "商貿神的煙管",
     "id": 47,
-    "location": "P"
+    "location": "Q"
   },
   "48": {
-    "tw": "商貿神的煙管",
+    "tw": "走錨海域",
     "id": 48,
-    "location": "Q"
+    "location": "R"
   },
   "49": {
-    "tw": "走錨海域",
+    "tw": "貪婪胃",
     "id": 49,
-    "location": "R"
+    "location": "S"
   },
   "50": {
-    "tw": "貪婪胃",
+    "tw": "藍洞",
     "id": 50,
-    "location": "S"
+    "location": "T"
   },
   "51": {
-    "tw": "藍洞",
+    "tw": "祭壇島",
     "id": 51,
-    "location": "T"
+    "location": "A"
+  },
+  "52": {
+    "tw": "章魚的陶罐",
+    "id": 52,
+    "location": "B"
   },
   "53": {
-    "tw": "祭壇島",
+    "tw": "翠浪海1",
     "id": 53,
-    "location": "A"
+    "location": "C"
   },
   "54": {
-    "tw": "章魚的陶罐",
+    "tw": "惡魔章魚的狩獵場",
     "id": 54,
-    "location": "B"
+    "location": "D"
   },
   "55": {
-    "tw": "翠浪海1",
+    "tw": "吸盤礁",
     "id": 55,
-    "location": "C"
+    "location": "E"
   },
   "56": {
-    "tw": "惡魔章魚的狩獵場",
+    "tw": "惡魔章魚的睡床",
     "id": 56,
-    "location": "D"
+    "location": "F"
   },
   "57": {
-    "tw": "吸盤礁",
+    "tw": "海神的釣鉤",
     "id": 57,
-    "location": "E"
+    "location": "G"
   },
   "58": {
-    "tw": "惡魔章魚的睡床",
+    "tw": "翠浪海2",
     "id": 58,
-    "location": "F"
+    "location": "H"
   },
   "59": {
-    "tw": "海神的釣鉤",
+    "tw": "盲目峽灣",
     "id": 59,
-    "location": "G"
+    "location": "I"
   },
   "60": {
-    "tw": "翠浪海2",
+    "tw": "翠浪海3",
     "id": 60,
-    "location": "H"
+    "location": "J"
   },
   "61": {
-    "tw": "盲目峽灣",
+    "tw": "穆厄吉恩的鍛鐵場",
     "id": 61,
-    "location": "I"
+    "location": "K"
   },
   "62": {
-    "tw": "翠浪海3",
+    "tw": "海神的浮標",
     "id": 62,
-    "location": "J"
+    "location": "L"
   },
   "63": {
-    "tw": "穆厄吉恩的鍛鐵場",
+    "tw": "翠浪海4",
     "id": 63,
-    "location": "K"
+    "location": "M"
   },
   "64": {
-    "tw": "海神的浮標",
+    "tw": "海藻樹林",
     "id": 64,
-    "location": "L"
+    "location": "N"
   },
   "65": {
-    "tw": "翠浪海4",
+    "tw": "翠浪海5",
     "id": 65,
-    "location": "M"
+    "location": "O"
   },
   "66": {
-    "tw": "海藻樹林",
+    "tw": "鈍刀切岸",
     "id": 66,
-    "location": "N"
+    "location": "P"
   },
   "67": {
-    "tw": "翠浪海5",
+    "tw": "駐風港",
     "id": 67,
-    "location": "O"
+    "location": "Q"
   },
   "68": {
-    "tw": "鈍刀切岸",
+    "tw": "龍骨塚",
     "id": 68,
-    "location": "P"
+    "location": "R"
   },
   "69": {
-    "tw": "駐風港",
+    "tw": "翠浪海6",
     "id": 69,
-    "location": "Q"
+    "location": "S"
   },
   "70": {
-    "tw": "龍骨塚",
+    "tw": "海獸的靈園",
     "id": 70,
-    "location": "R"
+    "location": "T"
   },
   "71": {
-    "tw": "翠浪海6",
+    "tw": "耳蠟漁場",
     "id": 71,
-    "location": "S"
+    "location": "A"
   },
   "72": {
-    "tw": "海獸的靈園",
+    "tw": "賽蓮海1",
     "id": 72,
-    "location": "T"
+    "location": "B"
+  },
+  "73": {
+    "tw": "賽蓮海2",
+    "id": 73,
+    "location": "C"
   },
   "74": {
-    "tw": "耳蠟漁場",
+    "tw": "花叢島",
     "id": 74,
-    "location": "A"
+    "location": "D"
   },
   "75": {
-    "tw": "賽蓮海1",
+    "tw": "海魔之口",
     "id": 75,
-    "location": "B"
+    "location": "E"
   },
   "76": {
-    "tw": "賽蓮海2",
+    "tw": "漂流海域",
     "id": 76,
-    "location": "C"
+    "location": "F"
   },
   "77": {
-    "tw": "花叢島",
+    "tw": "告死礁",
     "id": 77,
-    "location": "D"
+    "location": "G"
   },
   "78": {
-    "tw": "海魔之口",
+    "tw": "賽蓮海3",
     "id": 78,
-    "location": "E"
+    "location": "H"
   },
   "79": {
-    "tw": "漂流海域",
+    "tw": "花叢潛流",
     "id": 79,
-    "location": "F"
+    "location": "I"
   },
   "80": {
-    "tw": "告死礁",
+    "tw": "賽蓮海4",
     "id": 80,
-    "location": "G"
+    "location": "J"
   },
   "81": {
-    "tw": "賽蓮海3",
+    "tw": "渦紋海峽",
     "id": 81,
-    "location": "H"
+    "location": "K"
   },
   "82": {
-    "tw": "花叢潛流",
+    "tw": "鳥嘴灣",
     "id": 82,
-    "location": "I"
+    "location": "L"
   },
   "83": {
-    "tw": "賽蓮海4",
+    "tw": "海魔牢獄",
     "id": 83,
-    "location": "J"
+    "location": "M"
   },
   "84": {
-    "tw": "渦紋海峽",
+    "tw": "廢棄流放島",
     "id": 84,
-    "location": "K"
+    "location": "N"
   },
   "85": {
-    "tw": "鳥嘴灣",
+    "tw": "盧加特海灘",
     "id": 85,
-    "location": "L"
+    "location": "O"
   },
   "86": {
-    "tw": "海魔牢獄",
+    "tw": "積冰泉",
     "id": 86,
-    "location": "M"
+    "location": "P"
   },
   "87": {
-    "tw": "廢棄流放島",
+    "tw": "賽蓮海5",
     "id": 87,
-    "location": "N"
+    "location": "Q"
   },
   "88": {
-    "tw": "盧加特海灘",
+    "tw": "渦紋島",
     "id": 88,
-    "location": "O"
+    "location": "R"
   },
   "89": {
-    "tw": "積冰泉",
+    "tw": "赤血海丘",
     "id": 89,
-    "location": "P"
+    "location": "S"
   },
   "90": {
-    "tw": "賽蓮海5",
-    "id": 90,
-    "location": "Q"
-  },
-  "91": {
-    "tw": "渦紋島",
-    "id": 91,
-    "location": "R"
-  },
-  "92": {
-    "tw": "赤血海丘",
-    "id": 92,
-    "location": "S"
-  },
-  "93": {
     "tw": "海晶泉",
-    "id": 93,
+    "id": 90,
     "location": "T"
   },
-  "95": {
+  "91": {
     "tw": "垂藤架",
-    "id": 95,
+    "id": 91,
     "location": "A"
   },
-  "96": {
+  "92": {
     "tw": "白化珊瑚島",
-    "id": 96,
+    "id": 92,
     "location": "B"
   },
-  "97": {
+  "93": {
     "tw": "候鳥的淺灘",
-    "id": 97,
+    "id": 93,
     "location": "C"
   },
-  "98": {
+  "94": {
     "tw": "紫礁海1",
-    "id": 98,
+    "id": 94,
     "location": "D"
   },
-  "99": {
+  "95": {
     "tw": "海鷗島",
-    "id": 99,
+    "id": 95,
     "location": "E"
   },
-  "100": {
+  "96": {
     "tw": "桔梗海溝中央",
-    "id": 100,
+    "id": 96,
     "location": "F"
   },
-  "101": {
+  "97": {
     "tw": "紫礁海2",
-    "id": 101,
+    "id": 97,
     "location": "G"
   },
-  "102": {
+  "98": {
     "tw": "紫礁海3",
-    "id": 102,
+    "id": 98,
     "location": "H"
   },
-  "103": {
+  "99": {
     "tw": "桔梗海溝西北",
-    "id": 103,
+    "id": 99,
     "location": "I"
   },
-  "104": {
+  "100": {
     "tw": "花冠島",
-    "id": 104,
+    "id": 100,
     "location": "J"
   },
-  "105": {
+  "101": {
     "tw": "桔梗海溝東南",
-    "id": 105,
+    "id": 101,
     "location": "K"
   },
-  "106": {
+  "102": {
     "tw": "盛放礁湖",
-    "id": 106,
+    "id": 102,
     "location": "L"
   },
-  "107": {
+  "103": {
     "tw": "翼瓣島",
-    "id": 107,
+    "id": 103,
     "location": "M"
   },
-  "108": {
+  "104": {
     "tw": "旗瓣島",
-    "id": 108,
+    "id": 104,
     "location": "N"
   },
-  "109": {
+  "105": {
     "tw": "蝴蝶圓灣",
-    "id": 109,
+    "id": 105,
     "location": "O"
   },
-  "110": {
+  "106": {
     "tw": "紫礁海4",
-    "id": 110,
+    "id": 106,
     "location": "P"
   },
-  "111": {
+  "107": {
     "tw": "龍骨瓣島",
-    "id": 111,
+    "id": 107,
     "location": "Q"
   },
-  "112": {
+  "108": {
     "tw": "多迪海底峽谷東",
-    "id": 112,
+    "id": 108,
     "location": "R"
   },
-  "113": {
+  "109": {
     "tw": "紫礁海5",
-    "id": 113,
+    "id": 109,
     "location": "S"
   },
-  "114": {
+  "110": {
     "tw": "多迪海底峽谷西",
-    "id": 114,
+    "id": 110,
     "location": "T"
   }
 }

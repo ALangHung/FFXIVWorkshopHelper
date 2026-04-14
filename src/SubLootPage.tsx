@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useMemo, useState, type ReactNode } from "react";
 import itemCatalog from "../data/generated/sub-loot-item-catalog.json";
 import seaAreaData from "../data/generated/sea-area.json";
 import subLoot from "../data/generated/sub-loot.json";
@@ -79,10 +79,60 @@ const catalog = itemCatalog as CatalogFile;
 const voyagesTw = twSubmarineVoyages as TwVoyagesFile;
 const voyagesEn = submarineVoyages as EnVoyagesFile;
 
-function formatNumberRange(nums: number[]): string {
-  if (nums.length === 0) return "—";
-  if (nums.length === 1) return String(nums[0]);
-  return nums.join("–");
+/** 航點編號 id → 該列代碼（同 sub-loot.json）；重複 id 取先出現者。 */
+function buildSectorIdToCode(rows: SubLootRow[]): Map<number, string> {
+  const map = new Map<number, string>();
+  for (const r of rows) {
+    if (!map.has(r.id)) map.set(r.id, r.code);
+  }
+  return map;
+}
+
+const sectorIdToCode = buildSectorIdToCode(loot.rows);
+
+function unlockCodeLabel(sectorId: number, idToCode: Map<number, string>): string {
+  const raw = idToCode.get(sectorId);
+  const t = raw != null ? raw.trim() : "";
+  return t ? t : String(sectorId);
+}
+
+function thresholdGateEmpty(
+  surv: number[],
+  retr: number[],
+  favor: number | null,
+): boolean {
+  return surv.length === 0 && retr.length === 0 && favor == null;
+}
+
+function renderThresholdGate(
+  surv: number[],
+  retr: number[],
+  favor: number | null,
+): ReactNode {
+  if (thresholdGateEmpty(surv, retr, favor)) return "—";
+  return (
+    <div className="sub-loot-breakpoints">
+      {surv.length >= 1 ? <div>探索中: {surv[0]}</div> : null}
+      {surv.length >= 2 ? <div>探索高: {surv[1]}</div> : null}
+      {retr.length >= 1 ? <div>收集中: {retr[0]}</div> : null}
+      {retr.length >= 2 ? <div>收集高: {retr[1]}</div> : null}
+      {favor != null ? <div>　恩惠: {favor}</div> : null}
+    </div>
+  );
+}
+
+function renderUnlockCodes(
+  ids: number[],
+  idToCode: Map<number, string>,
+): ReactNode {
+  if (ids.length === 0) return "—";
+  return (
+    <div className="sub-loot-breakpoints">
+      {ids.map((id, i) => (
+        <div key={`${id}-${i}`}>{unlockCodeLabel(id, idToCode)}</div>
+      ))}
+    </div>
+  );
 }
 
 function buildIdToZhName(): Map<number, string> {
@@ -135,19 +185,9 @@ function formatXp(value: number | null): string {
   return value.toLocaleString("zh-TW");
 }
 
-function formatSectorIds(ids: number[]): string {
-  if (ids.length === 0) return "—";
-  return ids.join("、");
-}
-
 function formatSectorNum(value: number | null): string {
   if (value == null) return "—";
   return String(value);
-}
-
-function formatStarCount(value: number | null): string {
-  if (value == null || value < 1) return "—";
-  return "★".repeat(value);
 }
 
 function formatSeaIdRange(area: SeaAreaEntry): string {
@@ -194,7 +234,7 @@ export function SubLootPage() {
         <p className="home-page-eyebrow">潛水艇</p>
         <h1 className="home-page-title">打撈表</h1>
         <p className="home-page-lead">
-          以下為各航點的監視／回收／加護門檻與 T1–T3
+          以下為各航點的門檻（探索中／高、收集中／高、恩惠）與探索低／探索中／探索高
           打撈道具；航點名稱優先使用繁中對照（無則改以英文航點表）；道具名稱優先繁中圖鑑（無則英文）。
         </p>
       </header>
@@ -250,26 +290,22 @@ export function SubLootPage() {
             <table className="sub-loot-table" aria-describedby="subloot-sea-panel-label">
               <thead>
                 <tr>
-                  <th scope="col">編號</th>
                   <th scope="col">代碼</th>
                   <th scope="col">航點</th>
-                  <th scope="col">星級</th>
-                  <th scope="col">Rank</th>
+                  <th scope="col">進入等級</th>
                   <th scope="col">XP</th>
-                  <th scope="col">監視</th>
-                  <th scope="col">回收</th>
-                  <th scope="col">加護</th>
                   <th scope="col">前置</th>
                   <th scope="col">解鎖</th>
-                  <th scope="col">T1 打撈</th>
-                  <th scope="col">T2 打撈</th>
-                  <th scope="col">T3 打撈</th>
+                  <th scope="col">門檻</th>
+                  <th scope="col">探索低</th>
+                  <th scope="col">探索中</th>
+                  <th scope="col">探索高</th>
                 </tr>
               </thead>
               <tbody>
                 {filteredRows.length === 0 ? (
                   <tr>
-                    <td colSpan={14} className="sub-loot-empty-sea">
+                    <td colSpan={10} className="sub-loot-empty-sea">
                       此海域目前沒有對應的打撈表列（或尚無編號範圍）。
                     </td>
                   </tr>
@@ -282,8 +318,6 @@ export function SubLootPage() {
                   const t2 = byTier.get(2) ?? [];
                   const t3 = byTier.get(3) ?? [];
 
-                  const surv = formatNumberRange(row.Surveillance);
-                  const retr = formatNumberRange(row.Retrieval);
                   const voyageLabel = formatVoyageLabel(
                     row.id,
                     voyageIdToTw,
@@ -292,11 +326,6 @@ export function SubLootPage() {
 
                   return (
                     <tr key={`${row.id}-${row.code}-${idx}`}>
-                      <td>
-                        <p className="sub-loot-sector">
-                          {formatSectorNum(row.id)}
-                        </p>
-                      </td>
                       <td
                         className={`sub-loot-stat${!row.code.trim() ? " sub-loot-stat--empty" : ""}`}
                       >
@@ -310,11 +339,6 @@ export function SubLootPage() {
                         </p>
                       </td>
                       <td
-                        className={`sub-loot-stat sub-loot-stat--star${row.star == null || row.star < 1 ? " sub-loot-stat--empty" : ""}`}
-                      >
-                        {formatStarCount(row.star)}
-                      </td>
-                      <td
                         className={`sub-loot-stat${row.rank == null ? " sub-loot-stat--empty" : ""}`}
                       >
                         {formatSectorNum(row.rank)}
@@ -325,29 +349,25 @@ export function SubLootPage() {
                         {formatXp(row.XP)}
                       </td>
                       <td
-                        className={`sub-loot-stat${surv === "—" ? " sub-loot-stat--empty" : ""}`}
-                      >
-                        {surv}
-                      </td>
-                      <td
-                        className={`sub-loot-stat${retr === "—" ? " sub-loot-stat--empty" : ""}`}
-                      >
-                        {retr}
-                      </td>
-                      <td
-                        className={`sub-loot-stat${row.Favor == null ? " sub-loot-stat--empty" : ""}`}
-                      >
-                        {formatSectorNum(row.Favor)}
-                      </td>
-                      <td
                         className={`sub-loot-stat${row.unlockedBy == null ? " sub-loot-stat--empty" : ""}`}
                       >
-                        {formatSectorNum(row.unlockedBy)}
+                        {row.unlockedBy == null
+                          ? "—"
+                          : unlockCodeLabel(row.unlockedBy, sectorIdToCode)}
                       </td>
                       <td
-                        className={`sub-loot-stat${row.unlocks.length === 0 ? " sub-loot-stat--empty" : ""}`}
+                        className={`sub-loot-stat${row.unlocks.length === 0 ? " sub-loot-stat--empty" : " sub-loot-stat--breakpoints"}`}
                       >
-                        {formatSectorIds(row.unlocks)}
+                        {renderUnlockCodes(row.unlocks, sectorIdToCode)}
+                      </td>
+                      <td
+                        className={`sub-loot-stat${thresholdGateEmpty(row.Surveillance, row.Retrieval, row.Favor) ? " sub-loot-stat--empty" : " sub-loot-stat--breakpoints"}`}
+                      >
+                        {renderThresholdGate(
+                          row.Surveillance,
+                          row.Retrieval,
+                          row.Favor,
+                        )}
                       </td>
                       <td>
                         {t1.length === 0 ? (
