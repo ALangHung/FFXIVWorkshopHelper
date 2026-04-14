@@ -48,6 +48,45 @@ type ComboRow = {
 
 type ConditionRow = { mode: CompareMode; valueStr: string };
 
+const UNLOCK_STORAGE_KEY = "ff14_sub_calculator_unlocked";
+
+function defaultUnlockedSet(partCount: number): Set<number> {
+  return new Set(Array.from({ length: partCount }, (_, i) => i + 1));
+}
+
+function loadUnlockedFromStorage(partCount: number): Set<number> {
+  const fallback = () => defaultUnlockedSet(partCount);
+  try {
+    if (typeof window === "undefined" || !window.localStorage) {
+      return fallback();
+    }
+    const raw = window.localStorage.getItem(UNLOCK_STORAGE_KEY);
+    if (raw == null || raw === "") return fallback();
+    const parsed = JSON.parse(raw) as unknown;
+    if (!Array.isArray(parsed)) return fallback();
+    const nums = parsed
+      .map((x) => Number(x))
+      .filter(
+        (n) => Number.isInteger(n) && n >= 1 && n <= partCount,
+      );
+    const unique = [...new Set(nums)];
+    if (unique.length === 0) return fallback();
+    return new Set(unique);
+  } catch {
+    return fallback();
+  }
+}
+
+function saveUnlockedToStorage(unlocked: Set<number>): void {
+  try {
+    if (typeof window === "undefined" || !window.localStorage) return;
+    const arr = [...unlocked].sort((a, b) => a - b);
+    window.localStorage.setItem(UNLOCK_STORAGE_KEY, JSON.stringify(arr));
+  } catch {
+    // 配額或無痕模式等略過
+  }
+}
+
 function defaultConditions(): Record<ConditionKey, ConditionRow> {
   const o = {} as Record<ConditionKey, ConditionRow>;
   for (const k of CONDITION_KEYS) {
@@ -116,8 +155,8 @@ export function SubCalculatorPage() {
     };
   }, []);
 
-  const [unlocked, setUnlocked] = useState<Set<number>>(
-    () => new Set(partNames.map((_, i) => i + 1)),
+  const [unlocked, setUnlocked] = useState<Set<number>>(() =>
+    loadUnlockedFromStorage(partNames.length),
   );
 
   const [conditions, setConditions] = useState<
@@ -132,6 +171,7 @@ export function SubCalculatorPage() {
       const next = new Set(prev);
       if (next.has(index1)) next.delete(index1);
       else next.add(index1);
+      saveUnlockedToStorage(next);
       return next;
     });
   }, []);
