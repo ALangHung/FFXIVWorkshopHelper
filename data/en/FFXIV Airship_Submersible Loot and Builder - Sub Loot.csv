@@ -1,0 +1,2488 @@
+,Sector,Unlocked By,Unlocks,Breakpoints,,Tier 1,Tier 2,Tier 3
+,,,,,,,,
+,"NOTE on
+breakpoint values",,,"T2
+T3
+Normal
+Optimal
+Favor","Minimum Surveillance to have a chance to get loot from Tier 2. Below it rewards only loot from Tier 1
+Minimum Surveillance to have a chance to get loot from Tier 3
+Minimum Retrieval to get normal retrieval level. Below it gives poor retrieval level
+Minimum Retrieval to get optimal retrieval level
+Minimum Favor to have a chance to get two items from a sector. Below it rewards only one item",,,
+,,,,,,,,
+,Deep-Sea Site,,,,,,,
+,,,,,,,,
+,"Sector 1 | A
+Ivory Shoals
+★
+Rank: 1
+XP: 10 610",,Sector 3,"T2
+T3
+Normal
+Optimal
+Favor","20
+80
+50
+80
+70","Direct Hit Rate II
+Red Moko Grass
+Scarlet Sap
+Skill Speed II
+Water Crystal
+Wind Crystal","Bamboo Weave
+Birch Branch
+Direct Hit Rate III
+Empty Crystal
+Skill Speed III",Unaspected Crystal
+,"Sector 2 | B
+Deep-sea Site 1
+★
+Rank: 1
+XP: 10 610",,"Sector 4
+Sector 5","T2
+T3
+Normal
+Optimal
+Favor","20
+80
+50
+80
+70","Earth Crystal
+Ferberite
+Ice Crystal
+Spell Speed II
+Tenacity II
+Vivianite","Bamboo Weave
+Empty Crystal
+Gold Ore
+Spell Speed III
+Tenacity III",Unaspected Crystal
+,"Sector 3 | C
+Deep-sea Site 2
+★
+Rank: 4
+XP: 27 840",Sector 1,Sector 6,"T2
+T3
+Normal
+Optimal
+Favor","20
+85
+55
+85
+70","Control II
+Craftsmanship II
+Red Moko Grass
+Scarlet Sap
+Water Crystal
+Wind Crystal","Bamboo Weave
+Birch Branch
+Control III
+Craftsmanship III
+Empty Crystal",Unaspected Crystal
+,"Sector 4 | D
+The Lightless Basin
+★
+Rank: 4
+XP: 27 840",Sector 2,Sector 7,"T2
+T3
+Normal
+Optimal
+Favor","20
+85
+55
+85
+70","Earth Crystal
+Ferberite
+GP II
+Ice Crystal
+Perception II
+Vivianite","Bamboo Weave
+Empty Crystal
+Gold Ore
+GP III
+Perception III","Crimson Coral
+Unaspected Crystal"
+,"Sector 5 | E
+Deep-sea Site 3
+★
+Rank: 7
+XP: 46 660",Sector 2,"Sector 9
+Sector 10","T2
+T3
+Normal
+Optimal
+Favor","25
+90
+60
+90
+80","Birch Branch
+Determination II
+Red Moko Grass
+Skill Speed II
+Water Crystal
+Wind Crystal","Bamboo Weave
+Dark Chestnut Branch
+Deep-red Crystal
+Determination III
+Empty Crystal
+Skill Speed III","Aurelia Polyp
+Unaspected Crystal"
+,"Sector 6 | F
+The Southern
+Rimilala Trench
+★
+Rank: 7
+XP: 46 660",Sector 3,,"T2
+T3
+Normal
+Optimal
+Favor","25
+90
+60
+90
+80","Earth Crystal
+Gold Ore
+Ice Crystal
+Piety II
+Spell Speed II
+Vivianite","Bamboo Weave
+Deep-green Crystal
+Empty Crystal
+Piety III
+Platinum Ore
+Spell Speed III","Crimson Coral
+Unaspected Crystal"
+,"Sector 7 | G
+The Umbrella
+Narrow
+★
+Rank: 10
+XP: 75 920",Sector 4,Sector 8,"T2
+T3
+Normal
+Optimal
+Favor","30
+95
+65
+95
+90","Bamboo Weave
+Birch Branch
+Control II
+CP II
+Deep-blue Crystal
+Red Moko Grass
+Water Crystal
+Wind Crystal","Balsa Wood Scrap
+Control III
+CP III
+Dark Chestnut Branch
+Empty Crystal","Aurelia Polyp
+Unaspected Crystal"
+,"Sector 8 | H
+Offender's Rot
+★★
+Rank: 14
+XP: 102 600",Sector 7,"Sector 12
+Sector 13","T2
+T3
+Normal
+Optimal
+Favor","30
+100
+70
+100
+90","Bamboo Weave
+Critical Hit III
+Deep-red Crystal
+Determination III
+Lightning Crystal
+Water Crystal","Balsa Wood Scrap
+Birch Branch
+Dark Chestnut Branch
+Empty Crystal
+Scarlet Sap","Red Clay
+Unaspected Crystal"
+,"Sector 9 | I
+Neolith Island
+★★
+Rank: 17
+XP: 118 350",Sector 5,Sector 11,"T2
+T3
+Normal
+Optimal
+Favor","35
+110
+75
+105
+90","Bamboo Weave
+Critical Hit III
+Deep-red Crystal
+Fire Crystal
+Ice Crystal
+Skill Speed III","Balsa Wood Scrap
+Empty Crystal
+Ferberite
+Gold Ore
+Platinum Ore","Colossus Slab
+Red Clay
+Unaspected Crystal"
+,"Sector 10 | J
+Unidentified
+Derelict
+★★
+Rank: 20
+XP: 146 210",Sector 5,"Submarine #2
+Sector 14","T2
+T3
+Normal
+Optimal
+Favor","50
+115
+80
+110
+90","Diamond
+Emerald
+Ruby
+Sapphire
+Star Ruby
+Star Sapphire","Gold Ingot
+Platinum Ingot
+Salvaged Bracelet
+Salvaged Earring
+Salvaged Necklace
+Salvaged Ring","Extravagant Salvaged Bracelet
+Extravagant Salvaged Earring
+Extravagant Salvaged Necklace
+Extravagant Salvaged Ring"
+,"Sector 11 | K
+The Cobalt Shoals
+★★
+Rank: 20
+XP: 146 210",Sector 9,Sector 16,"T2
+T3
+Normal
+Optimal
+Favor","50
+90
+80
+110
+70","Bamboo Weave
+Birch Branch
+Control III
+CP III
+Deep-blue Crystal
+Raw Celestine
+Water Cluster
+Water Shard","Balsa Wood Scrap
+Dark Chestnut Branch
+Empty Crystal
+Control IV
+CP IV","Aurelia Polyp
+Unaspected Crystal"
+,"Sector 12 | L
+The Mystic Basin
+★★★
+Rank: 24
+XP: 174 980",Sector 8,Sector 18,"T2
+T3
+Normal
+Optimal
+Favor","55
+95
+90
+120
+80","Balsa Wood Scrap
+Critical Hit III
+Deep-red Cluster
+Determination III
+Earth Cluster
+Earth Shard
+Ferberite
+Raw Celestine","Balsa Wood Lumber
+Critical Hit IV
+Determination IV
+Empty Crystal
+Platinum Ore","Black Clay
+Faded Copy of Ambient Abyss"
+,"Sector 13 | M
+Deep-sea Site 4
+★★★
+Rank: 27
+XP: 200 430",Sector 8,,"T2
+T3
+Normal
+Optimal
+Favor","60
+100
+100
+130
+75","Balsa Wood Scrap
+Birch Branch
+Deep-green Cluster
+Ice Cluster
+Ice Shard
+Piety III
+Raw Celestine
+Spell Speed III
+Vivianite","Balsa Wood Lumber
+Dark Chestnut Branch
+Empty Crystal
+Piety IV
+Spell Speed IV","Extravagant Salvaged Earring
+Unaspected Crystal"
+,"Sector 14 | N
+The Central
+Rimilala Trench
+★★★
+Rank: 27
+XP: 200 430",Sector 10,"Sector 15
+Sector 23","T2
+T3
+Normal
+Optimal
+Favor","60
+100
+100
+130
+85","Balsa Wood Scrap
+Deep-blue Crystal
+Determination III
+Earth Cluster
+Earth Shard
+Ferberite
+Raw Celestine
+Skill Speed III","Balsa Wood Lumber
+Determination IV
+Gold Ore
+Platinum Ore
+Skill Speed IV","Crimson Coral
+Magnanimous Mogcrown"
+,"Sector 15 | O
+The Wreckage
+of Discovery I
+★★★
+Rank: 30
+XP: 231 750",Sector 14,"Submarine #3
+Sector 19","T2
+T3
+Normal
+Optimal
+Favor","80
+115
+120
+160
+90","Diamond
+Emerald
+Ruby
+Sapphire
+Star Ruby
+Star Sapphire","Marine Wax Ester
+Platinum Ingot
+Salvaged Bracelet
+Salvaged Earring
+Salvaged Necklace
+Salvaged Ring","Extravagant Salvaged Bracelet
+Extravagant Salvaged Earring
+Extravagant Salvaged Necklace
+Extravagant Salvaged Ring"
+,"Sector 16 | P
+Komura
+★★★
+Rank: 30
+XP: 231 750",Sector 11,Sector 17,"T2
+T3
+Normal
+Optimal
+Favor","60
+100
+100
+130
+85","Balsa Wood Lumber
+Birch Log
+Deep-green Cluster
+Direct Hit Rate IV
+Red Moko Grass
+Tenacity IV","Cassia Log
+Chemically Treated Chimera Hide
+Dark Chestnut Log
+Empty Crystal
+Synthetic Fiber","Magnanimous Mogcrown
+Synthetic Resin"
+,"Sector 17 | Q
+Kanayama
+★★★★
+Rank: 34
+XP: 263 530",Sector 16,,"T2
+T3
+Normal
+Optimal
+Favor","65
+105
+110
+140
+90","Balsa Wood Lumber
+Deep-red Cluster
+Determination IV
+Raw Celestine
+Skill Speed IV
+Vivianite","Aurum Regis Sand
+Cloud Mica
+Empty Crystal
+Hardsilver Sand
+Raw Larimar
+Synthetic Fiber
+Titanium Ore","Crystal Boule
+Synthetic Resin"
+,"Sector 18 | R
+Concealed Bay
+★★★★
+Rank: 37
+XP: 292 170",Sector 12,,"T2
+T3
+Normal
+Optimal
+Favor","85
+120
+135
+175
+95","Gold Ingot
+Platinum Ingot","Combed Wool Rug
+Dead Man's Chest
+Marine Wax Ester
+Plundered Treasure
+Salvaged Bracelet
+Salvaged Earring
+Salvaged Necklace
+Salvaged Ring","Crystal Boule
+Extravagant Salvaged Bracelet
+Extravagant Salvaged Earring
+Extravagant Salvaged Necklace
+Extravagant Salvaged Ring"
+,"Sector 19 | S
+Deep-sea Site 5
+★★★★
+Rank: 37
+XP: 292 170",Sector 15,"Sector 20
+Sector 21","T2
+T3
+Normal
+Optimal
+Favor","75
+110
+120
+155
+95","Balsa Wood Lumber
+Critical Hit IV
+Deep-blue Cluster
+Spell Speed IV","Critical Hit V
+Determination V
+Direct Hit Rate V
+Empty Cluster
+Skill Speed V
+Spell Speed V
+Synthetic Fiber
+Tenacity V","Aurelia Polyp
+Crimson Coral
+Faded Copy of Ambient Abyss
+Synthetic Resin"
+,"Sector 20 | T
+Purgatory
+★★★★
+Rank: 40
+XP: 338 330",Sector 19,"Submarine #4
+Sector 25","T2
+T3
+Normal
+Optimal
+Favor","90
+125
+140
+180
+100","Dinosaur Fossil
+Raw Celestine
+Vivianite","Critical Hit V
+Determination V
+Direct Hit Rate V
+Piety V
+Skill Speed V
+Spell Speed V","Control V
+CP V
+Craftsmanship V
+Gathering V
+GP V
+Perception V"
+,"Sector 21 | U
+Deep-sea Site 6
+★★★★
+Rank: 40
+XP: 338 330",Sector 19,Sector 22,"T2
+T3
+Normal
+Optimal
+Favor","90
+120
+135
+175
+95","Birch Log
+Cassia Log
+Dark Chestnut Log
+Deep-blue Cluster
+Spruce Log","Aetherochemical Fiber
+Bamboo Stick
+Beech Log
+Empty Crystal
+Persimmon Log
+Zelkova Log","Aurelia Polyp
+Old-growth Camphorwood Log
+Synthetic Resin"
+,"Sector 22 | V
+The Rimilala Shelf
+★★★★★
+Rank: 44
+XP: 374 020",Sector 21,,"T2
+T3
+Normal
+Optimal
+Favor","105
+130
+140
+180
+100","Cobalt Ore
+Deep-green Cluster
+Mythrite Ore
+Water Cluster","Determination V
+Darksteel Ore
+Empty Cluster
+Luminium Ore
+Molybdenum Ore
+Piety V
+Tenacity V
+Titanium Ore","Faded Copy of Ambient Abyss
+Kamacite Ore"
+,"Sector 23 | W
+Deep-sea Site 7
+★★★★★
+Rank: 44
+XP: 374 020",Sector 14,Sector 24,"T2
+T3
+Normal
+Optimal
+Favor","110
+140
+140
+180
+105","Cassia Log
+Clear Glass Lens
+Deep-red Cluster
+Fire Cluster
+Ice Cluster","Aetherochemical Fiber
+Balsa Wood Lumber
+Critical Hit V
+Crystal Glass
+Direct Hit Rate V
+Tempered Glass","Abroader Otter
+Belah'dian Glass
+Frosted Glass Lens
+Polarized Glass"
+,"Sector 24 | X
+Glittersand Basin
+★★★★★
+Rank: 47
+XP: 406 590",Sector 23,,"T2
+T3
+Normal
+Optimal
+Favor","120
+130
+145
+190
+105","Aurum Regis Sand
+Hardsilver Sand
+Lumythrite Sand
+Mythrite Sand","Critical Hit VI
+Determination VI
+Direct Hit Rate VI
+Durium Sand
+Palladium Sand
+Skill Speed VI
+Spell Speed VI
+Tenacity VI","Astral Moraine
+Dawnlight Aethersand
+Dusklight Aethersand"
+,"Sector 25 | Y
+Flickering Dip
+★★★★★
+Rank: 47
+XP: 406 590",Sector 20,Sector 26,"T2
+T3
+Normal
+Optimal
+Favor","120
+135
+145
+190
+105","Adamantite Ore
+Cloud Mica
+Granite
+Limestone
+Marble
+Siltstone","Aetherochemical Fiber
+Kamacite Ore
+Marine Wax Ester
+Piety V
+Skill Speed V
+Spell Speed V
+Tenacity V","Crimson Coral
+Faded Copy of Ambient Abyss
+Synthetic Resin"
+,"Sector 26 | Z
+The Wreckage
+of the Headway
+★★★★★
+Rank: 50
+XP: 440 990",Sector 25,Sector 27,"T2
+T3
+Normal
+Optimal
+Favor","135
+140
+150
+195
+110","Gold Ingot
+Gold Ore
+Rose Gold Ingot
+Wind Cluster","Dead Man's Chest
+Plundered Treasure
+Salvaged Bracelet
+Salvaged Earring
+Salvaged Necklace
+Salvaged Ring","Extravagant Salvaged Bracelet
+Extravagant Salvaged Earring
+Extravagant Salvaged Necklace
+Extravagant Salvaged Ring
+Salvaged Coinage"
+,"Sector 27 | AA
+The Upwell
+★★★★★
+Rank: 50
+XP: 440 990",Sector 26,"Sector 28
+Sector 29","T2
+T3
+Normal
+Optimal
+Favor","130
+145
+150
+195
+110","Clear Prism
+Glamour Dispeller
+Grade 6 Dark Matter","Critical Hit V
+Dark Matter Cluster
+Determination V
+Direct Hit Rate V
+Glamour Dispeller
+Glamour Prism
+Grade 7 Dark Matter
+Wool Top","Aurelia Polyp
+Glamour Prism
+Grade 7 Dark Matter"
+,"Sector 28 | AB
+The Rimilala
+Trench Bottom
+★★★★★
+Rank: 50
+XP: 440 990",Sector 27,Sector 30,"T2
+T3
+Normal
+Optimal
+Favor","130
+150
+155
+200
+120","Balsa Wood Lumber
+Earth Cluster
+Lightning Cluster","Critical Hit VI
+Determination VI
+Direct Hit Rate VI
+Piety VI
+Skill Speed VI
+Spell Speed VI","Control VI
+CP VI
+Craftsmanship VI
+Gathering VI
+GP VI
+Perception VI"
+,"Sector 29 | AC
+Stone Temple
+★★★★★
+Rank: 50
+XP: 440 990",Sector 27,,"T2
+T3
+Normal
+Optimal
+Favor","135
+150
+160
+200
+130","Cut Stone
+Gold Ingot
+Gold Ore
+Native Gold
+Platinum Ingot","Darksteel Ore
+Dead Man's Chest
+Doman Iron Ore
+Magnanimous Mogcrown
+Plundered Treasure
+Scintillant Ingot","Crystal Boule
+Undersea Spoils"
+,"Sector 30 | AD
+Sunken Vault
+★★★★★
+Rank: 50
+XP: 440 990",Sector 28,"Sector 31
+Sea of Ash","T2
+T3
+Normal
+Optimal
+Favor","140
+155
+170
+215
+135","Deep-blue Cluster
+Deep-green Cluster
+Deep-red Cluster
+Earth Crystal
+Fire Crystal
+Ice Crystal
+Lightning Crystal
+Water Crystal
+Wind Cluster","Rhodonite
+Star Spinel
+Triphane
+Unaspected Crystal","Cerulean Crystal Boule
+Crystal Boule
+Emerald Crystal Boule"
+,,,,,,,,
+,Sea of Ash,,,,,,,
+,,,,,,,,
+,"Sector 31 | A
+South Isle of
+Zozonan
+★
+Rank: 50
+XP: 440 990",Sector 30,Sector 32,"T2
+T3
+Normal
+Optimal
+Favor","135
+150
+165
+205
+140","Earth Crystal
+Earth Shard
+Hardsilver Sand
+Stiperstone
+Synthetic Fiber","Cloudsbreath
+Direct Hit Rate VI
+Hard Mudstone
+Skill Speed VI
+Tenacity VI
+Truegold Sand","Cocobolo Lumber
+Pure Titanium Ore"
+,"Sector 32 | B
+Wreckage of the
+Windwalker
+★
+Rank: 50
+XP: 440 990",Sector 31,Sector 33,"T2
+T3
+Normal
+Optimal
+Favor","140
+155
+170
+205
+140","Balsa Wood Scrap
+Persimmon Log
+Wind Crystal
+Wind Shard","Crystal Boule
+Deep-blue Cluster
+Deep-red Cluster
+Spruce Log
+Teak Log
+White Oak Log","Cocobolo Lumber
+Cryptomeria Log"
+,"Sector 33 | C
+North Isle of
+Zozonan
+★★
+Rank: 54
+XP: 480 270",Sector 32,"Sector 34
+Sector 36","T2
+T3
+Normal
+Optimal
+Favor","140
+160
+175
+210
+145","Bamboo Weave
+Truegold Sand
+Water Crystal
+Water Shard","Adamantite Ore
+Critical Hit VI
+Determination VI
+Platinum Ore
+Pure Titanium Ore
+Truegold Ore
+Spell Speed VI","Black Clay
+Determination VII
+Direct Hit Rate VII
+Red Clay"
+,"Sector 34 | D
+Sea of Ash 1
+★★
+Rank: 54
+XP: 480 270",Sector 33,Sector 35,"T2
+T3
+Normal
+Optimal
+Favor","145
+165
+180
+220
+145","Fire Crystal
+Fire Shard
+Mahogany Log
+White Oak Log","Cocobolo Lumber
+Cryptomeria Log
+Miracle Apple Log
+Old-growth Camphorwood Log
+Teak Log
+Truegold Ore
+White Ash Log","Black Clay
+Critical Hit VII
+Piety VII
+Red Clay"
+,"Sector 35 | E
+The Southern
+Charnel Trench
+★★
+Rank: 57
+XP: 522 300",Sector 34,Sector 47,"T2
+T3
+Normal
+Optimal
+Favor","145
+160
+185
+220
+150","Cobalt Ore
+Lightning Crystal
+Lightning Shard
+Mythrite Sand
+Vivianite","Bluespirit Ore
+Manasilver Sand
+Marine Wax Ester
+Smithsonite Ore","Crimson Coral
+Sharksucker-class Insubmersible
+Spell Speed VII"
+,"Sector 36 | F
+Sea of Ash 2
+★★
+Rank: 57
+XP: 522 300",Sector 33,Sector 37,"T2
+T3
+Normal
+Optimal
+Favor","145
+165
+180
+220
+145","Cassia Log
+Cedar Log
+Dark Chestnut Log
+Zelkova Log","Astral Moraine
+Cocobolo Lumber
+Miracle Apple Log
+Sandteak Log
+White Ash Log","Abroader Otter
+Tenacity VII
+Torreya Log"
+,"Sector 37 | G
+Sea of Ash 3
+★★★
+Rank: 60
+XP: 548 410",Sector 36,"Sector 38
+Sector 39","T2
+T3
+Normal
+Optimal
+Favor","150
+170
+180
+220
+140","Aetherochemical Fiber
+Clear Glass Lens
+Raw Celestine
+Red Moko Grass","Crystal Glass
+Emerald Crystal Boule
+Kudzu Cloth
+Tempered Glass
+Unaspected Crystal","Abroader Otter
+Polarized Glass
+Synthetic Resin"
+,"Sector 38 | H
+Ascetic's Demise
+★★★
+Rank: 60
+XP: 548 410",Sector 37,Sector 41,"T2
+T3
+Normal
+Optimal
+Favor","160
+175
+190
+225
+150","Electrum Ingot
+Gold Ore
+Platinum Ingot","Extravagant Salvaged Bracelet
+Extravagant Salvaged Earring
+Extravagant Salvaged Necklace
+Extravagant Salvaged Ring
+Rhodonite
+Salvaged Bracelet
+Salvaged Earring
+Salvaged Necklace
+Salvaged Ring","Salvaged Coinage
+Undersea Spoils"
+,"Sector 39 | I
+The Central
+Charnel Trench
+★★★
+Rank: 60
+XP: 548 410",Sector 37,"Sector 40
+Sector 43","T2
+T3
+Normal
+Optimal
+Favor","155
+170
+190
+220
+140","Ferberite
+Hardsilver Nugget
+Silver Ore
+Vivianite","Bluespirit Ore
+Cryptomeria Log
+Kamacite Ore
+Koppranickel Nugget
+Manasilver Sand
+Pure Titanium Ore
+Titancopper Sand","Cerulean Crystal Boule
+Sharksucker-class Insubmersible
+Skill Speed VII"
+,"Sector 40 | J
+The Catacombs
+of the Father
+★★★
+Rank: 60
+XP: 548 410",Sector 39,Sector 44,"T2
+T3
+Normal
+Optimal
+Favor","160
+175
+190
+225
+150","Hard Mudstone
+Synthetic Fiber
+Titanium Ore","Fire Cluster
+Ice Cluster
+Lightning Cluster
+Star Ruby
+Titancopper Ore
+Volcanic Tuff
+Water Cluster
+Wind Cluster","Antique Vessels
+Rhodonite
+Ruby Crystal Boule"
+,"Sector 41 | K
+Sea of Ash 4
+★★★
+Rank: 60
+XP: 548 410",Sector 38,"Sector 42
+Sector 50","T2
+T3
+Normal
+Optimal
+Favor","155
+170
+185
+230
+160","Beech Log
+Cassia Log
+Wind Crystal","Astral Oil
+Cryptomeria Log
+Miracle Apple Log
+Nagxian Silk
+White Oak Log
+Zelkova Log","Critical Hit VII
+Sharksucker-class Insubmersible
+Skill Speed VII"
+,"Sector 42 | L
+The Midden Pit
+★★★★
+Rank: 63
+XP: 595 020",Sector 41,Sector 46,"T2
+T3
+Normal
+Optimal
+Favor","160
+175
+185
+235
+165","Hard Mudstone
+Truegold Ore
+Water Crystal","Deep-blue Cluster
+Deep-green Cluster
+Pure Titanium Ore
+Rhodonite
+Titancopper Ore
+Unaspected Crystal","Direct Hit Rate VII
+Ruby Crystal Boule
+Spell Speed VII"
+,"Sector 43 | M
+The Lone Glove
+★★★★
+Rank: 63
+XP: 595 020",Sector 39,,"T2
+T3
+Normal
+Optimal
+Favor","160
+170
+190
+240
+175","Truegold Sand
+Ice Crystal
+White Scorpion","Astral Moraine
+Cocobolo Lumber
+Dimythrite Sand
+Grade 7 Dark Matter
+Manasilver Sand
+Titancopper Sand","Meerkat
+Pure Titanium Ore
+Tenacity VII"
+,"Sector 44 | N
+Coldtoe Isle
+★★★★
+Rank: 65
+XP: 645 590",Sector 40,"Sector 45
+Sector 49","T2
+T3
+Normal
+Optimal
+Favor","165
+190
+195
+245
+170","Black Scorpion
+Earth Crystal
+White Oak Log","Cocobolo Lumber
+Grade 7 Dark Matter
+Lignum Vitae Log
+Old-growth Camphorwood Log
+Sandteak Log
+White Ash Log","Cryptomeria Log
+Meerkat
+Piety VII"
+,"Sector 45 | O
+Smuggler's Knot
+★★★★
+Rank: 65
+XP: 645 590",Sector 44,,"T2
+T3
+Normal
+Optimal
+Favor","170
+185
+205
+250
+175","Gold Ingot
+Gold Ore
+Lightning Crystal
+Rose Gold Ingot","Deepgold Ingot
+Grade 2 Tincture of Dexterity
+Grade 2 Tincture of Intelligence
+Grade 2 Tincture of Strength
+Salvaged Coinage
+Stonegold Ingot
+Undersea Spoils","Antique Vessels
+Determination VII
+Golden Ewer"
+,"Sector 46 | P
+The Open Robe
+★★★★
+Rank: 65
+XP: 645 590",Sector 42,Sector 48,"T2
+T3
+Normal
+Optimal
+Favor","165
+180
+185
+235
+165","Earth Crystal
+Torreya Log
+White Oak Log","Cocobolo Lumber
+Cryptomeria Log
+Lignum Vitae Log
+Sandteak Log
+White Ash Log","Emerald Crystal Boule
+Meerkat
+Silver Dasher"
+,"Sector 47 | Q
+Nald'thal's Pipe
+★★★★
+Rank: 66
+XP: 661 730",Sector 35,,"T2
+T3
+Normal
+Optimal
+Favor","165
+180
+185
+235
+165","Fire Crystal
+Stiperstone
+Titancopper Ore
+Titanium Ore","Abroader Otter
+Pelagic Clay
+Ruby Crystal Boule",Pelagic Clay
+,"Sector 48 | R
+The Slipped Anchor
+★★★★★
+Rank: 67
+XP: 678 274",Sector 46,"Sector 51
+Sea of Jade","T2
+T3
+Normal
+Optimal
+Favor","170
+185
+190
+240
+165","Pixie Floss Boll
+Wind Crystal
+Yellow Alumen","Crimson Coral
+Dwarven Cotton Boll
+Sea Swallow Skin
+Vampire Cup Vine
+Vampire Vine Sap","Antique Vessels
+Golden Crystal Boule
+Sharksucker-class Insubmersible
+Skill Speed VII
+Spell Speed VII"
+,"Sector 49 | S
+Glutton's Belly
+★★★★★
+Rank: 69
+XP: 712 612",Sector 44,,"T2
+T3
+Normal
+Optimal
+Favor","175
+190
+200
+250
+175","Dimythrite Sand
+Mythrite Sand
+Water Crystal","Dimythrite Ore
+Mythrite Ore
+Salvaged Coinage
+Undersea Spoils","Aurelia Polyp
+Piety VII
+Sintered Whetstone
+Tenacity VII"
+,"Sector 50 | T
+The Blue Hole
+★★★★★
+Rank: 70
+XP: 730 428",Sector 41,,"T2
+T3
+Normal
+Optimal
+Favor","180
+190
+200
+250
+175","Balsa Wood Scrap
+Lightning Crystal
+Synthetic Fiber","Cocobolo Lumber
+Critical Hit VII
+Deep-blue Cluster
+Determination VII
+Direct Hit Rate VII
+Synthetic Resin","Cerulean Crystal Boule
+Colossus Slab
+Golden Ewer"
+,,,,,,,,
+,Sea of Jade,,,,,,,
+,,,,,,,,
+,"Sector 51 | A
+The Isle of
+Sacrament
+★
+Rank: 70
+XP: 730 428",Sector 48,"Sector 52
+Sector 53","T2
+T3
+Normal
+Optimal
+Favor","180
+190
+200
+250
+175","Miracle Apple Log
+White Oak Log","Bamboo Weave
+Cloudsbreath
+Cryptomeria Log",Abroader Otter
+,"Sector 52 | B
+The Kraken's Tomb
+★
+Rank: 70
+XP: 730 428",Sector 51,,"T2
+T3
+Normal
+Optimal
+Favor","180
+190
+200
+250
+175","Manasilver Sand
+Truegold Sand","Deep-blue Cluster
+Pelagic Clay
+Sintered Whetstone",Colossus Slab
+,"Sector 53 | C
+Sea of Jade 1
+★
+Rank: 70
+XP: 730 428",Sector 51,"Sector 54
+Sector 55","T2
+T3
+Normal
+Optimal
+Favor","180
+190
+200
+250
+175","Dimythrite Sand
+Titancopper Sand","Antique Vessels
+Balsa Wood Scrap
+Black Clay",Aurelia Polyp
+,"Sector 54 | D
+Rogo-Tumu-Here's
+Haunt
+★
+Rank: 72
+XP: 767 407",Sector 53,Sector 56,"T2
+T3
+Normal
+Optimal
+Favor","180
+195
+205
+260
+178","Bluespirit Ore
+Deep-green Cluster
+Deep-red Cluster
+Truegold Ore","Balsa Wood Lumber
+Pure Titanium Ore
+Synthetic Resin",Silver Dasher
+,"Sector 55 | E
+The Stone Barbs
+★
+Rank: 72
+XP: 767 407",Sector 53,"Sector 57
+Sector 58","T2
+T3
+Normal
+Optimal
+Favor","180
+195
+210
+260
+185","Sandteak Log
+White Ash Log","Golden Ewer
+Red Clay
+Synthetic Fiber",Meerkat
+,"Sector 56 | F
+Rogo-Tumu-Here's
+Repose
+★
+Rank: 73
+XP: 786 593",Sector 54,,"T2
+T3
+Normal
+Optimal
+Favor","180
+195
+210
+265
+185","Deep-blue Cluster
+Dimythrite Ore
+Titancopper Ore","Aetherochemical Fiber
+Pelagic Clay
+Plundered Treasure",Plum Paper Parasol
+,"Sector 57 | G
+Tangaroa's Prow
+★
+Rank: 74
+XP: 806 258",Sector 55,"Sector 59
+Sector 60","T2
+T3
+Normal
+Optimal
+Favor","180
+195
+215
+270
+185","Manasilver Sand
+Truegold Sand","Cocobolo Lumber
+Marine Wax Ester
+Pelagic Clay",Hard to Miss Orchestrion Roll
+,"Sector 58 | H
+Sea of Jade 2
+★★
+Rank: 75
+XP: 826 415",Sector 55,,"T2
+T3
+Normal
+Optimal
+Favor","180
+195
+220
+270
+185","Lignum Vitae Log
+Sandteak Log","Empty Cluster
+Pelagic Clay
+Undersea Spoils",Gemseeker's Pack
+,"Sector 59 | I
+The Blind Sound
+★★
+Rank: 75
+XP: 826 415",Sector 57,"Sector 61
+Sector 62","T2
+T3
+Normal
+Optimal
+Favor","180
+195
+220
+270
+185","Dimythrite Ore
+Dimythrite Sand
+Manasilver Sand","Deep-blue Cluster
+Synthetic Resin",Tankard
+,"Sector 60 | J
+Sea of Jade 3
+★★
+Rank: 75
+XP: 826 415",Sector 57,Sector 63,"T2
+T3
+Normal
+Optimal
+Favor","180
+195
+220
+270
+185","Bluespirit Ore
+Titancopper Ore
+Titancopper Sand","Deep-red Cluster
+Marine Wax Ester",Antique Sink
+,"Sector 61 | K
+Moergynn's Forge
+★★
+Rank: 76
+XP: 847 076",Sector 59,,"T2
+T3
+Normal
+Optimal
+Favor","185
+200
+225
+275
+190","Gold Ore
+Truegold Ore
+Truegold Sand","Cocobolo Lumber
+Pure Titanium Ore",Nemesis Orchestrion Roll
+,"Sector 62 | L
+Tangaroa's Beacon
+★★★
+Rank: 78
+XP: 889 960",Sector 59,"Sector 65
+Sector 67","T2
+T3
+Normal
+Optimal
+Favor","185
+200
+230
+280
+190","Sandteak Log
+Torreya Log
+White Ash Log","Cloudsbreath
+Cryptomeria Log","Parkside Tree
+Royal Lion"
+,"Sector 63 | M
+Sea of Jade 4
+★★★
+Rank: 80
+XP: 0",Sector 60,"Sector 64
+Sector 68","T2
+T3
+Normal
+Optimal
+Favor","185
+200
+230
+280
+190","Lignum Vitae Log
+Miracle Apple Log
+White Oak Log","Pelagic Clay
+Sintered Whetstone",Syldrion-class Insubmersible
+,"Sector 64 | N
+The Forest of Kelp
+★★★
+Rank: 81
+XP: 958 391",Sector 63,Sector 66,"T2
+T3
+Normal
+Optimal
+Favor","190
+205
+235
+285
+195","Lignum Vitae Log
+Miracle Apple Log
+White Oak Log","Pelagic Clay
+Pure Titanium Ore",Rusted Suit of Armor
+,"Sector 65 | O
+Sea of Jade 5
+★★★★
+Rank: 83
+XP: 1 006 910",Sector 62,,"T2
+T3
+Normal
+Optimal
+Favor","195
+210
+240
+290
+200","Bluespirit Ore
+Titancopper Ore
+Titancopper Sand","Golden Crystal Boule
+Royal Lion",By Design Orchestrion Roll
+,"Sector 66 | P
+Bladefall Chasm
+★★★★
+Rank: 85
+XP: 1 057 886",Sector 64,,"T2
+T3
+Normal
+Optimal
+Favor","195
+210
+245
+295
+200","Lignum Vitae Log
+Miracle Apple Log
+White Oak Log","Meerkat
+Plum Paper Parasol",Parkside Tree
+,"Sector 67 | Q
+Stormport
+★★★★★
+Rank: 87
+XP: 1 111 443",Sector 62,Sector 69,"T2
+T3
+Normal
+Optimal
+Favor","200
+215
+255
+300
+205","Dimythrite Ore
+Dimythrite Sand
+Manasilver Sand","Cryptomeria Log
+Pelagic Clay",Ancient Bone
+,"Sector 68 | R
+Wyrm's Rest
+★★★★★
+Rank: 88
+XP: 1 139 230",Sector 63,Sector 70,"T2
+T3
+Normal
+Optimal
+Favor","205
+220
+255
+300
+210","Sandteak Log
+Torreya Log
+White Ash Log","Antique Sink
+Syldrion-class Insubmersible",Damaged Icebox
+,"Sector 69 | S
+Sea of Jade 6
+★★★★★
+Rank: 89
+XP: 1 167 711",Sector 67,,"T2
+T3
+Normal
+Optimal
+Favor","205
+220
+260
+305
+210","Dimythrite Ore
+Dimythrite Sand
+Manasilver Sand","Hard to Miss Orchestrion Roll
+Nemesis Orchestrion Roll",Portrait of Gestahl
+,"Sector 70 | T
+The Devil's Crypt
+★★★★★
+Rank: 90
+XP: 1 196 904",Sector 68,"Sector 71
+Sirensong Sea","T2
+T3
+Normal
+Optimal
+Favor","205
+220
+260
+305
+210","Gold Ore
+Truegold Ore
+Truegold Sand","Silver Dasher
+Tankard",Benben Stone
+,,,,,,,,
+,Sirensong Sea,,,,,,,
+,,,,,,,,
+,"Sector 71 | A
+Mastbound's
+Bounty
+★
+Rank: 90
+XP: 1 751 567",Sector 70,"Sector 72
+Sector 73","T2
+T3
+Normal
+Optimal
+Favor","205
+220
+260
+305
+210","Coconut
+Palm Syrup
+Sideritis Leaves","Pelagic Clay
+Sintered Whetstone",By Design Orchestrion Roll
+,"Sector 72 | B
+Sirensong Sea 1
+★
+Rank: 90
+XP: 1 751 567",Sector 71,"Sector 75
+Sector 76","T2
+T3
+Normal
+Optimal
+Favor","205
+220
+260
+305
+210","Alien Onion
+Giant Popoto
+Sykon","Meerkat
+Pelagic Clay",Damaged Icebox
+,"Sector 73 | C
+Sirensong Sea 2
+★
+Rank: 90
+XP: 1 751 567",Sector 71,"Sector 74
+Sector 77","T2
+T3
+Normal
+Optimal
+Favor","205
+220
+260
+305
+210","Annite
+Chloroschist
+Pewter Ore","Cocobolo Lumber
+Silver Dasher",Driftseeds
+,"Sector 74 | D
+Anthemoessa
+★
+Rank: 91
+XP: 1 926 724",Sector 73,Sector 78,"T2
+T3
+Normal
+Optimal
+Favor","210
+225
+265
+310
+215","Horse Chestnut Log
+Integral Log
+Ironwood Log","Cocobolo Lumber
+Gemseeker's Pack",The Faces We Wear - Classic Spectacles
+,"Sector 75 | E
+Magos Trench
+★
+Rank: 92
+XP: 2 119 397",Sector 72,,"T2
+T3
+Normal
+Optimal
+Favor","210
+225
+265
+310
+215","Raw Ametrine
+Raw Blue Zircon
+Raw Star Quartz","Benben Stone
+Parkside Tree",Deep-sea Marble
+,"Sector 76 | F
+Thrall's Unrest
+★★
+Rank: 93
+XP: 2 331 337",Sector 72,Sector 80,"T2
+T3
+Normal
+Optimal
+Favor","210
+225
+265
+310
+215","AR-Caean Cotton Boll
+Dark Rye
+Scarlet Moko Grass","Cerulean Crystal Boule
+Plum Paper Parasol",Blue Blossom Parasol
+,"Sector 77 | G
+Crow's Drop
+★★
+Rank: 95
+XP: 2 820 919",Sector 73,,"T2
+T3
+Normal
+Optimal
+Favor","210
+225
+265
+310
+215","Bismuth Ore
+Manganese Ore
+Phrygian Gold Ore",Basaltic Clay,Basaltic Clay
+,"Sector 78 | H
+Sirensong Sea 3
+★★★
+Rank: 96
+XP: 3 074 802",Sector 74,"Sector 79
+Sector 83","T2
+T3
+Normal
+Optimal
+Favor","215
+230
+270
+315
+220","Coconut
+Palm Syrup
+Sideritis Leaves","By Design Orchestrion Roll
+Sharksucker-class Insubmersible",Weatherproof Cloth
+,"Sector 79 | I
+Anthemoessa
+Undertow
+★★★
+Rank: 96
+XP: 3 074 802",Sector 78,Sector 84,"T2
+T3
+Normal
+Optimal
+Favor","215
+230
+270
+315
+220","Bismuth Ore
+Manganese Ore
+Phrygian Gold Ore","Aurelia Polyp
+Blue Blossom Parasol",Wall-climbing Ivy
+,"Sector 80 | J
+Sirensong Sea 4
+★★★
+Rank: 97
+XP: 3 351 535",Sector 76,"Sector 81
+Sector 82","T2
+T3
+Normal
+Optimal
+Favor","215
+230
+270
+315
+220","Raw Ametrine
+Raw Blue Zircon
+Raw Star Quartz","Deep-sea Marble
+Golden Crystal Boule",Weathered Pipe
+,"Sector 81 | K
+Seafoam Tide
+★★★
+Rank: 98
+XP: 3 653 174",Sector 80,Sector 85,"T2
+T3
+Normal
+Optimal
+Favor","215
+230
+270
+315
+220","Alien Onion
+Giant Popoto
+Sykon","Damaged Icebox
+Syldrion-class Insubmersible",Flagstone Steps
+,"Sector 82 | L
+The Beak
+★★★★
+Rank: 99
+XP: 3 981 960",Sector 80,Sector 86,"T2
+T3
+Normal
+Optimal
+Favor","215
+230
+270
+315
+220","Horse Chestnut Log
+Integral Log
+Ironwood Log","Basaltic Clay
+Driftseeds",Flagstone Loft
+,"Sector 83 | M
+Seafarer's End
+★★★★
+Rank: 100
+XP: 4 340 337",Sector 78,,"T2
+T3
+Normal
+Optimal
+Favor","215
+230
+270
+315
+220","Annite
+Chloroschist
+Pewter Ore","The Faces We Wear - Classic Spectacles
+Undersea Spoils",Damaged Highland Turret
+,"Sector 84 | N
+Drifter's Decay
+★★★★
+Rank: 101
+XP: 4 687 564",Sector 79,Sector 87,"T2
+T3
+Normal
+Optimal
+Favor","220
+235
+275
+320
+225","Horse Chestnut Log
+Integral Log
+Ironwood Log","Blue Blossom Parasol
+The Faces We Wear - Classic Spectacles","Charcoal Iron
+White Granite"
+,"Sector 85 | O
+Lugat's Landing
+★★★★
+Rank: 101
+XP: 4 687 564",Sector 81,"Sector 88
+Sector 89","T2
+T3
+Normal
+Optimal
+Favor","220
+235
+275
+320
+225","Coconut
+Palm Syrup
+Sideritis Leaves","Weathered Pipe
+Weatherproof Cloth",Classical Water Jug
+,"Sector 86 | P
+The Frozen Spring
+★★★★★
+Rank: 102
+XP: 5 062 570",Sector 82,Sector 90,"T2
+T3
+Normal
+Optimal
+Favor","220
+235
+275
+320
+225","Raw Ametrine
+Raw Blue Zircon
+Raw Star Quartz","Flagstone Steps
+Wall-climbing Ivy",Timeworn Thaumaturgic Instruments
+,"Sector 87 | Q
+Sirensong Sea 5
+★★★★★
+Rank: 103
+XP: 5 467 576",Sector 84,,"T2
+T3
+Normal
+Optimal
+Favor","220
+235
+275
+320
+225","Bismuth Ore
+Manganese Ore
+Phrygian Gold Ore","Damaged Highland Turret
+Flagstone Loft",Ominous Plating
+,"Sector 88 | R
+Tidewind Isle
+★★★★★
+Rank: 104
+XP: 5 904 983",Sector 85,,"T2
+T3
+Normal
+Optimal
+Favor","220
+235
+275
+320
+225","AR-Caean Cotton Boll
+Dark Rye
+Scarlet Moko Grass","Damaged Icebox
+Deep-sea Marble",Enigmatic Gear
+,"Sector 89 | S
+Bloodbreak
+★★★★★
+Rank: 105
+XP: 6 377 382",Sector 85,,"T2
+T3
+Normal
+Optimal
+Favor","220
+235
+275
+320
+225","Annite
+Chloroschist
+Pewter Ore","By Design Orchestrion Roll
+Portrait of Gestahl",Suzusaurus
+,"Sector 90 | T
+The Crystal Font
+★★★★★
+Rank: 105
+XP: 6 377 382",Sector 86,"Sector 91
+The Lilac Sea","T2
+T3
+Normal
+Optimal
+Favor","220
+235
+275
+320
+225","Alien Onion
+Giant Popoto
+Sykon","Ancient Bone
+Basaltic Clay",Dreams Aloft Orchestrion Roll
+,,,,,,,,
+,The Lilac Sea,,,,,,,
+,,,,,,,,
+,"Sector 91 | A
+Weeping Trellis
+★
+Rank: 105
+XP: 6 377 382",Sector 90,"Sector 92
+Sector 93","T2
+T3
+Normal
+Optimal
+Favor","220
+235
+275
+320
+225","Annite
+Chloroschist
+Pewter Ore","Deep-sea Marble
+Flagstone Steps",Classic Tableware
+,"Sector 92 | B
+The Forsaken Isle
+★
+Rank: 105
+XP: 6 377 382",Sector 91,"Sector 94
+Sector 96","T2
+T3
+Normal
+Optimal
+Favor","220
+235
+275
+320
+225","Coconut
+Palm Syrup
+Sideritis Leaves","Blue Blossom Parasol
+Driftseeds",Damaged Side Table
+,"Sector 93 | C
+Fortune's Ford
+★
+Rank: 105
+XP: 6 377 382",Sector 91,"Sector 95
+Sector 97","T2
+T3
+Normal
+Optimal
+Favor","220
+235
+275
+320
+225","Horse Chestnut Log
+Integral Log
+Ironwood Log","Classical Water Jug
+Dreams Aloft Orchestrion Roll",Mossy Log
+,"Sector 94 | D
+The Lilac Sea 1
+★
+Rank: 106
+XP: 6 536 817",Sector 92,Sector 99,"T2
+T3
+Normal
+Optimal
+Favor","225
+240
+280
+325
+230","Alien Onion
+Giant Popoto
+Sykon","Timeworn Thaumaturgic Instruments
+Wall-climbing Ivy",Raw Log Half Partition
+,"Sector 95 | E
+Runners' Reach
+★
+Rank: 107
+XP: 6 700 238",Sector 93,,"T2
+T3
+Normal
+Optimal
+Favor","225
+240
+280
+325
+230","AR-Caean Cotton Boll
+Dark Rye
+Scarlet Moko Grass","Weathered Pipe
+Weatherproof Cloth",Iroko Lumber
+,"Sector 96 | F
+Bellflower Flood
+★★
+Rank: 108
+XP: 6 867 744",Sector 92,Sector 100,"T2
+T3
+Normal
+Optimal
+Favor","225
+240
+280
+325
+230","Bismuth Ore
+Manganese Ore
+Phrygian Gold Ore","Enigmatic Gear
+Ominous Plating",Weathered Fitting
+,"Sector 97 | G
+The Lilac Sea 2
+★★
+Rank: 110
+XP: 7 215 424",Sector 93,"Sector 98
+Sector 101","T2
+T3
+Normal
+Optimal
+Favor","225
+240
+280
+325
+230","Raw Ametrine
+Raw Blue Zircon
+Raw Star Quartz","Basaltic Clay
+Suzusaurus",Goggle-eyed Dogu
+,"Sector 98 | H
+The Lilac Sea 3
+★★★
+Rank: 111
+XP: 7 395 810",Sector 97,,"T2
+T3
+Normal
+Optimal
+Favor","230
+245
+285
+330
+235","Raw Ametrine
+Raw Blue Zircon
+Raw Star Quartz","Basaltic Clay
+The Faces We Wear - Classic Spectacles",Deep-sea Umbrite
+,"Sector 99 | I
+Northwest
+Bellflower
+★★★
+Rank: 112
+XP: 7 580 706",Sector 94,Sector 106,"T2
+T3
+Normal
+Optimal
+Favor","230
+245
+285
+330
+235","Bismuth Ore
+Manganese Ore
+Phrygian Gold Ore","Damaged Side Table
+Flagstone Steps",Minute Mindflayer Sprinkler
+,"Sector 100 | J
+Corolla Isle
+★★★
+Rank: 113
+XP: 7 770 224",Sector 96,Sector 102,"T2
+T3
+Normal
+Optimal
+Favor","230
+245
+285
+330
+235","Coconut
+Palm Syrup
+Sideritis Leaves","Mossy Log
+Raw Log Half Patition",Wood Slice Loft
+,"Sector 101 | K
+Southeast
+Bellflower
+★★★
+Rank: 114
+XP: 7 964 480",Sector 97,Sector 103,"T2
+T3
+Normal
+Optimal
+Favor","230
+245
+285
+330
+235","Bismuth Ore
+Manganese Ore
+Phrygian Gold Ore","Classic Tableware
+Wall-climbing Ivy",Alzadaal's Treasure Rug
+,"Sector 102 | L
+The Floral Reef
+★★★★
+Rank: 115
+XP: 8 163 592",Sector 100,"Sector 104
+Sector 107","T2
+T3
+Normal
+Optimal
+Favor","230
+245
+285
+330
+235","Horse Chestnut Log
+Integral Log
+Ironwood Log","Flagstone Loft
+Iroko Lumber",Pennons Aloft Orchestrion Roll
+,"Sector 103 | M
+Wingsreach
+★★★★
+Rank: 115
+XP: 8 163 592",Sector 101,Sector 105,"T2
+T3
+Normal
+Optimal
+Favor","230
+245
+285
+330
+235","AR-Caean Cotton Boll
+Dark Rye
+Scarlet Moko Grass","Google-eyed Dogu
+White Granite",From Fear to Fortitude Orchestrion Roll
+,"Sector 104 | N
+The Floating
+Standard
+★★★★
+Rank: 116
+XP: 8 367 682",Sector 102,Sector 109,"T2
+T3
+Normal
+Optimal
+Favor","235
+250
+290
+335
+240","Turali Corn
+Turali Pineapple
+Ut'ohmu Tomato","Basaltic Clay
+Minute Mindflayer Sprinkler",Bluecap Mushroom Lamp
+,"Sector 105 | O
+The Fluttering Bay
+★★★★
+Rank: 117
+XP: 8 576 875",Sector 103,Sector 108,"T2
+T3
+Normal
+Optimal
+Favor","235
+250
+290
+335
+240","Lar Ore
+Mountain Chromite Ore
+Ruthenium Ore","Suzusaurus
+Weathered Fitting",Stuffed Punutiy
+,"Sector 106 | P
+Lilac Sea 4
+★★★★
+Rank: 118
+XP: 8 791 297",Sector 99,,"T2
+T3
+Normal
+Optimal
+Favor","235
+250
+290
+235
+240","Ceiba Log
+Dark Mahogany Log
+Ginseng Log","Damaged Icebox
+Flagstone Steps",Stuffed Axolotl Eft
+,"Sector 107 | Q
+Proudkeel
+★★★★★
+Rank: 119
+XP: 9 011 080",Sector 102,Sector 110,"T2
+T3
+Normal
+Optimal
+Favor","235
+250
+290
+335
+240","Mesquite Bean
+White Pepper
+Yyasulani Garlic","Damaged Side Table
+Flagstone Loft",High-Density Fiberboard
+,"Sector 108 | R
+East Dodie's Abyss
+★★★★★
+Rank: 119
+XP: 9 011 080",Sector 105,,"T2
+T3
+Normal
+Optimal
+Favor","235
+250
+290
+335
+240","Raw Black Star
+Raw Ihuykanites
+Raw Pink Beryl","Alzadaal's Treasure Rug
+Pennons Aloft Orchestrion Roll",Subterranean Drop Orchestrion Roll
+,"Sector 109 | S
+Lilac Sea 5
+★★★★★
+Rank: 120
+XP: 9 236 357",Sector 104,,"T2
+T3
+Normal
+Optimal
+Favor","235
+250
+290
+335
+240","Mountain Flax
+Sarcenet
+Snow Cotton","Mossy Log
+Wood Slice Loft",Fluffy-wuffy Stuffed Drippy
+,"Sector 110 | T
+West Dodie's Abyss
+★★★★★
+Rank: 120
+XP: 9 236 357",Sector 107,"Sector 111
+South Indigo Deep","T2
+T3
+Normal
+Optimal
+Favor","235
+250
+290
+335
+240","Cobalt Tungsten Ore
+Magnesia Powder
+Titanium Gold Ore","Deep-sea Umbrite
+From Fear to Fortitude Orchestrion Roll",Tinkerer's Treasure Trove Orchestrion Roll
+,,,,,,,,
+,South Indigo Deep,,,,,,,
+,,,,,,,,
+,"Sector 111 | A
+The Indigo Shallows
+★
+Rank: 120
+XP: 9 236 357",Sector 110,"Sector 112
+Sector 113","T2
+T3
+Normal
+Optimal
+Favor","235
+250
+290
+335
+240","Mountain Rock Salt
+Royal Maple Sap
+Turali Corn","Fluffy-wuffy Stuffed Drippy
+Mountain Salt
+Royal Maple Syrup
+The Faces We Wear - Classic Spectacles
+Turali Corn Oil",Nature's Bounty Orchestrion Roll
+,"Sector 112 | B
+Voyagers' Reprieve
+★
+Rank: 120
+XP: 9 236 357",Sector 111,"Sector 114
+Sectir 116","T2
+T3
+Normal
+Optimal
+Favor","235
+250
+290
+335
+240","Cobalt Tungsten Ore
+Mountain Chromite Ore
+Ruthenium Ore","Blue Blossom Parasol
+Bluecap Mushroom Lamp
+Cobalt Tungsten Ingot
+Mountain Chromite Ingot
+Ruthenium Ingot",Aromatic Wood Strips
+,"Sector 113 | C
+North Delphinium
+Seashelf
+★
+Rank: 120
+XP: 9 236 357",Sector 111,"Sector 115
+Sector 117","T2
+T3
+Normal
+Optimal
+Favor","235
+250
+290
+335
+240","Mountain Flax
+Sarcenet
+Snow Cotton","Mountain Linen
+Sarcenet Cloth
+Snow Cotton Cloth
+Stuffed Punutiy
+Wall-Climbing Ivy",Toco Toquito
+,"Sector 114 | D
+Rainbringer Rift
+★
+Rank: 121
+XP: 9 467 266",Sector 112,,"T2
+T3
+Normal
+Optimal
+Favor","240
+255
+295
+340
+245","Raw Blac kStar
+Raw Ihuykanite
+Raw Pink Beryl","Black Star
+Damaged Icebox
+Ihuykanite
+Pink Beryl
+Subterranean Drop Orchestrion Roll",Laboratory Counter
+,"Sector 115 | E
+South Indigo Deep 1
+★
+Rank: 122
+XP: 9 703 948",Sector 113,,"T2
+T3
+Normal
+Optimal
+Favor","240
+255
+295
+340
+245","Br'aax Hide
+Hammerhead Crocodile Skin
+Silver Lobo Hide","Br'aax Leather
+Hammerhead Crocodile Leather
+Silver Lobo Leather
+Tankard
+Tinkerer's Treasure Trove Orchestrion Roll",Weathered Porthole
+,"Sector 116 | F
+The Central Blue
+★★
+Rank: 123
+XP: 9 946 547",Sector 112,Sector 119,"T2
+T3
+Normal
+Optimal
+Favor","240
+255
+295
+340
+245","Acacia Log
+Claro Walnut Log
+Dark Mahogany Log","Acacia Lumber
+Claro Walnut Lumber
+Dark Mahogany Lumber
+Flagstone Loft
+Stuffed Axolotl Eft",Spinettesaurus
+,"Sector 117 | G
+South Indigo Deep 2
+★★
+Rank: 125
+XP: 10 450 092",Sector 113,"Sector 118
+Sector 120","T2
+T3
+Normal
+Optimal
+Favor","240
+255
+295
+340
+245","Ra'Kaznar Ore
+Titanium Gold Ore
+White Gold Ore","High-density Fiberboard
+Plum Paper Parasol
+Ra'Kaznar Ingot
+Titanium Gold Nugget
+White Gold Ingot",Climbing Wall Patition
+,"Sector 118 | H
+The Talon
+★★★
+Rank: 126
+XP: 10 711 345",Sector 117,Sector 121,"T2
+T3
+Normal
+Optimal
+Favor","245
+260
+300
+345
+250","Br'aax Hide
+Hammerhead Crocodile Skin
+Silver Lobo Hide","Aromatic Wood Strips
+Br'aax Leather
+Hammerhead Crocodile Leather
+Silver Lobo Leather
+Undersea Spoils",Hewn Stone Circle
+,"Sector 119 | I
+Southern Central Blue
+★★★
+Rank: 127
+XP: 10 979 129",Sector 116,"Sector 122
+Sector 123","T2
+T3
+Normal
+Optimal
+Favor","245
+260
+300
+345
+250","Mountain Rock Salt
+Royal Maple Sap
+Turali Corn","High-density Fiberboard
+Mountain Salt
+Royal Maple Syrup
+Spinettesaurus
+Torali Corn Oil",Fluorescent Tube Chandelier
+,"Sector 120 | J
+South Indigo Deep 3
+★★★
+Rank: 128
+XP: 11 253 608",Sector 117,,"T2
+T3
+Normal
+Optimal
+Favor","245
+260
+300
+345
+250","Raw Black Star
+Raw Ihuykanite
+Raw Pink Beryl","Black Star
+Ihuykanite
+Pink Beryl
+Silver Dasher",Round Stepping Star
+,"Sector 121 | K
+The Talonspoint
+Depths
+★★★
+Rank: 129
+XP: 11 534 949",Sector 118,,"T2
+T3
+Normal
+Optimal
+Favor","245
+260
+300
+345
+250","Cobalt Tungsten Ore
+Mountain Chromite Ore
+Ruthenium Ore","Cobalt Tungsten Ingot
+Flagstone Loft
+Mountain Chromite Loft
+Ruthenium Ingot
+Toco Toquito",Outsized Crystal Glass
+,"Sector 122 | L
+Saltfarer's Eye
+★★★★
+Rank: 130
+XP: 11 823 323",Sector 119,,"T2
+T3
+Normal
+Optimal
+Favor","245
+260
+300
+345
+250","Mountain Flax
+Sarcenet
+Snow Cotton","Mountain Linen
+Sarcenet Cloth
+Snow Cotton Cloth
+Subterranean Drop Orchestrion Roll
+The Faces We Wear - Classic Spectacles",The Faces We Wear - Tinted Goggles
+,"Sector 123 | M
+Startail Shallows
+★★★★
+Rank: 130
+XP: 11 823 323",Sector 119,,"T2
+T3
+Normal
+Optimal
+Favor","245
+260
+300
+345
+250","Acacia Log
+Claro Walnut Log
+Dark Mahogany Log","Acacia Lumber
+Claro Walnut Lumber
+Damaged Icebox
+Dark Mahogany Lumber
+Nature's Bounty Orchestrion Roll",In Dawn's Embrace Orchestrion Roll

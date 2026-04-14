@@ -1,0 +1,86 @@
+:root {
+  color-scheme: dark;
+  --app-bg: #120c1d;
+  --app-page-max-width: min(100%, 100.64rem);
+  --scrollbar-track: rgba(15, 23, 42, 0.9);
+  --scrollbar-thumb: #7c3aed;
+  --scrollbar-thumb-hover: #8b5cf6;
+  --scrollbar-thumb-active: #6d28d9;
+}
+
+html {
+  height: 100%;
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--scrollbar-thumb) 0%, #4c1d95 100%);
+  border: 2px solid var(--scrollbar-track);
+  border-radius: 999px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, var(--scrollbar-thumb-hover) 0%, #5b21b6 100%);
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(180deg, var(--scrollbar-thumb-active) 0%, #4c1d95 100%);
+}
+
+*::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    "Noto Sans TC",
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #e5e7eb;
+  background: var(--app-bg);
+  background-image:
+    radial-gradient(ellipse 100% 80% at 50% -30%, rgba(88, 28, 135, 0.35) 0%, transparent 55%),
+    radial-gradient(ellipse 80% 50% at 100% 50%, rgba(30, 27, 75, 0.4) 0%, transparent 45%),
+    linear-gradient(180deg, #120c1d 0%, #0d0814 100%);
+}
+
+#app {
+  height: 100%;
+  min-height: 0;
+}

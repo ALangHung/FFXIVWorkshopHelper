@@ -1,0 +1,2737 @@
+{
+  "meta": {
+    "generatedAt": "2026-04-14T05:13:30.076Z",
+    "sourceCsv": "data/en/FFXIV Airship_Submersible Loot and Builder - Sub Loot.csv",
+    "teamcraftItems": "libs/data/src/lib/json/items.json",
+    "teamcraftZhItems": "libs/data/src/lib/json/zh/zh-items.json",
+    "noteZhTW": "nameZhTW 由 zh-items（簡體）經 OpenCC cn→tw 轉換，與遊戲繁中客戶端用字可能略有差異。",
+    "placeholders": {
+      "900000001": "Mountain Chromite Loft（teamcraft 無條目，佔位 id，四語同原文）"
+    }
+  },
+  "items": [
+    {
+      "id": 2,
+      "nameEn": "Fire Shard",
+      "nameJa": "ファイアシャード",
+      "nameZhCN": "火之碎晶",
+      "nameZhTW": "火之碎晶"
+    },
+    {
+      "id": 3,
+      "nameEn": "Ice Shard",
+      "nameJa": "アイスシャード",
+      "nameZhCN": "冰之碎晶",
+      "nameZhTW": "冰之碎晶"
+    },
+    {
+      "id": 4,
+      "nameEn": "Wind Shard",
+      "nameJa": "ウィンドシャード",
+      "nameZhCN": "风之碎晶",
+      "nameZhTW": "風之碎晶"
+    },
+    {
+      "id": 5,
+      "nameEn": "Earth Shard",
+      "nameJa": "アースシャード",
+      "nameZhCN": "土之碎晶",
+      "nameZhTW": "土之碎晶"
+    },
+    {
+      "id": 6,
+      "nameEn": "Lightning Shard",
+      "nameJa": "ライトニングシャード",
+      "nameZhCN": "雷之碎晶",
+      "nameZhTW": "雷之碎晶"
+    },
+    {
+      "id": 7,
+      "nameEn": "Water Shard",
+      "nameJa": "ウォーターシャード",
+      "nameZhCN": "水之碎晶",
+      "nameZhTW": "水之碎晶"
+    },
+    {
+      "id": 8,
+      "nameEn": "Fire Crystal",
+      "nameJa": "ファイアクリスタル",
+      "nameZhCN": "火之水晶",
+      "nameZhTW": "火之水晶"
+    },
+    {
+      "id": 9,
+      "nameEn": "Ice Crystal",
+      "nameJa": "アイスクリスタル",
+      "nameZhCN": "冰之水晶",
+      "nameZhTW": "冰之水晶"
+    },
+    {
+      "id": 10,
+      "nameEn": "Wind Crystal",
+      "nameJa": "ウィンドクリスタル",
+      "nameZhCN": "风之水晶",
+      "nameZhTW": "風之水晶"
+    },
+    {
+      "id": 11,
+      "nameEn": "Earth Crystal",
+      "nameJa": "アースクリスタル",
+      "nameZhCN": "土之水晶",
+      "nameZhTW": "土之水晶"
+    },
+    {
+      "id": 12,
+      "nameEn": "Lightning Crystal",
+      "nameJa": "ライトニングクリスタル",
+      "nameZhCN": "雷之水晶",
+      "nameZhTW": "雷之水晶"
+    },
+    {
+      "id": 13,
+      "nameEn": "Water Crystal",
+      "nameJa": "ウォータークリスタル",
+      "nameZhCN": "水之水晶",
+      "nameZhTW": "水之水晶"
+    },
+    {
+      "id": 14,
+      "nameEn": "Fire Cluster",
+      "nameJa": "ファイアクラスター",
+      "nameZhCN": "火之晶簇",
+      "nameZhTW": "火之晶簇"
+    },
+    {
+      "id": 15,
+      "nameEn": "Ice Cluster",
+      "nameJa": "アイスクラスター",
+      "nameZhCN": "冰之晶簇",
+      "nameZhTW": "冰之晶簇"
+    },
+    {
+      "id": 16,
+      "nameEn": "Wind Cluster",
+      "nameJa": "ウィンドクラスター",
+      "nameZhCN": "风之晶簇",
+      "nameZhTW": "風之晶簇"
+    },
+    {
+      "id": 17,
+      "nameEn": "Earth Cluster",
+      "nameJa": "アースクラスター",
+      "nameZhCN": "土之晶簇",
+      "nameZhTW": "土之晶簇"
+    },
+    {
+      "id": 18,
+      "nameEn": "Lightning Cluster",
+      "nameJa": "ライトニングクラスター",
+      "nameZhCN": "雷之晶簇",
+      "nameZhTW": "雷之晶簇"
+    },
+    {
+      "id": 19,
+      "nameEn": "Water Cluster",
+      "nameJa": "ウォータークラスター",
+      "nameZhCN": "水之晶簇",
+      "nameZhTW": "水之晶簇"
+    },
+    {
+      "id": 5066,
+      "nameEn": "Electrum Ingot",
+      "nameJa": "エレクトラムインゴット",
+      "nameZhCN": "绿金锭",
+      "nameZhTW": "綠金錠"
+    },
+    {
+      "id": 5067,
+      "nameEn": "Rose Gold Ingot",
+      "nameJa": "ローズゴールドインゴット",
+      "nameZhCN": "玫瑰金锭",
+      "nameZhTW": "玫瑰金錠"
+    },
+    {
+      "id": 5069,
+      "nameEn": "Gold Ingot",
+      "nameJa": "ゴールドインゴット",
+      "nameZhCN": "黄金锭",
+      "nameZhTW": "黃金錠"
+    },
+    {
+      "id": 5113,
+      "nameEn": "Silver Ore",
+      "nameJa": "銀鉱",
+      "nameZhCN": "银矿",
+      "nameZhTW": "銀礦"
+    },
+    {
+      "id": 5116,
+      "nameEn": "Cobalt Ore",
+      "nameJa": "鏡鉄鉱",
+      "nameZhCN": "钴铁矿",
+      "nameZhTW": "鈷鐵礦"
+    },
+    {
+      "id": 5118,
+      "nameEn": "Gold Ore",
+      "nameJa": "金鉱",
+      "nameZhCN": "金矿",
+      "nameZhTW": "金礦"
+    },
+    {
+      "id": 5120,
+      "nameEn": "Platinum Ore",
+      "nameJa": "白金鉱",
+      "nameZhCN": "白金矿",
+      "nameZhTW": "白金礦"
+    },
+    {
+      "id": 5121,
+      "nameEn": "Darksteel Ore",
+      "nameJa": "闇鉄鉱",
+      "nameZhCN": "玄铁矿",
+      "nameZhTW": "玄鐵礦"
+    },
+    {
+      "id": 5187,
+      "nameEn": "Ruby",
+      "nameJa": "ルビー",
+      "nameZhCN": "红宝石",
+      "nameZhTW": "紅寶石"
+    },
+    {
+      "id": 5188,
+      "nameEn": "Diamond",
+      "nameJa": "ダイヤモンド",
+      "nameZhCN": "钻石",
+      "nameZhTW": "鑽石"
+    },
+    {
+      "id": 5189,
+      "nameEn": "Emerald",
+      "nameJa": "エメラルド",
+      "nameZhCN": "祖母绿",
+      "nameZhTW": "祖母綠"
+    },
+    {
+      "id": 5192,
+      "nameEn": "Sapphire",
+      "nameJa": "サファイア",
+      "nameZhCN": "蓝宝石",
+      "nameZhTW": "藍寶石"
+    },
+    {
+      "id": 5226,
+      "nameEn": "Astral Moraine",
+      "nameJa": "アストラルグラベル",
+      "nameZhCN": "星砂砾",
+      "nameZhTW": "星砂礫"
+    },
+    {
+      "id": 5230,
+      "nameEn": "Limestone",
+      "nameJa": "石灰岩",
+      "nameZhCN": "石灰岩",
+      "nameZhTW": "石灰岩"
+    },
+    {
+      "id": 5231,
+      "nameEn": "Siltstone",
+      "nameJa": "シルト岩",
+      "nameZhCN": "粉砂岩",
+      "nameZhTW": "粉砂岩"
+    },
+    {
+      "id": 5232,
+      "nameEn": "Stiperstone",
+      "nameJa": "珪岩",
+      "nameZhCN": "硅岩",
+      "nameZhTW": "硅巖"
+    },
+    {
+      "id": 5365,
+      "nameEn": "Bamboo Stick",
+      "nameJa": "バンブー材",
+      "nameZhCN": "竹材",
+      "nameZhTW": "竹材"
+    },
+    {
+      "id": 5384,
+      "nameEn": "Cedar Log",
+      "nameJa": "シーダー原木",
+      "nameZhCN": "雪松原木",
+      "nameZhTW": "雪松原木"
+    },
+    {
+      "id": 5391,
+      "nameEn": "Mahogany Log",
+      "nameJa": "マホガニー原木",
+      "nameZhCN": "红木原木",
+      "nameZhTW": "紅木原木"
+    },
+    {
+      "id": 5392,
+      "nameEn": "Teak Log",
+      "nameJa": "チーク原木",
+      "nameZhCN": "柚木原木",
+      "nameZhTW": "柚木原木"
+    },
+    {
+      "id": 5395,
+      "nameEn": "Spruce Log",
+      "nameJa": "スプルース原木",
+      "nameZhCN": "云杉原木",
+      "nameZhTW": "雲杉原木"
+    },
+    {
+      "id": 5512,
+      "nameEn": "Clear Glass Lens",
+      "nameJa": "ガラス板",
+      "nameZhCN": "玻璃板",
+      "nameZhTW": "玻璃板"
+    },
+    {
+      "id": 5563,
+      "nameEn": "White Scorpion",
+      "nameJa": "ホワイトスコーピオン",
+      "nameZhCN": "白蝎",
+      "nameZhTW": "白蠍"
+    },
+    {
+      "id": 5564,
+      "nameEn": "Black Scorpion",
+      "nameJa": "ブラックスコーピオン",
+      "nameZhCN": "黑蝎",
+      "nameZhTW": "黑蠍"
+    },
+    {
+      "id": 5630,
+      "nameEn": "Piety Materia II",
+      "nameJa": "信力のマテリラ",
+      "nameZhCN": "信力魔晶石贰型",
+      "nameZhTW": "信力魔晶石貳型"
+    },
+    {
+      "id": 5631,
+      "nameEn": "Piety Materia III",
+      "nameJa": "信力のマテリダ",
+      "nameZhCN": "信力魔晶石叁型",
+      "nameZhTW": "信力魔晶石叄型"
+    },
+    {
+      "id": 5632,
+      "nameEn": "Piety Materia IV",
+      "nameJa": "信力のマテリガ",
+      "nameZhCN": "信力魔晶石肆型",
+      "nameZhTW": "信力魔晶石肆型"
+    },
+    {
+      "id": 5633,
+      "nameEn": "Piety Materia V",
+      "nameJa": "信力のマテリジャ",
+      "nameZhCN": "信力魔晶石伍型",
+      "nameZhTW": "信力魔晶石伍型"
+    },
+    {
+      "id": 5665,
+      "nameEn": "Heavens' Eye Materia II",
+      "nameJa": "天眼のマテリラ",
+      "nameZhCN": "神眼魔晶石贰型",
+      "nameZhTW": "神眼魔晶石貳型"
+    },
+    {
+      "id": 5666,
+      "nameEn": "Heavens' Eye Materia III",
+      "nameJa": "天眼のマテリダ",
+      "nameZhCN": "神眼魔晶石叁型",
+      "nameZhTW": "神眼魔晶石叄型"
+    },
+    {
+      "id": 5667,
+      "nameEn": "Heavens' Eye Materia IV",
+      "nameJa": "天眼のマテリガ",
+      "nameZhCN": "神眼魔晶石肆型",
+      "nameZhTW": "神眼魔晶石肆型"
+    },
+    {
+      "id": 5668,
+      "nameEn": "Heavens' Eye Materia V",
+      "nameJa": "天眼のマテリジャ",
+      "nameZhCN": "神眼魔晶石伍型",
+      "nameZhTW": "神眼魔晶石伍型"
+    },
+    {
+      "id": 5671,
+      "nameEn": "Savage Aim Materia III",
+      "nameJa": "武略のマテリダ",
+      "nameZhCN": "武略魔晶石叁型",
+      "nameZhTW": "武略魔晶石叄型"
+    },
+    {
+      "id": 5672,
+      "nameEn": "Savage Aim Materia IV",
+      "nameJa": "武略のマテリガ",
+      "nameZhCN": "武略魔晶石肆型",
+      "nameZhTW": "武略魔晶石肆型"
+    },
+    {
+      "id": 5673,
+      "nameEn": "Savage Aim Materia V",
+      "nameJa": "武略のマテリジャ",
+      "nameZhCN": "武略魔晶石伍型",
+      "nameZhTW": "武略魔晶石伍型"
+    },
+    {
+      "id": 5675,
+      "nameEn": "Savage Might Materia II",
+      "nameJa": "雄略のマテリラ",
+      "nameZhCN": "雄略魔晶石贰型",
+      "nameZhTW": "雄略魔晶石貳型"
+    },
+    {
+      "id": 5676,
+      "nameEn": "Savage Might Materia III",
+      "nameJa": "雄略のマテリダ",
+      "nameZhCN": "雄略魔晶石叁型",
+      "nameZhTW": "雄略魔晶石叄型"
+    },
+    {
+      "id": 5677,
+      "nameEn": "Savage Might Materia IV",
+      "nameJa": "雄略のマテリガ",
+      "nameZhCN": "雄略魔晶石肆型",
+      "nameZhTW": "雄略魔晶石肆型"
+    },
+    {
+      "id": 5678,
+      "nameEn": "Savage Might Materia V",
+      "nameJa": "雄略のマテリジャ",
+      "nameZhCN": "雄略魔晶石伍型",
+      "nameZhTW": "雄略魔晶石伍型"
+    },
+    {
+      "id": 5680,
+      "nameEn": "Battledance Materia II",
+      "nameJa": "剛柔のマテリラ",
+      "nameZhCN": "刚柔魔晶石贰型",
+      "nameZhTW": "剛柔魔晶石貳型"
+    },
+    {
+      "id": 5681,
+      "nameEn": "Battledance Materia III",
+      "nameJa": "剛柔のマテリダ",
+      "nameZhCN": "刚柔魔晶石叁型",
+      "nameZhTW": "剛柔魔晶石叄型"
+    },
+    {
+      "id": 5682,
+      "nameEn": "Battledance Materia IV",
+      "nameJa": "剛柔のマテリガ",
+      "nameZhCN": "刚柔魔晶石肆型",
+      "nameZhTW": "剛柔魔晶石肆型"
+    },
+    {
+      "id": 5683,
+      "nameEn": "Battledance Materia V",
+      "nameJa": "剛柔のマテリジャ",
+      "nameZhCN": "刚柔魔晶石伍型",
+      "nameZhTW": "剛柔魔晶石伍型"
+    },
+    {
+      "id": 5685,
+      "nameEn": "Gatherer's Guerdon Materia II",
+      "nameJa": "達識のマテリラ",
+      "nameZhCN": "达识魔晶石贰型",
+      "nameZhTW": "達識魔晶石貳型"
+    },
+    {
+      "id": 5686,
+      "nameEn": "Gatherer's Guerdon Materia III",
+      "nameJa": "達識のマテリダ",
+      "nameZhCN": "达识魔晶石叁型",
+      "nameZhTW": "達識魔晶石叄型"
+    },
+    {
+      "id": 5688,
+      "nameEn": "Gatherer's Guerdon Materia V",
+      "nameJa": "達識のマテリジャ",
+      "nameZhCN": "达识魔晶石伍型",
+      "nameZhTW": "達識魔晶石伍型"
+    },
+    {
+      "id": 5690,
+      "nameEn": "Gatherer's Guile Materia II",
+      "nameJa": "博識のマテリラ",
+      "nameZhCN": "博识魔晶石贰型",
+      "nameZhTW": "博識魔晶石貳型"
+    },
+    {
+      "id": 5691,
+      "nameEn": "Gatherer's Guile Materia III",
+      "nameJa": "博識のマテリダ",
+      "nameZhCN": "博识魔晶石叁型",
+      "nameZhTW": "博識魔晶石叄型"
+    },
+    {
+      "id": 5693,
+      "nameEn": "Gatherer's Guile Materia V",
+      "nameJa": "博識のマテリジャ",
+      "nameZhCN": "博识魔晶石伍型",
+      "nameZhTW": "博識魔晶石伍型"
+    },
+    {
+      "id": 5698,
+      "nameEn": "Gatherer's Grasp Materia V",
+      "nameJa": "器識のマテリジャ",
+      "nameZhCN": "器识魔晶石伍型",
+      "nameZhTW": "器識魔晶石伍型"
+    },
+    {
+      "id": 5700,
+      "nameEn": "Craftsman's Competence Materia II",
+      "nameJa": "名匠のマテリラ",
+      "nameZhCN": "名匠魔晶石贰型",
+      "nameZhTW": "名匠魔晶石貳型"
+    },
+    {
+      "id": 5701,
+      "nameEn": "Craftsman's Competence Materia III",
+      "nameJa": "名匠のマテリダ",
+      "nameZhCN": "名匠魔晶石叁型",
+      "nameZhTW": "名匠魔晶石叄型"
+    },
+    {
+      "id": 5703,
+      "nameEn": "Craftsman's Competence Materia V",
+      "nameJa": "名匠のマテリジャ",
+      "nameZhCN": "名匠魔晶石伍型",
+      "nameZhTW": "名匠魔晶石伍型"
+    },
+    {
+      "id": 5705,
+      "nameEn": "Craftsman's Cunning Materia II",
+      "nameJa": "魔匠のマテリラ",
+      "nameZhCN": "魔匠魔晶石贰型",
+      "nameZhTW": "魔匠魔晶石貳型"
+    },
+    {
+      "id": 5706,
+      "nameEn": "Craftsman's Cunning Materia III",
+      "nameJa": "魔匠のマテリダ",
+      "nameZhCN": "魔匠魔晶石叁型",
+      "nameZhTW": "魔匠魔晶石叄型"
+    },
+    {
+      "id": 5707,
+      "nameEn": "Craftsman's Cunning Materia IV",
+      "nameJa": "魔匠のマテリガ",
+      "nameZhCN": "魔匠魔晶石肆型",
+      "nameZhTW": "魔匠魔晶石肆型"
+    },
+    {
+      "id": 5708,
+      "nameEn": "Craftsman's Cunning Materia V",
+      "nameJa": "魔匠のマテリジャ",
+      "nameZhCN": "魔匠魔晶石伍型",
+      "nameZhTW": "魔匠魔晶石伍型"
+    },
+    {
+      "id": 5710,
+      "nameEn": "Craftsman's Command Materia II",
+      "nameJa": "巨匠のマテリラ",
+      "nameZhCN": "巨匠魔晶石贰型",
+      "nameZhTW": "巨匠魔晶石貳型"
+    },
+    {
+      "id": 5711,
+      "nameEn": "Craftsman's Command Materia III",
+      "nameJa": "巨匠のマテリダ",
+      "nameZhCN": "巨匠魔晶石叁型",
+      "nameZhTW": "巨匠魔晶石叄型"
+    },
+    {
+      "id": 5712,
+      "nameEn": "Craftsman's Command Materia IV",
+      "nameJa": "巨匠のマテリガ",
+      "nameZhCN": "巨匠魔晶石肆型",
+      "nameZhTW": "巨匠魔晶石肆型"
+    },
+    {
+      "id": 5713,
+      "nameEn": "Craftsman's Command Materia V",
+      "nameJa": "巨匠のマテリジャ",
+      "nameZhCN": "巨匠魔晶石伍型",
+      "nameZhTW": "巨匠魔晶石伍型"
+    },
+    {
+      "id": 5715,
+      "nameEn": "Quickarm Materia II",
+      "nameJa": "戦技のマテリラ",
+      "nameZhCN": "战技魔晶石贰型",
+      "nameZhTW": "戰技魔晶石貳型"
+    },
+    {
+      "id": 5716,
+      "nameEn": "Quickarm Materia III",
+      "nameJa": "戦技のマテリダ",
+      "nameZhCN": "战技魔晶石叁型",
+      "nameZhTW": "戰技魔晶石叄型"
+    },
+    {
+      "id": 5717,
+      "nameEn": "Quickarm Materia IV",
+      "nameJa": "戦技のマテリガ",
+      "nameZhCN": "战技魔晶石肆型",
+      "nameZhTW": "戰技魔晶石肆型"
+    },
+    {
+      "id": 5718,
+      "nameEn": "Quickarm Materia V",
+      "nameJa": "戦技のマテリジャ",
+      "nameZhCN": "战技魔晶石伍型",
+      "nameZhTW": "戰技魔晶石伍型"
+    },
+    {
+      "id": 5720,
+      "nameEn": "Quicktongue Materia II",
+      "nameJa": "詠唱のマテリラ",
+      "nameZhCN": "咏唱魔晶石贰型",
+      "nameZhTW": "詠唱魔晶石貳型"
+    },
+    {
+      "id": 5721,
+      "nameEn": "Quicktongue Materia III",
+      "nameJa": "詠唱のマテリダ",
+      "nameZhCN": "咏唱魔晶石叁型",
+      "nameZhTW": "詠唱魔晶石叄型"
+    },
+    {
+      "id": 5722,
+      "nameEn": "Quicktongue Materia IV",
+      "nameJa": "詠唱のマテリガ",
+      "nameZhCN": "咏唱魔晶石肆型",
+      "nameZhTW": "詠唱魔晶石肆型"
+    },
+    {
+      "id": 5723,
+      "nameEn": "Quicktongue Materia V",
+      "nameJa": "詠唱のマテリジャ",
+      "nameZhCN": "咏唱魔晶石伍型",
+      "nameZhTW": "詠唱魔晶石伍型"
+    },
+    {
+      "id": 7008,
+      "nameEn": "Granite",
+      "nameJa": "御影石",
+      "nameZhCN": "花岗岩",
+      "nameZhTW": "花崗岩"
+    },
+    {
+      "id": 7009,
+      "nameEn": "Cut Stone",
+      "nameJa": "切石",
+      "nameZhCN": "切石",
+      "nameZhTW": "切石"
+    },
+    {
+      "id": 7010,
+      "nameEn": "Marble",
+      "nameJa": "大理石",
+      "nameZhCN": "大理石",
+      "nameZhTW": "大理石"
+    },
+    {
+      "id": 7040,
+      "nameEn": "Belah'dian Glass",
+      "nameJa": "ベラフディアンガラス",
+      "nameZhCN": "贝拉哈迪亚玻璃",
+      "nameZhTW": "貝拉哈迪亞玻璃"
+    },
+    {
+      "id": 7047,
+      "nameEn": "Frosted Glass Lens",
+      "nameJa": "磨りガラス板",
+      "nameZhCN": "磨砂玻璃板",
+      "nameZhTW": "磨砂玻璃板"
+    },
+    {
+      "id": 7588,
+      "nameEn": "Ferberite",
+      "nameJa": "鉄重石",
+      "nameZhCN": "钨铁矿",
+      "nameZhTW": "鎢鐵礦"
+    },
+    {
+      "id": 7589,
+      "nameEn": "Native Gold",
+      "nameJa": "自然金",
+      "nameZhCN": "自然金",
+      "nameZhTW": "自然金"
+    },
+    {
+      "id": 7590,
+      "nameEn": "Scarlet Sap",
+      "nameJa": "緋樹液",
+      "nameZhCN": "绯红树汁",
+      "nameZhTW": "緋紅樹汁"
+    },
+    {
+      "id": 7621,
+      "nameEn": "Glamour Dispeller",
+      "nameJa": "ミラージュディスペラー",
+      "nameZhCN": "驱幻晶",
+      "nameZhTW": "驅幻晶"
+    },
+    {
+      "id": 7671,
+      "nameEn": "Clear Prism",
+      "nameJa": "クリアプリズム",
+      "nameZhCN": "纯净棱晶",
+      "nameZhTW": "純淨稜晶"
+    },
+    {
+      "id": 8028,
+      "nameEn": "Polarized Glass",
+      "nameJa": "偏光ガラス板",
+      "nameZhCN": "偏光玻璃板",
+      "nameZhTW": "偏光玻璃板"
+    },
+    {
+      "id": 9360,
+      "nameEn": "Platinum Ingot",
+      "nameJa": "プラチナインゴット",
+      "nameZhCN": "白金锭",
+      "nameZhTW": "白金錠"
+    },
+    {
+      "id": 9733,
+      "nameEn": "Dead Man's Chest",
+      "nameJa": "デッドマンズチェスト",
+      "nameZhCN": "聚灵棺",
+      "nameZhTW": "聚靈棺"
+    },
+    {
+      "id": 10099,
+      "nameEn": "Unaspected Crystal",
+      "nameJa": "無属性クリスタル",
+      "nameZhCN": "无属性水晶",
+      "nameZhTW": "無屬性水晶"
+    },
+    {
+      "id": 10335,
+      "nameEn": "Dark Matter Cluster",
+      "nameJa": "ダークマタークラスター",
+      "nameZhCN": "暗物质晶簇",
+      "nameZhTW": "暗物質晶簇"
+    },
+    {
+      "id": 10386,
+      "nameEn": "Grade 6 Dark Matter",
+      "nameJa": "ダークマターG6",
+      "nameZhCN": "6级暗物质",
+      "nameZhTW": "6級暗物質"
+    },
+    {
+      "id": 12220,
+      "nameEn": "Red Moko Grass",
+      "nameJa": "赤モコ草",
+      "nameZhCN": "红莫柯草",
+      "nameZhTW": "紅莫柯草"
+    },
+    {
+      "id": 12221,
+      "nameEn": "Cassia Log",
+      "nameJa": "鉄刀木",
+      "nameZhCN": "铁刀木",
+      "nameZhTW": "鐵刀木"
+    },
+    {
+      "id": 12222,
+      "nameEn": "Chemically Treated Chimera Hide",
+      "nameJa": "強化キメラ生物の粗皮",
+      "nameZhCN": "合成生物的粗皮",
+      "nameZhTW": "合成生物的粗皮"
+    },
+    {
+      "id": 12223,
+      "nameEn": "Raw Celestine",
+      "nameJa": "天青石",
+      "nameZhCN": "苍天石原石",
+      "nameZhTW": "蒼天石原石"
+    },
+    {
+      "id": 12224,
+      "nameEn": "Vivianite",
+      "nameJa": "藍鉄鉱",
+      "nameZhCN": "蓝铁矿",
+      "nameZhTW": "藍鐵礦"
+    },
+    {
+      "id": 12225,
+      "nameEn": "Deep-red Crystal",
+      "nameJa": "深緋のクリスタル",
+      "nameZhCN": "深红水晶",
+      "nameZhTW": "深紅水晶"
+    },
+    {
+      "id": 12226,
+      "nameEn": "Deep-red Cluster",
+      "nameJa": "深緋のクラスター",
+      "nameZhCN": "深红晶簇",
+      "nameZhTW": "深紅晶簇"
+    },
+    {
+      "id": 12227,
+      "nameEn": "Deep-green Crystal",
+      "nameJa": "翠緑のクリスタル",
+      "nameZhCN": "深绿水晶",
+      "nameZhTW": "深綠水晶"
+    },
+    {
+      "id": 12228,
+      "nameEn": "Deep-green Cluster",
+      "nameJa": "翠緑のクラスター",
+      "nameZhCN": "深绿晶簇",
+      "nameZhTW": "深綠晶簇"
+    },
+    {
+      "id": 12229,
+      "nameEn": "Deep-blue Crystal",
+      "nameJa": "紺碧のクリスタル",
+      "nameZhCN": "深蓝水晶",
+      "nameZhTW": "深藍水晶"
+    },
+    {
+      "id": 12230,
+      "nameEn": "Deep-blue Cluster",
+      "nameJa": "紺碧のクラスター",
+      "nameZhCN": "深蓝晶簇",
+      "nameZhTW": "深藍晶簇"
+    },
+    {
+      "id": 12520,
+      "nameEn": "Hardsilver Nugget",
+      "nameJa": "ハードシルバーナゲット",
+      "nameZhCN": "硬银块",
+      "nameZhTW": "硬銀塊"
+    },
+    {
+      "id": 12531,
+      "nameEn": "Mythrite Sand",
+      "nameJa": "精霊銀砂",
+      "nameZhCN": "灵银沙",
+      "nameZhTW": "靈銀沙"
+    },
+    {
+      "id": 12532,
+      "nameEn": "Hardsilver Sand",
+      "nameJa": "硬銀砂",
+      "nameZhCN": "硬银沙",
+      "nameZhTW": "硬銀沙"
+    },
+    {
+      "id": 12533,
+      "nameEn": "Aurum Regis Sand",
+      "nameJa": "皇金砂",
+      "nameZhCN": "皇金沙",
+      "nameZhTW": "皇金沙"
+    },
+    {
+      "id": 12534,
+      "nameEn": "Mythrite Ore",
+      "nameJa": "精霊銀鉱",
+      "nameZhCN": "灵银矿",
+      "nameZhTW": "靈銀礦"
+    },
+    {
+      "id": 12537,
+      "nameEn": "Titanium Ore",
+      "nameJa": "チタン鉱",
+      "nameZhCN": "白钛矿",
+      "nameZhTW": "白鈦礦"
+    },
+    {
+      "id": 12538,
+      "nameEn": "Adamantite Ore",
+      "nameJa": "アダマン鉱",
+      "nameZhCN": "精金矿",
+      "nameZhTW": "精金礦"
+    },
+    {
+      "id": 12539,
+      "nameEn": "Cloud Mica",
+      "nameJa": "白雲母",
+      "nameZhCN": "白云母",
+      "nameZhTW": "白雲母"
+    },
+    {
+      "id": 12544,
+      "nameEn": "Star Ruby",
+      "nameJa": "スタールビー",
+      "nameZhCN": "星红石",
+      "nameZhTW": "星紅石"
+    },
+    {
+      "id": 12545,
+      "nameEn": "Star Sapphire",
+      "nameJa": "スターサファイア",
+      "nameZhCN": "星蓝石",
+      "nameZhTW": "星藍石"
+    },
+    {
+      "id": 12551,
+      "nameEn": "Raw Larimar",
+      "nameJa": "ラリマール原石",
+      "nameZhCN": "水淙石原石",
+      "nameZhTW": "水淙石原石"
+    },
+    {
+      "id": 12578,
+      "nameEn": "Dark Chestnut Log",
+      "nameJa": "ダークチェスナット原木",
+      "nameZhCN": "暗栗木原木",
+      "nameZhTW": "暗慄木原木"
+    },
+    {
+      "id": 12579,
+      "nameEn": "Birch Log",
+      "nameJa": "バーチ原木",
+      "nameZhCN": "桦木原木",
+      "nameZhTW": "樺木原木"
+    },
+    {
+      "id": 12585,
+      "nameEn": "Dark Chestnut Branch",
+      "nameJa": "ダークチェスナットの枝",
+      "nameZhCN": "暗栗树枝",
+      "nameZhTW": "暗慄樹枝"
+    },
+    {
+      "id": 12586,
+      "nameEn": "Birch Branch",
+      "nameJa": "バーチの枝",
+      "nameZhCN": "桦树枝",
+      "nameZhTW": "樺樹枝"
+    },
+    {
+      "id": 12606,
+      "nameEn": "Astral Oil",
+      "nameJa": "アストラルオイル",
+      "nameZhCN": "星极油",
+      "nameZhTW": "星極油"
+    },
+    {
+      "id": 12610,
+      "nameEn": "Crystal Glass",
+      "nameJa": "クリスタルガラス",
+      "nameZhCN": "水晶板",
+      "nameZhTW": "水晶板"
+    },
+    {
+      "id": 12657,
+      "nameEn": "Magnanimous Mogcrown",
+      "nameJa": "モーグリの王冠",
+      "nameZhCN": "莫古力的王冠",
+      "nameZhTW": "莫古力的王冠"
+    },
+    {
+      "id": 12920,
+      "nameEn": "Red Clay",
+      "nameJa": "天然粘土",
+      "nameZhCN": "天然黏土",
+      "nameZhTW": "天然黏土"
+    },
+    {
+      "id": 12921,
+      "nameEn": "Black Clay",
+      "nameJa": "石粉粘土",
+      "nameZhCN": "石粉黏土",
+      "nameZhTW": "石粉黏土"
+    },
+    {
+      "id": 12922,
+      "nameEn": "Synthetic Resin",
+      "nameJa": "錬金樹脂",
+      "nameZhCN": "炼金树脂",
+      "nameZhTW": "鍊金樹脂"
+    },
+    {
+      "id": 12923,
+      "nameEn": "Bamboo Weave",
+      "nameJa": "バンブーストリップ",
+      "nameZhCN": "竹片",
+      "nameZhTW": "竹片"
+    },
+    {
+      "id": 12924,
+      "nameEn": "Balsa Wood Scrap",
+      "nameJa": "バルサ廃材",
+      "nameZhCN": "轻木废材",
+      "nameZhTW": "輕木廢材"
+    },
+    {
+      "id": 12925,
+      "nameEn": "Balsa Wood Lumber",
+      "nameJa": "バルサ材",
+      "nameZhCN": "轻木木材",
+      "nameZhTW": "輕木木材"
+    },
+    {
+      "id": 12926,
+      "nameEn": "Synthetic Fiber",
+      "nameJa": "錬金繊維",
+      "nameZhCN": "炼金纤维",
+      "nameZhTW": "鍊金纖維"
+    },
+    {
+      "id": 12927,
+      "nameEn": "Aetherochemical Fiber",
+      "nameJa": "魔科学繊維",
+      "nameZhCN": "魔科学纤维",
+      "nameZhTW": "魔科學纖維"
+    },
+    {
+      "id": 12928,
+      "nameEn": "Empty Crystal",
+      "nameJa": "鈍色のクリスタル",
+      "nameZhCN": "深色水晶",
+      "nameZhTW": "深色水晶"
+    },
+    {
+      "id": 12929,
+      "nameEn": "Empty Cluster",
+      "nameJa": "鈍色のクラスター",
+      "nameZhCN": "深色晶簇",
+      "nameZhTW": "深色晶簇"
+    },
+    {
+      "id": 14151,
+      "nameEn": "Smithsonite Ore",
+      "nameJa": "菱亜鉛鉱",
+      "nameZhCN": "菱锌矿",
+      "nameZhTW": "菱鋅礦"
+    },
+    {
+      "id": 14934,
+      "nameEn": "Dinosaur Fossil",
+      "nameJa": "古代獣の化石片",
+      "nameZhCN": "古代野兽的化石片",
+      "nameZhTW": "古代野獸的化石片"
+    },
+    {
+      "id": 14955,
+      "nameEn": "Lumythrite Sand",
+      "nameJa": "光霊銀砂",
+      "nameZhCN": "光银沙",
+      "nameZhTW": "光銀沙"
+    },
+    {
+      "id": 14957,
+      "nameEn": "Old-growth Camphorwood Log",
+      "nameJa": "カンファー古木",
+      "nameZhCN": "樟木古树",
+      "nameZhTW": "樟木古樹"
+    },
+    {
+      "id": 15976,
+      "nameEn": "Combed Wool Rug",
+      "nameJa": "コームドウールラグ",
+      "nameZhCN": "精梳毛布地毯",
+      "nameZhTW": "精梳毛布地毯"
+    },
+    {
+      "id": 16706,
+      "nameEn": "Scintillant Ingot",
+      "nameJa": "シンチレーターインゴット",
+      "nameZhCN": "闪烁锭",
+      "nameZhTW": "閃爍錠"
+    },
+    {
+      "id": 16725,
+      "nameEn": "Luminium Ore",
+      "nameJa": "輝金鉱",
+      "nameZhCN": "辉金矿",
+      "nameZhTW": "輝金礦"
+    },
+    {
+      "id": 16906,
+      "nameEn": "Wool Top",
+      "nameJa": "コームドウール",
+      "nameZhCN": "精梳毛布",
+      "nameZhTW": "精梳毛布"
+    },
+    {
+      "id": 16908,
+      "nameEn": "Tempered Glass",
+      "nameJa": "強化ガラス板",
+      "nameZhCN": "强化玻璃板",
+      "nameZhTW": "強化玻璃板"
+    },
+    {
+      "id": 17019,
+      "nameEn": "Plundered Treasure",
+      "nameJa": "レプリカトレジャー",
+      "nameZhCN": "仿制财宝",
+      "nameZhTW": "仿製財寶"
+    },
+    {
+      "id": 17837,
+      "nameEn": "Grade 7 Dark Matter",
+      "nameJa": "ダークマターG7",
+      "nameZhCN": "7级暗物质",
+      "nameZhTW": "7級暗物質"
+    },
+    {
+      "id": 18011,
+      "nameEn": "Piety Materia VI",
+      "nameJa": "信力のハイマテリジャ",
+      "nameZhCN": "信力魔晶石陆型",
+      "nameZhTW": "信力魔晶石陸型"
+    },
+    {
+      "id": 18018,
+      "nameEn": "Heavens' Eye Materia VI",
+      "nameJa": "天眼のハイマテリジャ",
+      "nameZhCN": "神眼魔晶石陆型",
+      "nameZhTW": "神眼魔晶石陸型"
+    },
+    {
+      "id": 18019,
+      "nameEn": "Savage Aim Materia VI",
+      "nameJa": "武略のハイマテリジャ",
+      "nameZhCN": "武略魔晶石陆型",
+      "nameZhTW": "武略魔晶石陸型"
+    },
+    {
+      "id": 18020,
+      "nameEn": "Savage Might Materia VI",
+      "nameJa": "雄略のハイマテリジャ",
+      "nameZhCN": "雄略魔晶石陆型",
+      "nameZhTW": "雄略魔晶石陸型"
+    },
+    {
+      "id": 18021,
+      "nameEn": "Battledance Materia VI",
+      "nameJa": "剛柔のハイマテリジャ",
+      "nameZhCN": "刚柔魔晶石陆型",
+      "nameZhTW": "剛柔魔晶石陸型"
+    },
+    {
+      "id": 18022,
+      "nameEn": "Gatherer's Guerdon Materia VI",
+      "nameJa": "達識のハイマテリジャ",
+      "nameZhCN": "达识魔晶石陆型",
+      "nameZhTW": "達識魔晶石陸型"
+    },
+    {
+      "id": 18023,
+      "nameEn": "Gatherer's Guile Materia VI",
+      "nameJa": "博識のハイマテリジャ",
+      "nameZhCN": "博识魔晶石陆型",
+      "nameZhTW": "博識魔晶石陸型"
+    },
+    {
+      "id": 18024,
+      "nameEn": "Gatherer's Grasp Materia VI",
+      "nameJa": "器識のハイマテリジャ",
+      "nameZhCN": "器识魔晶石陆型",
+      "nameZhTW": "器識魔晶石陸型"
+    },
+    {
+      "id": 18025,
+      "nameEn": "Craftsman's Competence Materia VI",
+      "nameJa": "名匠のハイマテリジャ",
+      "nameZhCN": "名匠魔晶石陆型",
+      "nameZhTW": "名匠魔晶石陸型"
+    },
+    {
+      "id": 18026,
+      "nameEn": "Craftsman's Cunning Materia VI",
+      "nameJa": "魔匠のハイマテリジャ",
+      "nameZhCN": "魔匠魔晶石陆型",
+      "nameZhTW": "魔匠魔晶石陸型"
+    },
+    {
+      "id": 18027,
+      "nameEn": "Craftsman's Command Materia VI",
+      "nameJa": "巨匠のハイマテリジャ",
+      "nameZhCN": "巨匠魔晶石陆型",
+      "nameZhTW": "巨匠魔晶石陸型"
+    },
+    {
+      "id": 18028,
+      "nameEn": "Quickarm Materia VI",
+      "nameJa": "戦技のハイマテリジャ",
+      "nameZhCN": "战技魔晶石陆型",
+      "nameZhTW": "戰技魔晶石陸型"
+    },
+    {
+      "id": 18029,
+      "nameEn": "Quicktongue Materia VI",
+      "nameJa": "詠唱のハイマテリジャ",
+      "nameZhCN": "咏唱魔晶石陆型",
+      "nameZhTW": "詠唱魔晶石陸型"
+    },
+    {
+      "id": 19930,
+      "nameEn": "Beech Log",
+      "nameJa": "ビーチ原木",
+      "nameZhCN": "山毛榉原木",
+      "nameZhTW": "山毛櫸原木"
+    },
+    {
+      "id": 19932,
+      "nameEn": "Persimmon Log",
+      "nameJa": "パーシモン原木",
+      "nameZhCN": "柿木原木",
+      "nameZhTW": "柿木原木"
+    },
+    {
+      "id": 19933,
+      "nameEn": "Zelkova Log",
+      "nameJa": "ゼルコバ原木",
+      "nameZhCN": "榉木原木",
+      "nameZhTW": "櫸木原木"
+    },
+    {
+      "id": 19934,
+      "nameEn": "Torreya Log",
+      "nameJa": "トレヤ原木",
+      "nameZhCN": "榧木原木",
+      "nameZhTW": "榧木原木"
+    },
+    {
+      "id": 19938,
+      "nameEn": "Koppranickel Nugget",
+      "nameJa": "キュプロナゲット",
+      "nameZhCN": "白铜块",
+      "nameZhTW": "白銅塊"
+    },
+    {
+      "id": 19952,
+      "nameEn": "Durium Sand",
+      "nameJa": "翠銀砂",
+      "nameZhCN": "翠银沙",
+      "nameZhTW": "翠銀沙"
+    },
+    {
+      "id": 19953,
+      "nameEn": "Doman Iron Ore",
+      "nameJa": "餅鉄",
+      "nameZhCN": "饼铁矿",
+      "nameZhTW": "餅鐵礦"
+    },
+    {
+      "id": 19956,
+      "nameEn": "Palladium Sand",
+      "nameJa": "清金砂",
+      "nameZhCN": "钯金沙",
+      "nameZhTW": "鈀金沙"
+    },
+    {
+      "id": 19957,
+      "nameEn": "Molybdenum Ore",
+      "nameJa": "輝水鉛鉱",
+      "nameZhCN": "辉钼矿",
+      "nameZhTW": "輝鉬礦"
+    },
+    {
+      "id": 19962,
+      "nameEn": "Triphane",
+      "nameJa": "トリフェーン",
+      "nameZhCN": "锂辉石",
+      "nameZhTW": "鋰輝石"
+    },
+    {
+      "id": 19964,
+      "nameEn": "Star Spinel",
+      "nameJa": "スタースピネル",
+      "nameZhCN": "星尖石",
+      "nameZhTW": "星尖石"
+    },
+    {
+      "id": 19967,
+      "nameEn": "Rhodonite",
+      "nameJa": "ロードナイト",
+      "nameZhCN": "蔷薇辉石",
+      "nameZhTW": "薔薇輝石"
+    },
+    {
+      "id": 19980,
+      "nameEn": "Kudzu Cloth",
+      "nameJa": "葛布",
+      "nameZhCN": "葛布",
+      "nameZhTW": "葛布"
+    },
+    {
+      "id": 20013,
+      "nameEn": "Dusklight Aethersand",
+      "nameJa": "夜光の霊砂",
+      "nameZhCN": "夜光灵砂",
+      "nameZhTW": "夜光靈砂"
+    },
+    {
+      "id": 20014,
+      "nameEn": "Dawnlight Aethersand",
+      "nameJa": "極光の霊砂",
+      "nameZhCN": "极光灵砂",
+      "nameZhTW": "極光靈砂"
+    },
+    {
+      "id": 20270,
+      "nameEn": "Nagxian Silk",
+      "nameJa": "ナグサ薄絹",
+      "nameZhCN": "纳夏薄绢",
+      "nameZhTW": "納夏薄絹"
+    },
+    {
+      "id": 20791,
+      "nameEn": "Cloudsbreath",
+      "nameJa": "ウキグモソウ",
+      "nameZhCN": "白云花",
+      "nameZhTW": "白雲花"
+    },
+    {
+      "id": 21800,
+      "nameEn": "Glamour Prism",
+      "nameJa": "ミラージュプリズム",
+      "nameZhCN": "幻象棱晶",
+      "nameZhTW": "幻象稜晶"
+    },
+    {
+      "id": 21921,
+      "nameEn": "Aurelia Polyp",
+      "nameJa": "舞海月",
+      "nameZhCN": "舞海月",
+      "nameZhTW": "舞海月"
+    },
+    {
+      "id": 22441,
+      "nameEn": "Crimson Coral",
+      "nameJa": "紅蓮珊瑚",
+      "nameZhCN": "红莲珊瑚",
+      "nameZhTW": "紅蓮珊瑚"
+    },
+    {
+      "id": 22442,
+      "nameEn": "Colossus Slab",
+      "nameJa": "巨像の欠片",
+      "nameZhCN": "石像的碎片",
+      "nameZhTW": "石像的碎片"
+    },
+    {
+      "id": 22500,
+      "nameEn": "Salvaged Ring",
+      "nameJa": "沈没船の指輪",
+      "nameZhCN": "沉船戒指",
+      "nameZhTW": "沉船戒指"
+    },
+    {
+      "id": 22501,
+      "nameEn": "Salvaged Bracelet",
+      "nameJa": "沈没船の腕輪",
+      "nameZhCN": "沉船手镯",
+      "nameZhTW": "沉船手鐲"
+    },
+    {
+      "id": 22502,
+      "nameEn": "Salvaged Earring",
+      "nameJa": "沈没船の耳飾り",
+      "nameZhCN": "沉船耳饰",
+      "nameZhTW": "沉船耳飾"
+    },
+    {
+      "id": 22503,
+      "nameEn": "Salvaged Necklace",
+      "nameJa": "沈没船の首飾り",
+      "nameZhCN": "沉船项链",
+      "nameZhTW": "沉船項鍊"
+    },
+    {
+      "id": 22504,
+      "nameEn": "Extravagant Salvaged Ring",
+      "nameJa": "沈没船の高級指輪",
+      "nameZhCN": "上等沉船戒指",
+      "nameZhTW": "上等沉船戒指"
+    },
+    {
+      "id": 22505,
+      "nameEn": "Extravagant Salvaged Bracelet",
+      "nameJa": "沈没船の高級腕輪",
+      "nameZhCN": "上等沉船手镯",
+      "nameZhTW": "上等沉船手鐲"
+    },
+    {
+      "id": 22506,
+      "nameEn": "Extravagant Salvaged Earring",
+      "nameJa": "沈没船の高級耳飾り",
+      "nameZhCN": "上等沉船耳饰",
+      "nameZhTW": "上等沉船耳飾"
+    },
+    {
+      "id": 22507,
+      "nameEn": "Extravagant Salvaged Necklace",
+      "nameJa": "沈没船の高級首飾り",
+      "nameZhCN": "上等沉船项链",
+      "nameZhTW": "上等沉船項鍊"
+    },
+    {
+      "id": 23222,
+      "nameEn": "Marine Wax Ester",
+      "nameJa": "海産油脂",
+      "nameZhCN": "海产油脂",
+      "nameZhTW": "海產油脂"
+    },
+    {
+      "id": 23337,
+      "nameEn": "Faded Copy of Ambient Abyss",
+      "nameJa": "古びた譜面:海中の音",
+      "nameZhCN": "陈旧的乐谱：海中",
+      "nameZhTW": "陳舊的樂譜：海中"
+    },
+    {
+      "id": 23875,
+      "nameEn": "Crystal Boule",
+      "nameJa": "天然水晶",
+      "nameZhCN": "天然水晶",
+      "nameZhTW": "天然水晶"
+    },
+    {
+      "id": 24490,
+      "nameEn": "Emerald Crystal Boule",
+      "nameJa": "天然緑水晶",
+      "nameZhCN": "天然绿水晶",
+      "nameZhTW": "天然綠水晶"
+    },
+    {
+      "id": 24503,
+      "nameEn": "Undersea Spoils",
+      "nameJa": "海底の財宝",
+      "nameZhCN": "海底的财宝",
+      "nameZhTW": "海底的財寶"
+    },
+    {
+      "id": 24505,
+      "nameEn": "Cerulean Crystal Boule",
+      "nameJa": "天然青水晶",
+      "nameZhCN": "天然青水晶",
+      "nameZhTW": "天然青水晶"
+    },
+    {
+      "id": 24902,
+      "nameEn": "Abroader Otter",
+      "nameJa": "アロハウソウソ",
+      "nameZhCN": "南方度假獭獭",
+      "nameZhTW": "南方度假獺獺"
+    },
+    {
+      "id": 24908,
+      "nameEn": "Salvaged Coinage",
+      "nameJa": "引き上げられた古銭",
+      "nameZhCN": "打捞上来的古钱",
+      "nameZhTW": "打撈上來的古錢"
+    },
+    {
+      "id": 25008,
+      "nameEn": "Kamacite Ore",
+      "nameJa": "カマサイト鉱石",
+      "nameZhCN": "铁纹矿石",
+      "nameZhTW": "鐵紋礦石"
+    },
+    {
+      "id": 25186,
+      "nameEn": "Piety Materia VII",
+      "nameJa": "信力のメガマテリジャ",
+      "nameZhCN": "信力魔晶石柒型",
+      "nameZhTW": "信力魔晶石柒型"
+    },
+    {
+      "id": 25187,
+      "nameEn": "Heavens' Eye Materia VII",
+      "nameJa": "天眼のメガマテリジャ",
+      "nameZhCN": "神眼魔晶石柒型",
+      "nameZhTW": "神眼魔晶石柒型"
+    },
+    {
+      "id": 25188,
+      "nameEn": "Savage Aim Materia VII",
+      "nameJa": "武略のメガマテリジャ",
+      "nameZhCN": "武略魔晶石柒型",
+      "nameZhTW": "武略魔晶石柒型"
+    },
+    {
+      "id": 25189,
+      "nameEn": "Savage Might Materia VII",
+      "nameJa": "雄略のメガマテリジャ",
+      "nameZhCN": "雄略魔晶石柒型",
+      "nameZhTW": "雄略魔晶石柒型"
+    },
+    {
+      "id": 25190,
+      "nameEn": "Battledance Materia VII",
+      "nameJa": "剛柔のメガマテリジャ",
+      "nameZhCN": "刚柔魔晶石柒型",
+      "nameZhTW": "剛柔魔晶石柒型"
+    },
+    {
+      "id": 25197,
+      "nameEn": "Quickarm Materia VII",
+      "nameJa": "戦技のメガマテリジャ",
+      "nameZhCN": "战技魔晶石柒型",
+      "nameZhTW": "戰技魔晶石柒型"
+    },
+    {
+      "id": 25198,
+      "nameEn": "Quicktongue Materia VII",
+      "nameJa": "詠唱のメガマテリジャ",
+      "nameZhCN": "咏唱魔晶石柒型",
+      "nameZhTW": "詠唱魔晶石柒型"
+    },
+    {
+      "id": 26528,
+      "nameEn": "Cocobolo Lumber",
+      "nameJa": "ココボロ材",
+      "nameZhCN": "黄檀木材",
+      "nameZhTW": "黃檀木材"
+    },
+    {
+      "id": 26529,
+      "nameEn": "Cryptomeria Log",
+      "nameJa": "クリプトメリア原木",
+      "nameZhCN": "柳杉原木",
+      "nameZhTW": "柳杉原木"
+    },
+    {
+      "id": 26531,
+      "nameEn": "Pure Titanium Ore",
+      "nameJa": "ピュアチタン鉱",
+      "nameZhCN": "纯钛矿",
+      "nameZhTW": "純鈦礦"
+    },
+    {
+      "id": 26802,
+      "nameEn": "Sharksucker-class Insubmersible",
+      "nameJa": "コバンザメ級潜水艦",
+      "nameZhCN": "鮣鱼级潜水艇",
+      "nameZhTW": "鮣魚級潛水艇"
+    },
+    {
+      "id": 27287,
+      "nameEn": "Ruby Crystal Boule",
+      "nameJa": "天然赤水晶",
+      "nameZhCN": "天然赤水晶",
+      "nameZhTW": "天然赤水晶"
+    },
+    {
+      "id": 27293,
+      "nameEn": "Antique Vessels",
+      "nameJa": "アンティークポットセット",
+      "nameZhCN": "古董瓶",
+      "nameZhTW": "古董瓶"
+    },
+    {
+      "id": 27683,
+      "nameEn": "White Oak Log",
+      "nameJa": "ホワイトオーク原木",
+      "nameZhCN": "白橡木原木",
+      "nameZhTW": "白橡木原木"
+    },
+    {
+      "id": 27684,
+      "nameEn": "Miracle Apple Log",
+      "nameJa": "ミラクルアップル原木",
+      "nameZhCN": "仙果木原木",
+      "nameZhTW": "仙果木原木"
+    },
+    {
+      "id": 27685,
+      "nameEn": "White Ash Log",
+      "nameJa": "ホワイトアッシュ原木",
+      "nameZhCN": "白梣木原木",
+      "nameZhTW": "白梣木原木"
+    },
+    {
+      "id": 27686,
+      "nameEn": "Sandteak Log",
+      "nameJa": "サンドチーク原木",
+      "nameZhCN": "沙柚木原木",
+      "nameZhTW": "沙柚木原木"
+    },
+    {
+      "id": 27687,
+      "nameEn": "Lignum Vitae Log",
+      "nameJa": "リグナムバイタ原木",
+      "nameZhCN": "愈疮木原木",
+      "nameZhTW": "愈瘡木原木"
+    },
+    {
+      "id": 27696,
+      "nameEn": "Truegold Sand",
+      "nameJa": "硬金砂",
+      "nameZhCN": "硬金沙",
+      "nameZhTW": "硬金沙"
+    },
+    {
+      "id": 27697,
+      "nameEn": "Truegold Ore",
+      "nameJa": "硬金鉱",
+      "nameZhCN": "硬金矿",
+      "nameZhTW": "硬金礦"
+    },
+    {
+      "id": 27698,
+      "nameEn": "Bluespirit Ore",
+      "nameJa": "霊青岩",
+      "nameZhCN": "灵青岩",
+      "nameZhTW": "靈青巖"
+    },
+    {
+      "id": 27699,
+      "nameEn": "Manasilver Sand",
+      "nameJa": "魔銀砂",
+      "nameZhCN": "魔银沙",
+      "nameZhTW": "魔銀沙"
+    },
+    {
+      "id": 27700,
+      "nameEn": "Titancopper Sand",
+      "nameJa": "賢銅砂",
+      "nameZhCN": "钛铜沙",
+      "nameZhTW": "鈦銅沙"
+    },
+    {
+      "id": 27701,
+      "nameEn": "Titancopper Ore",
+      "nameJa": "賢銅鉱",
+      "nameZhCN": "钛铜矿",
+      "nameZhTW": "鈦銅礦"
+    },
+    {
+      "id": 27702,
+      "nameEn": "Dimythrite Sand",
+      "nameJa": "闇霊銀砂",
+      "nameZhCN": "暗银沙",
+      "nameZhTW": "暗銀沙"
+    },
+    {
+      "id": 27703,
+      "nameEn": "Dimythrite Ore",
+      "nameJa": "闇霊銀鉱",
+      "nameZhCN": "暗银矿",
+      "nameZhTW": "暗銀礦"
+    },
+    {
+      "id": 27708,
+      "nameEn": "Deepgold Ingot",
+      "nameJa": "ディープゴールドインゴット",
+      "nameZhCN": "深金锭",
+      "nameZhTW": "深金錠"
+    },
+    {
+      "id": 27709,
+      "nameEn": "Stonegold Ingot",
+      "nameJa": "ストーンゴールドインゴット",
+      "nameZhCN": "石金锭",
+      "nameZhTW": "石金錠"
+    },
+    {
+      "id": 27736,
+      "nameEn": "Sea Swallow Skin",
+      "nameJa": "シースワローの粗皮",
+      "nameZhCN": "海燕的粗皮",
+      "nameZhTW": "海燕的粗皮"
+    },
+    {
+      "id": 27753,
+      "nameEn": "Pixie Floss Boll",
+      "nameJa": "妖綿花",
+      "nameZhCN": "仙子棉",
+      "nameZhTW": "仙子棉"
+    },
+    {
+      "id": 27759,
+      "nameEn": "Dwarven Cotton Boll",
+      "nameJa": "ドワーフ綿花",
+      "nameZhCN": "矮人棉",
+      "nameZhTW": "矮人棉"
+    },
+    {
+      "id": 27773,
+      "nameEn": "Vampire Cup Vine",
+      "nameJa": "ヴァンパイアカップのつる",
+      "nameZhCN": "吸血草杯的卷须",
+      "nameZhTW": "吸血草杯的卷鬚"
+    },
+    {
+      "id": 27774,
+      "nameEn": "Vampire Vine Sap",
+      "nameJa": "ヴァンパイアヴァインの樹液",
+      "nameZhCN": "吸血藤的树汁",
+      "nameZhTW": "吸血藤的樹汁"
+    },
+    {
+      "id": 27801,
+      "nameEn": "Hard Mudstone",
+      "nameJa": "硬泥岩",
+      "nameZhCN": "硬泥岩",
+      "nameZhTW": "硬泥岩"
+    },
+    {
+      "id": 27803,
+      "nameEn": "Volcanic Tuff",
+      "nameJa": "凝灰岩",
+      "nameZhCN": "凝灰岩",
+      "nameZhTW": "凝灰岩"
+    },
+    {
+      "id": 27817,
+      "nameEn": "Yellow Alumen",
+      "nameJa": "イエローアルメン",
+      "nameZhCN": "黄明矾",
+      "nameZhTW": "黃明礬"
+    },
+    {
+      "id": 27995,
+      "nameEn": "Grade 2 Tincture of Strength",
+      "nameJa": "剛力の幻薬G2",
+      "nameZhCN": "2级刚力之幻药",
+      "nameZhTW": "2級剛力之幻藥"
+    },
+    {
+      "id": 27996,
+      "nameEn": "Grade 2 Tincture of Dexterity",
+      "nameJa": "眼力の幻薬G2",
+      "nameZhCN": "2级巧力之幻药",
+      "nameZhTW": "2級巧力之幻藥"
+    },
+    {
+      "id": 27998,
+      "nameEn": "Grade 2 Tincture of Intelligence",
+      "nameJa": "知力の幻薬G2",
+      "nameZhCN": "2级智力之幻药",
+      "nameZhTW": "2級智力之幻藥"
+    },
+    {
+      "id": 28136,
+      "nameEn": "Golden Ewer",
+      "nameJa": "黄金の水瓶",
+      "nameZhCN": "黄金水瓶",
+      "nameZhTW": "黃金水瓶"
+    },
+    {
+      "id": 28621,
+      "nameEn": "Meerkat",
+      "nameJa": "ミーアキャット",
+      "nameZhCN": "狐獴",
+      "nameZhTW": "狐獴"
+    },
+    {
+      "id": 28980,
+      "nameEn": "Golden Crystal Boule",
+      "nameJa": "天然黄水晶",
+      "nameZhCN": "天然黄水晶",
+      "nameZhTW": "天然黃水晶"
+    },
+    {
+      "id": 29590,
+      "nameEn": "Pelagic Clay",
+      "nameJa": "海底粘土",
+      "nameZhCN": "海底黏土",
+      "nameZhTW": "海底黏土"
+    },
+    {
+      "id": 30034,
+      "nameEn": "Sintered Whetstone",
+      "nameJa": "焼結砥石",
+      "nameZhCN": "烧结磨刀石",
+      "nameZhTW": "燒結磨刀石"
+    },
+    {
+      "id": 30093,
+      "nameEn": "Silver Dasher",
+      "nameJa": "シマエナガ",
+      "nameZhCN": "银山雀儿",
+      "nameZhTW": "銀山雀兒"
+    },
+    {
+      "id": 30386,
+      "nameEn": "Gemseeker's Pack",
+      "nameJa": "結晶掘りの鞄",
+      "nameZhCN": "装有结晶的背包",
+      "nameZhTW": "裝有結晶的揹包"
+    },
+    {
+      "id": 31322,
+      "nameEn": "Plum Paper Parasol",
+      "nameJa": "紫漆塗番傘",
+      "nameZhCN": "紫漆油纸伞",
+      "nameZhTW": "紫漆油紙傘"
+    },
+    {
+      "id": 31671,
+      "nameEn": "Hard to Miss Orchestrion Roll",
+      "nameJa": "オーケストリオン譜:宿命",
+      "nameZhCN": "管弦乐琴乐谱：宿命",
+      "nameZhTW": "管絃樂琴樂譜：宿命"
+    },
+    {
+      "id": 32205,
+      "nameEn": "Tankard",
+      "nameJa": "タンカード",
+      "nameZhCN": "麦酒杯",
+      "nameZhTW": "麥酒杯"
+    },
+    {
+      "id": 32214,
+      "nameEn": "Antique Sink",
+      "nameJa": "アンティークシンク",
+      "nameZhCN": "仿古清洗台",
+      "nameZhTW": "仿古清洗臺"
+    },
+    {
+      "id": 32223,
+      "nameEn": "Royal Lion",
+      "nameJa": "ロイヤルライオン・スタチュー",
+      "nameZhCN": "皇家狮子雕像",
+      "nameZhTW": "皇家獅子雕像"
+    },
+    {
+      "id": 32248,
+      "nameEn": "Parkside Tree",
+      "nameJa": "パークサイドツリー",
+      "nameZhCN": "景观树",
+      "nameZhTW": "景觀樹"
+    },
+    {
+      "id": 32848,
+      "nameEn": "Syldrion-class Insubmersible",
+      "nameJa": "シルドラ級潜水艦P型",
+      "nameZhCN": "希尔德拉级潜水艇P型",
+      "nameZhTW": "希爾德拉級潛水艇P型"
+    },
+    {
+      "id": 33120,
+      "nameEn": "Nemesis Orchestrion Roll",
+      "nameJa": "オーケストリオン譜:ネメシス",
+      "nameZhCN": "管弦乐琴乐谱：复仇",
+      "nameZhTW": "管絃樂琴樂譜：復仇"
+    },
+    {
+      "id": 33287,
+      "nameEn": "Portrait of Gestahl",
+      "nameJa": "ガストラの肖像画",
+      "nameZhCN": "格斯塔拉的肖像画",
+      "nameZhTW": "格斯塔拉的肖像畫"
+    },
+    {
+      "id": 33695,
+      "nameEn": "Benben Stone",
+      "nameJa": "ベンベン",
+      "nameZhCN": "本本石",
+      "nameZhTW": "本本石"
+    },
+    {
+      "id": 33848,
+      "nameEn": "By Design Orchestrion Roll",
+      "nameJa": "オーケストリオン譜:バイデザイン",
+      "nameZhCN": "管弦乐琴乐谱：蓄意",
+      "nameZhTW": "管絃樂琴樂譜：蓄意"
+    },
+    {
+      "id": 33871,
+      "nameEn": "Ancient Bone",
+      "nameJa": "古代生物の骨",
+      "nameZhCN": "古代生物的骨头",
+      "nameZhTW": "古代生物的骨頭"
+    },
+    {
+      "id": 33872,
+      "nameEn": "Rusted Suit of Armor",
+      "nameJa": "錆びた甲冑",
+      "nameZhCN": "生锈的甲胄",
+      "nameZhTW": "生鏽的甲冑"
+    },
+    {
+      "id": 33873,
+      "nameEn": "Damaged Icebox",
+      "nameJa": "壊れたアイスボックス",
+      "nameZhCN": "坏掉的冰盒",
+      "nameZhTW": "壞掉的冰盒"
+    },
+    {
+      "id": 36083,
+      "nameEn": "Dark Rye",
+      "nameJa": "黒麦",
+      "nameZhCN": "裸麦",
+      "nameZhTW": "裸麥"
+    },
+    {
+      "id": 36086,
+      "nameEn": "Palm Syrup",
+      "nameJa": "パームシロップ",
+      "nameZhCN": "棕榈糖浆",
+      "nameZhTW": "棕櫚糖漿"
+    },
+    {
+      "id": 36087,
+      "nameEn": "Coconut",
+      "nameJa": "ココナッツ",
+      "nameZhCN": "椰子",
+      "nameZhTW": "椰子"
+    },
+    {
+      "id": 36089,
+      "nameEn": "Giant Popoto",
+      "nameJa": "ジャイアントポポト",
+      "nameZhCN": "巨人新薯",
+      "nameZhTW": "巨人新薯"
+    },
+    {
+      "id": 36094,
+      "nameEn": "Sideritis Leaves",
+      "nameJa": "シデリティス茶葉",
+      "nameZhCN": "高山茶叶",
+      "nameZhTW": "高山茶葉"
+    },
+    {
+      "id": 36096,
+      "nameEn": "Sykon",
+      "nameJa": "シューコン",
+      "nameZhCN": "无花果",
+      "nameZhTW": "無花果"
+    },
+    {
+      "id": 36097,
+      "nameEn": "Alien Onion",
+      "nameJa": "エイリアンオニオン",
+      "nameZhCN": "星外洋葱",
+      "nameZhTW": "星外洋蔥"
+    },
+    {
+      "id": 36164,
+      "nameEn": "Bismuth Ore",
+      "nameJa": "蒼鉛鉱",
+      "nameZhCN": "铋矿",
+      "nameZhTW": "鉍礦"
+    },
+    {
+      "id": 36165,
+      "nameEn": "Manganese Ore",
+      "nameJa": "満俺鉱",
+      "nameZhCN": "锰矿",
+      "nameZhTW": "錳礦"
+    },
+    {
+      "id": 36174,
+      "nameEn": "Raw Ametrine",
+      "nameJa": "アメトリン原石",
+      "nameZhCN": "紫黄晶原石",
+      "nameZhTW": "紫黃晶原石"
+    },
+    {
+      "id": 36175,
+      "nameEn": "Pewter Ore",
+      "nameJa": "白目鉱",
+      "nameZhCN": "白镴矿",
+      "nameZhTW": "白鑞礦"
+    },
+    {
+      "id": 36176,
+      "nameEn": "Phrygian Gold Ore",
+      "nameJa": "フリギアンゴールド鉱",
+      "nameZhCN": "弗里金矿",
+      "nameZhTW": "弗裡金礦"
+    },
+    {
+      "id": 36177,
+      "nameEn": "Raw Blue Zircon",
+      "nameJa": "ブルージルコン原石",
+      "nameZhCN": "蓝锆石原石",
+      "nameZhTW": "藍鋯石原石"
+    },
+    {
+      "id": 36178,
+      "nameEn": "Raw Star Quartz",
+      "nameJa": "スタークォーツ原石",
+      "nameZhCN": "星点石英原石",
+      "nameZhTW": "星點石英原石"
+    },
+    {
+      "id": 36180,
+      "nameEn": "Chloroschist",
+      "nameJa": "緑色片岩",
+      "nameZhCN": "绿片岩",
+      "nameZhTW": "綠片岩"
+    },
+    {
+      "id": 36181,
+      "nameEn": "Annite",
+      "nameJa": "鉄雲母",
+      "nameZhCN": "铁云母",
+      "nameZhTW": "鐵雲母"
+    },
+    {
+      "id": 36190,
+      "nameEn": "Horse Chestnut Log",
+      "nameJa": "ホースチェスナット原木",
+      "nameZhCN": "马栗木原木",
+      "nameZhTW": "馬慄木原木"
+    },
+    {
+      "id": 36193,
+      "nameEn": "Ironwood Log",
+      "nameJa": "アイアンウッド原木",
+      "nameZhCN": "铁木原木",
+      "nameZhTW": "鐵木原木"
+    },
+    {
+      "id": 36194,
+      "nameEn": "Integral Log",
+      "nameJa": "インテグラル原木",
+      "nameZhCN": "完满木原木",
+      "nameZhTW": "完滿木原木"
+    },
+    {
+      "id": 36205,
+      "nameEn": "Scarlet Moko Grass",
+      "nameJa": "紅モコ草",
+      "nameZhCN": "绛红莫柯草",
+      "nameZhTW": "絳紅莫柯草"
+    },
+    {
+      "id": 36206,
+      "nameEn": "AR-Caean Cotton Boll",
+      "nameJa": "カエアン綿",
+      "nameZhCN": "迷彩棉",
+      "nameZhTW": "迷彩棉"
+    },
+    {
+      "id": 37083,
+      "nameEn": "Basaltic Clay",
+      "nameJa": "黒色粘土",
+      "nameZhCN": "黑色黏土",
+      "nameZhTW": "黑色黏土"
+    },
+    {
+      "id": 37485,
+      "nameEn": "Blue Blossom Parasol",
+      "nameJa": "ブルーブロッサムパラソル",
+      "nameZhCN": "蓝色印花阳伞",
+      "nameZhTW": "藍色印花陽傘"
+    },
+    {
+      "id": 37489,
+      "nameEn": "Deep-sea Marble",
+      "nameJa": "ディープシーマーブル",
+      "nameZhCN": "深海大理石",
+      "nameZhTW": "深海大理石"
+    },
+    {
+      "id": 37490,
+      "nameEn": "Driftseeds",
+      "nameJa": "漂流種子",
+      "nameZhCN": "漂流种子",
+      "nameZhTW": "漂流種子"
+    },
+    {
+      "id": 38580,
+      "nameEn": "Wall-climbing Ivy",
+      "nameJa": "リビングウォールアイビー",
+      "nameZhCN": "活常春藤壁饰",
+      "nameZhTW": "活常春藤壁飾"
+    },
+    {
+      "id": 38607,
+      "nameEn": "Flagstone Steps",
+      "nameJa": "ストーンステップ",
+      "nameZhCN": "石制台阶",
+      "nameZhTW": "石制臺階"
+    },
+    {
+      "id": 38608,
+      "nameEn": "Flagstone Loft",
+      "nameJa": "ストーンロフト",
+      "nameZhCN": "石制夹层楼板",
+      "nameZhTW": "石制夾層樓板"
+    },
+    {
+      "id": 38619,
+      "nameEn": "Damaged Highland Turret",
+      "nameJa": "クルザン・ブロークンタレット",
+      "nameZhCN": "雪峰瞭望塔遗迹",
+      "nameZhTW": "雪峰瞭望塔遺蹟"
+    },
+    {
+      "id": 38684,
+      "nameEn": "Weatherproof Cloth",
+      "nameJa": "防塵撥水布",
+      "nameZhCN": "防尘疏水布",
+      "nameZhTW": "防塵疏水布"
+    },
+    {
+      "id": 38685,
+      "nameEn": "Weathered Pipe",
+      "nameJa": "古びた軽量パイプ",
+      "nameZhCN": "破旧的轻量管",
+      "nameZhTW": "破舊的輕量管"
+    },
+    {
+      "id": 39382,
+      "nameEn": "Charcoal Iron",
+      "nameJa": "チャコールアイロン",
+      "nameZhCN": "炭火熨斗",
+      "nameZhTW": "炭火熨斗"
+    },
+    {
+      "id": 39387,
+      "nameEn": "Classical Water Jug",
+      "nameJa": "クラシックウォーターポット",
+      "nameZhCN": "古典水壶",
+      "nameZhTW": "古典水壺"
+    },
+    {
+      "id": 39476,
+      "nameEn": "Suzusaurus",
+      "nameJa": "スズサウルス",
+      "nameZhCN": "铃小龙",
+      "nameZhTW": "鈴小龍"
+    },
+    {
+      "id": 39585,
+      "nameEn": "Timeworn Thaumaturgic Instruments",
+      "nameJa": "古めいた呪術道具片",
+      "nameZhCN": "古旧的咒术道具碎片",
+      "nameZhTW": "古舊的咒術道具碎片"
+    },
+    {
+      "id": 39586,
+      "nameEn": "Enigmatic Gear",
+      "nameJa": "イルミナティギア",
+      "nameZhCN": "青蓝之手齿轮",
+      "nameZhTW": "青藍之手齒輪"
+    },
+    {
+      "id": 39587,
+      "nameEn": "White Granite",
+      "nameJa": "白御影石",
+      "nameZhCN": "白花岗岩",
+      "nameZhTW": "白花崗岩"
+    },
+    {
+      "id": 39588,
+      "nameEn": "Ominous Plating",
+      "nameJa": "禍々しい装甲板",
+      "nameZhCN": "不祥装甲板",
+      "nameZhTW": "不祥裝甲板"
+    },
+    {
+      "id": 39618,
+      "nameEn": "Dreams Aloft Orchestrion Roll",
+      "nameJa": "オーケストリオン譜:夢見るは遙かなる空",
+      "nameZhCN": "管弦乐琴乐谱：梦中的天空",
+      "nameZhTW": "管絃樂琴樂譜：夢中的天空"
+    },
+    {
+      "id": 40381,
+      "nameEn": "Goggle-eyed Dogu",
+      "nameJa": "遮光器土偶",
+      "nameZhCN": "遮光器土偶",
+      "nameZhTW": "遮光器土偶"
+    },
+    {
+      "id": 40638,
+      "nameEn": "Classic Tableware",
+      "nameJa": "クラシックテーブルウェア",
+      "nameZhCN": "经典桌上餐具",
+      "nameZhTW": "經典桌上餐具"
+    },
+    {
+      "id": 40659,
+      "nameEn": "Raw Log Half Partition",
+      "nameJa": "ナチュラルログ・ハーフパーティション",
+      "nameZhCN": "自然原木隔离矮墙",
+      "nameZhTW": "自然原木隔離矮牆"
+    },
+    {
+      "id": 40696,
+      "nameEn": "Weathered Fitting",
+      "nameJa": "古びたフィッティング",
+      "nameZhCN": "古旧连接管",
+      "nameZhTW": "古舊連接管"
+    },
+    {
+      "id": 40697,
+      "nameEn": "Iroko Lumber",
+      "nameJa": "イロコ材",
+      "nameZhCN": "绿柄桑木木材",
+      "nameZhTW": "綠柄桑木木材"
+    },
+    {
+      "id": 40698,
+      "nameEn": "Mossy Log",
+      "nameJa": "苔むした大丸太",
+      "nameZhCN": "布满苔藓的圆木",
+      "nameZhTW": "佈滿苔蘚的圓木"
+    },
+    {
+      "id": 40699,
+      "nameEn": "Damaged Side Table",
+      "nameJa": "壊れたサイドテーブル",
+      "nameZhCN": "坏掉的边桌",
+      "nameZhTW": "壞掉的邊桌"
+    },
+    {
+      "id": 41103,
+      "nameEn": "Wood Slice Loft",
+      "nameJa": "ツリートランク・ロフト",
+      "nameZhCN": "原木夹层楼板",
+      "nameZhTW": "原木夾層樓板"
+    },
+    {
+      "id": 41143,
+      "nameEn": "Bluecap Mushroom Lamp",
+      "nameJa": "ブルーキャップ・マッシュルームランプ",
+      "nameZhCN": "蓝帽蘑菇台灯",
+      "nameZhTW": "藍帽蘑菇檯燈"
+    },
+    {
+      "id": 41427,
+      "nameEn": "Minute Mindflayer Sprinkler",
+      "nameJa": "カインドフレア・ガーデンスプリンクラー",
+      "nameZhCN": "夺心小魔庭院喷水器",
+      "nameZhTW": "奪心小魔庭院噴水器"
+    },
+    {
+      "id": 41651,
+      "nameEn": "Alzadaal's Treasure Rug",
+      "nameJa": "アルザダール・トレジャーラグ",
+      "nameZhCN": "阿尔扎达尔宝物地毯",
+      "nameZhTW": "阿爾扎達爾寶物地毯"
+    },
+    {
+      "id": 41652,
+      "nameEn": "Deep-sea Umbrite",
+      "nameJa": "深海霊性岩",
+      "nameZhCN": "深海灵性岩",
+      "nameZhTW": "深海靈性巖"
+    },
+    {
+      "id": 41664,
+      "nameEn": "Pennons Aloft Orchestrion Roll",
+      "nameJa": "オーケストリオン譜:槍旗",
+      "nameZhCN": "管弦乐琴乐谱：枪旗飘扬",
+      "nameZhTW": "管絃樂琴樂譜：槍旗飄揚"
+    },
+    {
+      "id": 41665,
+      "nameEn": "From Fear to Fortitude Orchestrion Roll",
+      "nameJa": "オーケストリオン譜:豪勇の士",
+      "nameZhCN": "管弦乐琴乐谱：不屈不挠",
+      "nameZhTW": "管絃樂琴樂譜：不屈不撓"
+    },
+    {
+      "id": 41806,
+      "nameEn": "High-density Fiberboard",
+      "nameJa": "高圧縮繊維板",
+      "nameZhCN": "高压缩纤维板",
+      "nameZhTW": "高壓縮纖維板"
+    },
+    {
+      "id": 41818,
+      "nameEn": "Stuffed Axolotl Eft",
+      "nameJa": "ウーパールーパーのぬいぐるみ",
+      "nameZhCN": "六角小螈螈玩偶",
+      "nameZhTW": "六角小螈螈玩偶"
+    },
+    {
+      "id": 41820,
+      "nameEn": "Fluffy-wuffy Stuffed Drippy",
+      "nameJa": "ドリッピーのふわふわぬいぐるみ",
+      "nameZhCN": "水小滴轻飘飘玩偶",
+      "nameZhTW": "水小滴輕飄飄玩偶"
+    },
+    {
+      "id": 41821,
+      "nameEn": "Stuffed Punutiy",
+      "nameJa": "プヌティーのぬいぐるみ",
+      "nameZhCN": "海牛玩偶",
+      "nameZhTW": "海牛玩偶"
+    },
+    {
+      "id": 43974,
+      "nameEn": "Royal Maple Syrup",
+      "nameJa": "ロイヤルメープルシロップ",
+      "nameZhCN": "高级枫糖浆",
+      "nameZhTW": "高級楓糖漿"
+    },
+    {
+      "id": 43976,
+      "nameEn": "Turali Corn Oil",
+      "nameJa": "トラルコーンオイル",
+      "nameZhCN": "图拉尔玉米油",
+      "nameZhTW": "圖拉爾玉米油"
+    },
+    {
+      "id": 43977,
+      "nameEn": "Mountain Salt",
+      "nameJa": "高山食塩",
+      "nameZhCN": "高山食盐",
+      "nameZhTW": "高山食鹽"
+    },
+    {
+      "id": 43978,
+      "nameEn": "Ut'ohmu Tomato",
+      "nameJa": "ウトォームトマト",
+      "nameZhCN": "乌托姆番茄",
+      "nameZhTW": "烏託姆番茄"
+    },
+    {
+      "id": 43979,
+      "nameEn": "Royal Maple Sap",
+      "nameJa": "ロイヤルメープル樹液",
+      "nameZhCN": "高级枫树树汁",
+      "nameZhTW": "高級楓樹樹汁"
+    },
+    {
+      "id": 43981,
+      "nameEn": "Turali Corn",
+      "nameJa": "トラルコーン",
+      "nameZhCN": "图拉尔玉米",
+      "nameZhTW": "圖拉爾玉米"
+    },
+    {
+      "id": 43982,
+      "nameEn": "Mountain Rock Salt",
+      "nameJa": "高山岩塩",
+      "nameZhCN": "高山岩盐",
+      "nameZhTW": "高山岩鹽"
+    },
+    {
+      "id": 43985,
+      "nameEn": "Yyasulani Garlic",
+      "nameJa": "ヤースラニガーリック",
+      "nameZhCN": "亚斯拉尼蒜头",
+      "nameZhTW": "亞斯拉尼蒜頭"
+    },
+    {
+      "id": 43986,
+      "nameEn": "White Pepper",
+      "nameJa": "ホワイトペッパー",
+      "nameZhCN": "白胡椒",
+      "nameZhTW": "白胡椒"
+    },
+    {
+      "id": 43987,
+      "nameEn": "Mesquite Beans",
+      "nameJa": "メスキート豆",
+      "nameZhCN": "牧豆树豆子",
+      "nameZhTW": "牧豆樹豆子"
+    },
+    {
+      "id": 43988,
+      "nameEn": "Turali Pineapple",
+      "nameJa": "トラルパイナップル",
+      "nameZhCN": "图拉尔菠萝",
+      "nameZhTW": "圖拉爾菠蘿"
+    },
+    {
+      "id": 43992,
+      "nameEn": "Mountain Chromite Ore",
+      "nameJa": "オルコクロマイト",
+      "nameZhCN": "奥阔铬铁矿",
+      "nameZhTW": "奧闊鉻鐵礦"
+    },
+    {
+      "id": 43993,
+      "nameEn": "Ruthenium Ore",
+      "nameJa": "ルテニウム鉱",
+      "nameZhCN": "钌金矿",
+      "nameZhTW": "釕金礦"
+    },
+    {
+      "id": 43994,
+      "nameEn": "Cobalt Tungsten Ore",
+      "nameJa": "コバルトタングステン鉱",
+      "nameZhCN": "钴钨矿",
+      "nameZhTW": "鈷鎢礦"
+    },
+    {
+      "id": 43995,
+      "nameEn": "Titanium Gold Ore",
+      "nameJa": "ゴールドチタン鉱",
+      "nameZhCN": "钛金矿",
+      "nameZhTW": "鈦金礦"
+    },
+    {
+      "id": 43996,
+      "nameEn": "Ra'Kaznar Ore",
+      "nameJa": "黒鉄鉱",
+      "nameZhCN": "黑铁矿",
+      "nameZhTW": "黑鐵礦"
+    },
+    {
+      "id": 43997,
+      "nameEn": "Mountain Chromite Ingot",
+      "nameJa": "オルコクロマイトインゴット",
+      "nameZhCN": "奥阔铬铁锭",
+      "nameZhTW": "奧闊鉻鐵錠"
+    },
+    {
+      "id": 43998,
+      "nameEn": "Ruthenium Ingot",
+      "nameJa": "ルテニウムインゴット",
+      "nameZhCN": "钌金锭",
+      "nameZhTW": "釕金錠"
+    },
+    {
+      "id": 43999,
+      "nameEn": "Cobalt Tungsten Ingot",
+      "nameJa": "コバルトタングステンインゴット",
+      "nameZhCN": "钴钨锭",
+      "nameZhTW": "鈷鎢錠"
+    },
+    {
+      "id": 44000,
+      "nameEn": "Titanium Gold Nugget",
+      "nameJa": "ゴールドチタンナゲット",
+      "nameZhCN": "钛金块",
+      "nameZhTW": "鈦金塊"
+    },
+    {
+      "id": 44001,
+      "nameEn": "Ra'Kaznar Ingot",
+      "nameJa": "カザナルインゴット",
+      "nameZhCN": "卡扎纳尔锭",
+      "nameZhTW": "卡扎納爾錠"
+    },
+    {
+      "id": 44002,
+      "nameEn": "Lar Ore",
+      "nameJa": "ラァー鉱",
+      "nameZhCN": "混金矿",
+      "nameZhTW": "混金礦"
+    },
+    {
+      "id": 44003,
+      "nameEn": "Raw Ihuykanite",
+      "nameJa": "イフイカナイト原石",
+      "nameZhCN": "河岸石原石",
+      "nameZhTW": "河岸石原石"
+    },
+    {
+      "id": 44004,
+      "nameEn": "Raw Pink Beryl",
+      "nameJa": "ピンクベリル原石",
+      "nameZhCN": "粉绿柱石原石",
+      "nameZhTW": "粉綠柱石原石"
+    },
+    {
+      "id": 44005,
+      "nameEn": "White Gold Ore",
+      "nameJa": "ホワイトゴールド鉱",
+      "nameZhCN": "白黄金矿",
+      "nameZhTW": "白黃金礦"
+    },
+    {
+      "id": 44006,
+      "nameEn": "Raw Black Star",
+      "nameJa": "ブラックスター原石",
+      "nameZhCN": "黑星石原石",
+      "nameZhTW": "黑星石原石"
+    },
+    {
+      "id": 44007,
+      "nameEn": "Magnesia Powder",
+      "nameJa": "マグネシア粉",
+      "nameZhCN": "氧化镁粉",
+      "nameZhTW": "氧化鎂粉"
+    },
+    {
+      "id": 44009,
+      "nameEn": "Ihuykanite",
+      "nameJa": "イフイカナイト",
+      "nameZhCN": "河岸石",
+      "nameZhTW": "河岸石"
+    },
+    {
+      "id": 44010,
+      "nameEn": "Pink Beryl",
+      "nameJa": "ピンクベリル",
+      "nameZhCN": "粉绿柱石",
+      "nameZhTW": "粉綠柱石"
+    },
+    {
+      "id": 44011,
+      "nameEn": "White Gold Ingot",
+      "nameJa": "ホワイトゴールドインゴット",
+      "nameZhCN": "白黄金锭",
+      "nameZhTW": "白黃金錠"
+    },
+    {
+      "id": 44012,
+      "nameEn": "Black Star",
+      "nameJa": "ブラックスター",
+      "nameZhCN": "黑星石",
+      "nameZhTW": "黑星石"
+    },
+    {
+      "id": 44014,
+      "nameEn": "Ginseng Log",
+      "nameJa": "ウコギ原木",
+      "nameZhCN": "五加木原木",
+      "nameZhTW": "五加木原木"
+    },
+    {
+      "id": 44015,
+      "nameEn": "Ceiba Log",
+      "nameJa": "セイバ原木",
+      "nameZhCN": "木棉原木",
+      "nameZhTW": "木棉原木"
+    },
+    {
+      "id": 44016,
+      "nameEn": "Dark Mahogany Log",
+      "nameJa": "ダークマホガニー原木",
+      "nameZhCN": "深红木原木",
+      "nameZhTW": "深紅木原木"
+    },
+    {
+      "id": 44017,
+      "nameEn": "Acacia Log",
+      "nameJa": "アカシア原木",
+      "nameZhCN": "相思木原木",
+      "nameZhTW": "相思木原木"
+    },
+    {
+      "id": 44018,
+      "nameEn": "Claro Walnut Log",
+      "nameJa": "クラロウォルナット原木",
+      "nameZhCN": "克拉洛胡桃木原木",
+      "nameZhTW": "克拉洛胡桃木原木"
+    },
+    {
+      "id": 44021,
+      "nameEn": "Dark Mahogany Lumber",
+      "nameJa": "ダークマホガニー材",
+      "nameZhCN": "深红木木材",
+      "nameZhTW": "深紅木木材"
+    },
+    {
+      "id": 44022,
+      "nameEn": "Acacia Lumber",
+      "nameJa": "アカシア材",
+      "nameZhCN": "相思木木材",
+      "nameZhTW": "相思木木材"
+    },
+    {
+      "id": 44023,
+      "nameEn": "Claro Walnut Lumber",
+      "nameJa": "クラロウォルナット材",
+      "nameZhCN": "克拉洛胡桃木木材",
+      "nameZhTW": "克拉洛胡桃木木材"
+    },
+    {
+      "id": 44024,
+      "nameEn": "Snow Cotton",
+      "nameJa": "雪木綿",
+      "nameZhCN": "雪木棉",
+      "nameZhTW": "雪木棉"
+    },
+    {
+      "id": 44025,
+      "nameEn": "Mountain Flax",
+      "nameJa": "高山亜麻",
+      "nameZhCN": "高山亚麻",
+      "nameZhTW": "高山亞麻"
+    },
+    {
+      "id": 44026,
+      "nameEn": "Sarcenet",
+      "nameJa": "薄絹繭",
+      "nameZhCN": "薄绢茧",
+      "nameZhTW": "薄絹繭"
+    },
+    {
+      "id": 44029,
+      "nameEn": "Snow Cotton Cloth",
+      "nameJa": "雪木綿布",
+      "nameZhCN": "雪木棉布",
+      "nameZhTW": "雪木棉布"
+    },
+    {
+      "id": 44030,
+      "nameEn": "Mountain Linen",
+      "nameJa": "高山亜麻布",
+      "nameZhCN": "高山亚麻布",
+      "nameZhTW": "高山亞麻布"
+    },
+    {
+      "id": 44031,
+      "nameEn": "Sarcenet Cloth",
+      "nameJa": "サーセネット織物",
+      "nameZhCN": "薄绢织物",
+      "nameZhTW": "薄絹織物"
+    },
+    {
+      "id": 44053,
+      "nameEn": "Silver Lobo Hide",
+      "nameJa": "シルバリオの粗皮",
+      "nameZhCN": "奥阔银狼的粗皮",
+      "nameZhTW": "奧闊銀狼的粗皮"
+    },
+    {
+      "id": 44054,
+      "nameEn": "Hammerhead Crocodile Skin",
+      "nameJa": "ハンマーヘッドダイルの粗皮",
+      "nameZhCN": "锤头鳄的粗皮",
+      "nameZhTW": "錘頭鱷的粗皮"
+    },
+    {
+      "id": 44055,
+      "nameEn": "Br'aax Hide",
+      "nameJa": "ブラーシャの粗皮",
+      "nameZhCN": "狞豹的粗皮",
+      "nameZhTW": "獰豹的粗皮"
+    },
+    {
+      "id": 44058,
+      "nameEn": "Silver Lobo Leather",
+      "nameJa": "シルバリオレザー",
+      "nameZhCN": "银狼革",
+      "nameZhTW": "銀狼革"
+    },
+    {
+      "id": 44059,
+      "nameEn": "Hammerhead Crocodile Leather",
+      "nameJa": "ハンマーヘッドダイルレザー",
+      "nameZhCN": "锤头鳄革",
+      "nameZhTW": "錘頭鱷革"
+    },
+    {
+      "id": 44060,
+      "nameEn": "Br'aax Leather",
+      "nameJa": "ブラーシャレザー",
+      "nameZhCN": "狞豹革",
+      "nameZhTW": "獰豹革"
+    },
+    {
+      "id": 44261,
+      "nameEn": "The Faces We Wear - Classic Spectacles",
+      "nameJa": "スタイルカタログ:クラシックグラス",
+      "nameZhCN": "面部配饰：经典眼镜",
+      "nameZhTW": "面部配飾：經典眼鏡"
+    },
+    {
+      "id": 44326,
+      "nameEn": "Subterranean Drop Orchestrion Roll",
+      "nameJa": "オーケストリオン譜:地底湖の水滴",
+      "nameZhCN": "管弦乐琴乐谱：地下湖的水滴",
+      "nameZhTW": "管絃樂琴樂譜：地下湖的水滴"
+    },
+    {
+      "id": 44327,
+      "nameEn": "Tinkerer's Treasure Trove Orchestrion Roll",
+      "nameJa": "オーケストリオン譜:技師の工房",
+      "nameZhCN": "管弦乐琴乐谱：技师工房",
+      "nameZhTW": "管絃樂琴樂譜：技師工房"
+    },
+    {
+      "id": 44486,
+      "nameEn": "Toco Toquito",
+      "nameJa": "コトコトコ",
+      "nameZhCN": "小小巨嘴鸟",
+      "nameZhTW": "小小巨嘴鳥"
+    },
+    {
+      "id": 44488,
+      "nameEn": "Spinettesaurus",
+      "nameJa": "スピピサウルス",
+      "nameZhCN": "脊龙",
+      "nameZhTW": "脊龍"
+    },
+    {
+      "id": 44895,
+      "nameEn": "Climbing Wall Partition",
+      "nameJa": "ボルダリング・パーティション",
+      "nameZhCN": "抱石攀岩隔离墙",
+      "nameZhTW": "抱石攀巖隔離牆"
+    },
+    {
+      "id": 44900,
+      "nameEn": "Laboratory Counter",
+      "nameJa": "ラボラトリー・カウンター",
+      "nameZhCN": "实验桌",
+      "nameZhTW": "實驗桌"
+    },
+    {
+      "id": 44911,
+      "nameEn": "Weathered Porthole",
+      "nameJa": "ウェザード・ポートホール",
+      "nameZhCN": "旧化的舷窗",
+      "nameZhTW": "舊化的舷窗"
+    },
+    {
+      "id": 45037,
+      "nameEn": "Nature's Bounty Orchestrion Roll",
+      "nameJa": "オーケストリオン譜:自然の賜物",
+      "nameZhCN": "管弦乐琴乐谱：自然的礼物",
+      "nameZhTW": "管絃樂琴樂譜：自然的禮物"
+    },
+    {
+      "id": 45073,
+      "nameEn": "Aromatic Wood Strips",
+      "nameJa": "刻み香木",
+      "nameZhCN": "香木屑",
+      "nameZhTW": "香木屑"
+    },
+    {
+      "id": 48099,
+      "nameEn": "Fluorescent Tube Chandelier",
+      "nameJa": "フローレセントシャンデリア",
+      "nameZhCN": "荧光管吊灯",
+      "nameZhTW": "熒光管吊燈"
+    },
+    {
+      "id": 48102,
+      "nameEn": "Hewn Stone Circle",
+      "nameJa": "ブリックサークル",
+      "nameZhCN": "砖石圈",
+      "nameZhTW": "磚石圈"
+    },
+    {
+      "id": 48131,
+      "nameEn": "Round Stepping Star",
+      "nameJa": "ラウンドステップライト",
+      "nameZhCN": "圆形地灯",
+      "nameZhTW": "圓形地燈"
+    },
+    {
+      "id": 48149,
+      "nameEn": "The Faces We Wear - Tinted Goggles",
+      "nameJa": "スタイルカタログ:スモークゴーグル",
+      "nameZhCN": "面部配饰：彩色护目镜",
+      "nameZhTW": "面部配飾：彩色護目鏡"
+    },
+    {
+      "id": 48224,
+      "nameEn": "In Dawn's Embrace Orchestrion Roll",
+      "nameJa": "オーケストリオン譜:明けの空を見上げて",
+      "nameZhCN": "管弦乐琴乐谱：仰望黎明的天空",
+      "nameZhTW": "管絃樂琴樂譜：仰望黎明的天空"
+    },
+    {
+      "id": 48731,
+      "nameEn": "Outsized Crystal Glass",
+      "nameJa": "大判クリスタルガラス",
+      "nameZhCN": "大面幅水晶板",
+      "nameZhTW": "大面幅水晶板"
+    },
+    {
+      "id": 900000001,
+      "nameEn": "Mountain Chromite Loft",
+      "nameJa": "Mountain Chromite Loft",
+      "nameZhCN": "Mountain Chromite Loft",
+      "nameZhTW": "Mountain Chromite Loft"
+    }
+  ]
+}

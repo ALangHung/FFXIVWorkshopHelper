@@ -1,0 +1,221 @@
+/* 與頂欄同寬，打撈表橫向填滿可視區域（至 --app-page-max-width） */
+.sub-loot-page.home-page {
+  max-width: var(--app-page-max-width);
+  width: 100%;
+}
+
+.sub-loot-sea-tabs {
+  margin-bottom: 0.75rem;
+}
+
+.sub-loot-sea-tablist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.sub-loot-sea-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.15rem;
+  padding: 0.45rem 0.65rem;
+  border-radius: 0.35rem;
+  border: 1px solid rgba(167, 139, 250, 0.35);
+  background: rgba(18, 12, 29, 0.65);
+  color: #e5e7eb;
+  font: inherit;
+  font-size: 0.82rem;
+  line-height: 1.25;
+  cursor: pointer;
+  text-align: left;
+  transition:
+    border-color 0.15s ease,
+    background 0.15s ease,
+    color 0.15s ease;
+}
+
+.sub-loot-sea-tab:hover {
+  border-color: rgba(251, 191, 36, 0.45);
+  background: rgba(124, 58, 237, 0.12);
+}
+
+.sub-loot-sea-tab--active {
+  border-color: rgba(251, 191, 36, 0.65);
+  background: rgba(124, 58, 237, 0.22);
+  color: #fef3c7;
+  box-shadow: 0 0 0 1px rgba(251, 191, 36, 0.2);
+}
+
+.sub-loot-sea-tab-name {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.sub-loot-sea-tab-range {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: #9ca3af;
+}
+
+.sub-loot-sea-tab--active .sub-loot-sea-tab-range {
+  color: #d1d5db;
+}
+
+.sub-loot-active-sea-hint {
+  margin: 0 0 0.65rem;
+  font-size: 0.88rem;
+  color: #d1d5db;
+}
+
+.sub-loot-active-sea-range {
+  margin-left: 0.25rem;
+  color: #9ca3af;
+  font-weight: 500;
+}
+
+.sub-loot-empty-sea {
+  padding: 1.25rem 0.85rem !important;
+  text-align: center;
+  color: #9ca3af;
+  font-size: 0.9rem;
+  border-bottom: 1px solid rgba(167, 139, 250, 0.14);
+}
+
+.sub-loot-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin: 0 -0.15rem;
+  padding: 0 0.15rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sub-loot-table {
+  width: 100%;
+  min-width: 0;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.sub-loot-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 0.55rem 0.65rem;
+  text-align: left;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #fbbf24;
+  background: rgba(18, 12, 29, 0.97);
+  border-bottom: 1px solid rgba(251, 191, 36, 0.35);
+  box-shadow: 0 1px 0 rgba(167, 139, 250, 0.15);
+  white-space: nowrap;
+}
+
+/* 編號／代碼窄欄；航點適中；XP 需容納千分位大數；T1–T3 均分剩餘 */
+.sub-loot-table thead th:nth-child(1),
+.sub-loot-table thead th:nth-child(2) {
+  width: 3.5%;
+}
+
+.sub-loot-table thead th:nth-child(3) {
+  width: 9%;
+  white-space: normal;
+}
+
+.sub-loot-table thead th:nth-child(4) {
+  width: 3%;
+}
+
+.sub-loot-table thead th:nth-child(5) {
+  width: 3.5%;
+}
+
+.sub-loot-table thead th:nth-child(6) {
+  width: 8.5%;
+}
+
+.sub-loot-table thead th:nth-child(7),
+.sub-loot-table thead th:nth-child(8) {
+  width: 3.25%;
+}
+
+.sub-loot-table thead th:nth-child(9),
+.sub-loot-table thead th:nth-child(10) {
+  width: 3%;
+}
+
+.sub-loot-table thead th:nth-child(11) {
+  width: 3.5%;
+}
+
+.sub-loot-table thead th:nth-child(n + 12) {
+  width: 17.667%;
+  white-space: normal;
+}
+
+.sub-loot-table tbody td {
+  padding: 0.55rem 0.65rem;
+  vertical-align: top;
+  border-bottom: 1px solid rgba(167, 139, 250, 0.14);
+  color: #e5e7eb;
+}
+
+.sub-loot-table tbody td:nth-child(6) {
+  white-space: nowrap;
+}
+
+.sub-loot-table tbody td:nth-child(3),
+.sub-loot-table tbody td:nth-child(n + 12) {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.sub-loot-table tbody tr:hover td {
+  background: rgba(124, 58, 237, 0.08);
+}
+
+.sub-loot-sector {
+  margin: 0;
+  white-space: pre-line;
+  max-width: none;
+  color: #f3f4f6;
+}
+
+.sub-loot-stat {
+  white-space: nowrap;
+  color: #d1d5db;
+}
+
+.sub-loot-stat--empty {
+  color: #6b7280;
+}
+
+.sub-loot-stat--star {
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+}
+
+.sub-loot-item-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  max-width: none;
+}
+
+.sub-loot-item-list li {
+  margin-bottom: 0.2rem;
+}
+
+.sub-loot-item-list li:last-child {
+  margin-bottom: 0;
+}
+
+.sub-loot-meta-note {
+  margin: 0.75rem 0 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}

@@ -1,0 +1,120 @@
+.site-access-gate {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1.25rem;
+  background: var(--app-bg, #120c1d);
+}
+
+.site-access-dialog {
+  width: 100%;
+  max-width: 22rem;
+  padding: 1.5rem 1.35rem;
+  border-radius: 12px;
+  border: 1px solid rgba(167, 139, 250, 0.35);
+  background: rgba(26, 20, 40, 0.92);
+  box-shadow:
+    0 4px 32px rgba(0, 0, 0, 0.45),
+    0 0 0 1px rgba(251, 191, 36, 0.12);
+}
+
+.site-access-dialog h1 {
+  margin: 0 0 0.65rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: #fbbf24;
+  text-align: center;
+}
+
+.site-access-hint {
+  margin: 0 0 1.1rem;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: #9ca3af;
+  text-align: center;
+}
+
+.site-access-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.site-access-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: #d1d5db;
+}
+
+.site-access-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.55rem 0.7rem;
+  font: inherit;
+  font-size: 0.95rem;
+  color: #f3f4f6;
+  background: rgba(18, 12, 29, 0.85);
+  border: 1px solid rgba(167, 139, 250, 0.35);
+  border-radius: 8px;
+  outline: none;
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.site-access-input:focus {
+  border-color: rgba(251, 191, 36, 0.55);
+  box-shadow: 0 0 0 2px rgba(251, 191, 36, 0.15);
+}
+
+.site-access-submit {
+  margin-top: 0.15rem;
+  padding: 0.55rem 1rem;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #120c1d;
+  background: linear-gradient(180deg, #fbbf24 0%, #d97706 100%);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition:
+    filter 0.15s ease,
+    transform 0.1s ease;
+}
+
+.site-access-submit:hover {
+  filter: brightness(1.06);
+}
+
+.site-access-submit:active {
+  transform: scale(0.98);
+}
+
+.site-access-submit:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.site-access-error {
+  margin: 0;
+  font-size: 0.82rem;
+  color: #f87171;
+  text-align: center;
+}
+
+.site-access-loading {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9ca3af;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+}
