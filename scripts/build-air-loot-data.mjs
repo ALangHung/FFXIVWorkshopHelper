@@ -1,12 +1,12 @@
 /**
- * 從英文 Sub Loot CSV 產生：
- * 1) data/generated/sub-loot-item-catalog.json — 道具 id 與 en/ja/zh-Hant 名稱對照
- * 2) data/generated/sub-loot.json — 結構化列資料（略過 NOTE breakpoint 說明列；Sector 無「Sector n」之分隔列不寫入本檔）
- * 3) data/generated/sea-area.json — 依上述分隔列（原 id 為 null 之列）順序推算各海域 start／end（規則見 buildSeaAreasFromEvents）
+ * 從英文 Air Loot CSV 產生：
+ * 1) data/generated/air-loot-item-catalog.json — 道具 id 與 en/ja/zh-Hant 名稱對照
+ * 2) data/generated/air-loot.json — 結構化列資料
+ * 3) data/generated/air-area.json — 空域列表（飛空艇只有一個空域「Sea of Clouds」）
  *
  * 繁體：直接從 teamcraft tw-items.json 取得繁中名稱。
  *
- *   npm run data:build-sub-loot
+ *   npm run data:build-air-loot
  */
 
 
@@ -27,9 +27,11 @@ import {
   SUB_LOOT_PLACEHOLDER_ID,
 } from "./lib/subLootResolve.mjs";
 
+/* ── helpers copied / adapted from build-sub-loot-data.mjs ── */
+
 function isBlankDataRow(row, bpValuesKey, tierColNames) {
   const s = (v) => String(v ?? "").trim();
-  if (s(row.Sector) || s(row["Unlocked By"]) || s(row.Unlocks)) return false;
+  if (s(row.Sector) || s(row.Unlocks)) return false;
   if (s(row.Breakpoints) || s(row[bpValuesKey])) return false;
   for (const col of tierColNames) {
     if (splitTierLines(row[col]).length) return false;
@@ -41,7 +43,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = resolve(__dirname, "..");
 
 const DEFAULT_TEAMCRAFT = resolve(PROJECT_ROOT, "..", "ffxiv-teamcraft");
-const TEAMCRAFT_ROOT = process.env.FF14_TEAMCRAFT_ROOT?.trim() || DEFAULT_TEAMCRAFT;
+const TEAMCRAFT_ROOT =
+  process.env.FF14_TEAMCRAFT_ROOT?.trim() || DEFAULT_TEAMCRAFT;
 
 const ITEMS_JSON = join(TEAMCRAFT_ROOT, "libs/data/src/lib/json/items.json");
 const TW_ITEMS_JSON = join(
@@ -51,150 +54,31 @@ const TW_ITEMS_JSON = join(
 
 const INPUT_CSV = join(
   PROJECT_ROOT,
-  "data/en/FFXIV Airship_Submersible Loot and Builder - Sub Loot.csv",
+  "data/en/FFXIV Airship_Submersible Loot and Builder - Air Loot.csv",
 );
 const OUT_DIR = join(PROJECT_ROOT, "data/generated");
-const OUT_CATALOG = join(OUT_DIR, "sub-loot-item-catalog.json");
-const OUT_SUB_LOOT = join(OUT_DIR, "sub-loot.json");
-const OUT_SEA_AREA = join(OUT_DIR, "sea-area.json");
+const OUT_CATALOG = join(OUT_DIR, "air-loot-item-catalog.json");
+const OUT_AIR_LOOT = join(OUT_DIR, "air-loot.json");
+const OUT_AIR_AREA = join(OUT_DIR, "air-area.json");
 
-const SEA_NAMES = [
-  "溺沒海",
-  "灰海",
-  "翠浪海",
-  "妖哥海",
-  "紫礁海",
-  "南蒼茫洋",
-  "北洋",
-];
+/** 飛空艇只有一個空域 */
+const AIR_AREA_NAMES = ["雲海"];
 
 function loadJson(path) {
   return JSON.parse(readFileSync(path, "utf8"));
 }
 
-/** @typedef {{ kind: 'null' } | { kind: 'id'; id: number }} SeaEvent */
+/* ── breakpoint parsing (Air CSV 有 6 行：T2/T3/Mid/High/Lost/DD) ── */
 
-/** @param {SeaEvent[]} events */
-function prevNumericFromEvents(events, fromIndex) {
-  for (let j = fromIndex; j >= 0; j--) {
-    const e = events[j];
-    if (e.kind === "id") return e.id;
-  }
-  return null;
-}
-
-/** @param {SeaEvent[]} events */
-function nextNumericFromEvents(events, fromIndex) {
-  for (let j = fromIndex; j < events.length; j++) {
-    const e = events[j];
-    if (e.kind === "id") return e.id;
-  }
-  return null;
-}
-
-/** @param {SeaEvent[]} events */
-function lastNumericFromEvents(events) {
-  for (let j = events.length - 1; j >= 0; j--) {
-    const e = events[j];
-    if (e.kind === "id") return e.id;
-  }
-  return null;
-}
-
-function hasRowIdInInclusiveRange(rows, lo, hi) {
-  for (const r of rows) {
-    const id = r?.id;
-    if (typeof id === "number" && id >= lo && id <= hi) return true;
-  }
-  return false;
-}
-
-/** 無資料或無效範圍時回傳 { start: -1, end: -1 } */
-function finalizeSeaBounds(start, end, rows) {
-  if (
-    typeof start !== "number" ||
-    typeof end !== "number" ||
-    start > end ||
-    !Number.isFinite(start) ||
-    !Number.isFinite(end)
-  ) {
-    return { start: -1, end: -1 };
-  }
-  if (!hasRowIdInInclusiveRange(rows, start, end)) {
-    return { start: -1, end: -1 };
-  }
-  return { start, end };
-}
-
-/**
- * N 個 null 事件對應 N+1 個海域：第 1 個 null 下一個 id → 第一海域 start；之後每個 null 上一 id→前海域 end、下一 id→當前海域 start；
- * 最後一個 null 之後至表尾歸「南蒼茫洋」end=lastId；「北洋」無分隔→-1。
- * @param {SeaEvent[]} events
- * @param {object[]} rowsOut 僅含數字 id 之列（供區間內是否有資料之檢查）
- */
-function buildSeaAreasFromEvents(events, rowsOut) {
-  const nullIdx = events
-    .map((e, i) => (e.kind === "null" ? i : -1))
-    .filter((i) => i >= 0);
-  const L = nullIdx.length;
-  const expectedSeas = SEA_NAMES.length;
-
-  if (L + 1 !== expectedSeas) {
-    console.warn(
-      `[build-sub-loot] CSV 分隔列（Sector 無編號）共 ${L} 筆，預期 ${expectedSeas - 1} 筆（海域 ${expectedSeas} 個）。sea-area 可能與名稱列未對齊。`,
-    );
-  }
-
-  const areas = SEA_NAMES.map((name) => ({ name, start: null, end: null }));
-
-  if (L === 0) {
-    console.warn(
-      "[build-sub-loot] 找不到分隔列，sea-area 全部海域以 -1 輸出。",
-    );
-  } else {
-    const tLimit = Math.min(L, SEA_NAMES.length);
-    for (let t = 0; t < tLimit; t++) {
-      const i = nullIdx[t];
-      const prevId = prevNumericFromEvents(events, i - 1);
-      const nextId = nextNumericFromEvents(events, i + 1);
-      if (t === 0) {
-        areas[0].start = nextId;
-      } else {
-        areas[t - 1].end = prevId;
-        areas[t].start = nextId;
-      }
-    }
-  }
-
-  const lastId = lastNumericFromEvents(events);
-  const penultimate = SEA_NAMES.length - 2;
-  if (
-    L > 0 &&
-    SEA_NAMES.length === L + 1 &&
-    typeof areas[penultimate]?.start === "number"
-  ) {
-    areas[penultimate].end = lastId;
-  }
-
-  for (const a of areas) {
-    const { start, end } = finalizeSeaBounds(a.start, a.end, rowsOut);
-    a.start = start;
-    a.end = end;
-  }
-
-  return areas;
-}
-
-/** @param {string} cell CSV 斷點數值欄（以換行分隔，依序對應 T2/T3/Normal/Optimal/Favor） */
+/** @param {string} cell */
 function splitBreakpointValueLines(cell) {
   const parts = String(cell ?? "")
     .split(/\r?\n/)
     .map((x) => x.trim());
-  while (parts.length < 5) parts.push("");
+  while (parts.length < 6) parts.push("");
   return parts;
 }
 
-/** 斷點儲存格單行 → number；空或無法解析則 null。 */
 function parseBreakpointInt(raw) {
   const t = String(raw ?? "").trim();
   if (!t) return null;
@@ -202,7 +86,6 @@ function parseBreakpointInt(raw) {
   return Number.isFinite(n) ? n : null;
 }
 
-/** 兩格監視或兩格回收 → 僅收錄可解析的數字，順序保留，長度 0～2。 */
 function breakpointPairToNumbers(a, b) {
   const out = [];
   const na = parseBreakpointInt(a);
@@ -212,16 +95,16 @@ function breakpointPairToNumbers(a, b) {
   return out;
 }
 
+/* ── Sector parsing ── */
+
 const SECTOR_STAR_LINE = /^★+$/;
 
-/** ★ 列字串 → 星星個數（number）；不符合純 ★ 列則 null。 */
 function starLineToCount(line) {
   const t = String(line ?? "").trim();
   if (!t || !SECTOR_STAR_LINE.test(t)) return null;
   return (t.match(/★/g) ?? []).length;
 }
 
-/** Rank: 後文字 → number；空或無法解析則 null。 */
 function parseRankNumber(rankRaw) {
   const t = String(rankRaw ?? "").trim();
   if (!t) return null;
@@ -229,7 +112,6 @@ function parseRankNumber(rankRaw) {
   return Number.isFinite(n) ? n : null;
 }
 
-/** @param {string} xpRaw XP: 後原文（可含空白分隔） */
 function parseXpNumber(xpRaw) {
   const compact = String(xpRaw ?? "").replace(/\s+/g, "");
   if (!compact) return null;
@@ -237,11 +119,8 @@ function parseXpNumber(xpRaw) {
   return Number.isFinite(n) ? n : null;
 }
 
-/** CSV 錯字「Sectir」仍視為 Sector。 */
-const SECTOR_NUM_PREFIX =
-  /^(?:Sector|Sectir)\s+(\d+)\s*$/i;
+const SECTOR_NUM_PREFIX = /^(?:Sector|Sectir)\s+(\d+)\s*$/i;
 
-/** 單行「Sector 1」→ 1；區段標題等非 Sector n 則 null。 */
 function sectorHeadToNumber(headLine) {
   const t = String(headLine ?? "").trim();
   if (!t) return null;
@@ -249,7 +128,6 @@ function sectorHeadToNumber(headLine) {
   return m ? Number(m[1]) : null;
 }
 
-/** unlocks：每行符合 Sector n 者收錄為數字，換行為多筆；其餘行略過。 */
 function sectorRefsCellToNumbers(cell) {
   const text = String(cell ?? "").trim();
   if (!text) return [];
@@ -263,13 +141,6 @@ function sectorRefsCellToNumbers(cell) {
   return out;
 }
 
-/** unlockedBy：取第一個 Sector n；無則 null。 */
-function sectorRefsCellFirstNumber(cell) {
-  const nums = sectorRefsCellToNumbers(cell);
-  return nums.length ? nums[0] : null;
-}
-
-/** 第一行「Sector 1 | A」→ 左段字串、code「A」；無 | 則左段為整行、code 為空字串。 */
 function splitSectorLineAndCode(firstLine) {
   const s = String(firstLine ?? "").trim();
   if (!s) return { head: "", code: "" };
@@ -281,12 +152,10 @@ function splitSectorLineAndCode(firstLine) {
   };
 }
 
-/**
- * 將 CSV 的 Sector 儲存格（多行）拆解為 id（number|null）／code（位置代碼字串）／star／rank／XP。
- * XP 為去除空白後的數字，無則 null。航點名稱由前端以 id 對照 voyage JSON。
- */
 function parseSectorFields(raw) {
-  const full = String(raw ?? "").replace(/\r\n/g, "\n").trimEnd();
+  const full = String(raw ?? "")
+    .replace(/\r\n/g, "\n")
+    .trimEnd();
   if (!full) {
     return { id: null, code: "", star: null, rank: null, XP: null };
   }
@@ -373,6 +242,33 @@ function resolvedEnForLine(raw, enToId) {
   return enToId.has(en) ? en : null;
 }
 
+/* ── Air CSV 特有的拼字修正 ── */
+
+const AIR_TYPO_TO_EN = {
+  "Vivanite": "Vivianite",
+  "Cold Ore": "Gold Ore",
+  "Althuk Lavender Seeds": "Althyk Lavender Seeds",
+  "Deep-gren Crystal": "Deep-green Crystal",
+  "Feberite": "Ferberite",
+  "Direct Hit Rare IV": "Direct Hit Rate IV",
+};
+
+/* ── sea-area (只有一個空域) ── */
+
+function buildAirAreas(rowsOut) {
+  if (rowsOut.length === 0) {
+    return AIR_AREA_NAMES.map((name) => ({ name, start: -1, end: -1 }));
+  }
+  const ids = rowsOut
+    .map((r) => r.id)
+    .filter((id) => typeof id === "number");
+  const start = Math.min(...ids);
+  const end = Math.max(...ids);
+  return AIR_AREA_NAMES.map((name) => ({ name, start, end }));
+}
+
+/* ── main ── */
+
 function main() {
   const items = loadJson(ITEMS_JSON);
   const twItems = loadJson(TW_ITEMS_JSON);
@@ -387,11 +283,23 @@ function main() {
   /** @type {Set<string>} */
   const unresolvedRaw = new Set();
 
+  /** 先修正 Air CSV 常見拼字錯誤再去查表 */
+  function resolveAirItemLine(raw) {
+    let t = raw.trim();
+    if (!t) return null;
+    // Apply air-specific typo fixes
+    if (AIR_TYPO_TO_EN[t]) t = AIR_TYPO_TO_EN[t];
+    return t;
+  }
+
   /** @param {string} raw */
   function collectFromRaw(raw) {
-    const id = resolveLineToItemId(raw, enToId);
+    let t = raw.trim();
+    if (!t) return;
+    if (AIR_TYPO_TO_EN[t]) t = AIR_TYPO_TO_EN[t];
+    const id = resolveLineToItemId(t, enToId);
     if (id) seenIds.add(id);
-    else if (raw.trim()) unresolvedRaw.add(raw.trim());
+    else if (t) unresolvedRaw.add(raw.trim());
   }
 
   const tierColNames = ["Tier 1", "Tier 2", "Tier 3"];
@@ -427,7 +335,7 @@ function main() {
     meta: {
       generatedAt: new Date().toISOString(),
       sourceCsv:
-        "data/en/FFXIV Airship_Submersible Loot and Builder - Sub Loot.csv",
+        "data/en/FFXIV Airship_Submersible Loot and Builder - Air Loot.csv",
       teamcraftItems: "libs/data/src/lib/json/items.json",
       teamcraftTwItems: "libs/data/src/lib/json/tw/tw-items.json",
       noteZhTW:
@@ -440,8 +348,6 @@ function main() {
     items: catalogItems,
   };
 
-  /** @type {SeaEvent[]} */
-  const seaEvents = [];
   const rowsOut = [];
   for (const row of records) {
     if (isNoteBreakpointRow(row)) continue;
@@ -449,20 +355,20 @@ function main() {
 
     const sector = parseSectorFields(row.Sector ?? "");
     if (sector.id == null) {
-      seaEvents.push({ kind: "null" });
+      // Air CSV 的空域標題列（如 "Sea of Clouds"）跳過
       continue;
     }
-
-    seaEvents.push({ kind: "id", id: sector.id });
 
     const tiers = [];
     for (let t = 0; t < tierColNames.length; t++) {
       const col = tierColNames[t];
       const rawLines = splitTierLines(row[col]);
       const itemsOut = rawLines.map((raw) => {
-        const itemIdStr = resolveLineToItemId(raw, enToId);
+        let fixed = raw.trim();
+        if (AIR_TYPO_TO_EN[fixed]) fixed = AIR_TYPO_TO_EN[fixed];
+        const itemIdStr = resolveLineToItemId(fixed, enToId);
         const itemId = itemIdStr ? Number(itemIdStr) : null;
-        const resolvedEn = resolvedEnForLine(raw, enToId);
+        const resolvedEn = resolvedEnForLine(fixed, enToId);
         return {
           rawNameEn: raw.trim(),
           resolvedNameEn: resolvedEn,
@@ -472,60 +378,75 @@ function main() {
       tiers.push({ tier: t + 1, items: itemsOut });
     }
 
+    // Air CSV breakpoint 有 6 行：T2/T3/Mid/High/Lost/DD
     const bpVals = splitBreakpointValueLines(row[bpValuesKey] ?? "");
+    const { code: _code, ...sectorWithoutCode } = sector;
     rowsOut.push({
-      ...sector,
-      unlockedBy: sectorRefsCellFirstNumber(row["Unlocked By"] ?? ""),
+      ...sectorWithoutCode,
       unlocks: sectorRefsCellToNumbers(row.Unlocks ?? ""),
       Surveillance: breakpointPairToNumbers(bpVals[0], bpVals[1]),
       Retrieval: breakpointPairToNumbers(bpVals[2], bpVals[3]),
-      Favor: parseBreakpointInt(bpVals[4]),
+      Favor: breakpointPairToNumbers(bpVals[4], bpVals[5]),
       tiers,
     });
   }
 
-  const seaAreas = buildSeaAreasFromEvents(seaEvents, rowsOut);
+  // Infer unlockedBy from unlocks
+  const unlockedByMap = new Map();
+  for (const r of rowsOut) {
+    for (const unlockedId of r.unlocks) {
+      if (!unlockedByMap.has(unlockedId)) {
+        unlockedByMap.set(unlockedId, r.id);
+      }
+    }
+  }
 
-  const subLootDoc = {
+  for (const r of rowsOut) {
+    r.unlockedBy = unlockedByMap.get(r.id) ?? null;
+  }
+
+  const airAreas = buildAirAreas(rowsOut);
+
+  const airLootDoc = {
     meta: {
       generatedAt: new Date().toISOString(),
       sourceCsv:
-        "data/en/FFXIV Airship_Submersible Loot and Builder - Sub Loot.csv",
+        "data/en/FFXIV Airship_Submersible Loot and Builder - Air Loot.csv",
       skippedRows:
-        "NOTE on breakpoint values（含 T2/T3/Normal/Optimal/Favor 與 Minimum Surveillance… 說明）整列不納入",
+        "NOTE on breakpoint values（含 T2/T3/Mid/High/Lost/DD 說明）整列不納入",
       voyageFields:
-        "id：第一行 | 左段「Sector n」（或 Sectir）之 n，number。code：同列 | 右段位置代碼（A、AA 等），無 | 則空字串。顯示名稱以 id 對照 voyageTwCatalog／voyageEnCatalog。star、rank、unlockedBy、unlocks 同上。CSV 中無 Sector 編號之分隔列不寫入本檔，其順序用於產生 sea-area.json。",
-      seaArea: "sea-area.json",
-      voyageTwCatalog: "tw-submarine-voyages.json",
-      voyageEnCatalog: "submarine-voyages.json",
+        "id：第一行 | 左段「Sector n」之 n，number。code：同列 | 右段位置代碼（A、B 等），無 | 則空字串。star、rank、unlocks 同上。",
+      airArea: "air-area.json",
       breakpointFields:
-        "Surveillance／Retrieval：CSV 斷點數值之前兩格／次兩格，各為可解析之整數序列（0～2 個），空則 []。Favor：第五格，number 或 null。",
+        "Surveillance：CSV 斷點數值之前兩格（T2/T3），各為可解析之整數序列（0～2 個），空則 []。Retrieval：次兩格（Mid/High）。Favor：第五格（Lost），number 或 null。DD：第六格，number 或 null。",
       unresolvedTierNames: [...unresolvedRaw].sort(),
-      itemCatalog: "sub-loot-item-catalog.json",
+      itemCatalog: "air-loot-item-catalog.json",
     },
     rows: rowsOut,
   };
 
   mkdirSync(OUT_DIR, { recursive: true });
   writeFileSync(OUT_CATALOG, JSON.stringify(catalog, null, 2), "utf8");
-  writeFileSync(OUT_SUB_LOOT, JSON.stringify(subLootDoc, null, 2), "utf8");
+  writeFileSync(OUT_AIR_LOOT, JSON.stringify(airLootDoc, null, 2), "utf8");
   writeFileSync(
-    OUT_SEA_AREA,
-    `${JSON.stringify(seaAreas, null, 2)}\n`,
+    OUT_AIR_AREA,
+    `${JSON.stringify(airAreas, null, 2)}\n`,
     "utf8",
   );
 
   console.log(
-    `[build-sub-loot] catalog: ${catalogItems.length} items → ${OUT_CATALOG}`,
+    `[build-air-loot] catalog: ${catalogItems.length} items → ${OUT_CATALOG}`,
   );
-  console.log(`[build-sub-loot] rows: ${rowsOut.length} → ${OUT_SUB_LOOT}`);
-  console.log(`[build-sub-loot] sea-area: ${seaAreas.length} → ${OUT_SEA_AREA}`);
-  for (const a of seaAreas) {
+  console.log(`[build-air-loot] rows: ${rowsOut.length} → ${OUT_AIR_LOOT}`);
+  console.log(
+    `[build-air-loot] air-area: ${airAreas.length} → ${OUT_AIR_AREA}`,
+  );
+  for (const a of airAreas) {
     console.log(`  ${a.name}: ${a.start} … ${a.end}`);
   }
   if (unresolvedRaw.size > 0) {
     console.warn(
-      `[build-sub-loot] ${unresolvedRaw.size} 個 CSV 道具名未能對應 id（見 sub-loot.json meta.unresolvedTierNames）`,
+      `[build-air-loot] ${unresolvedRaw.size} 個 CSV 道具名未能對應 id（見 air-loot.json meta.unresolvedTierNames）`,
     );
   }
 }

@@ -17,7 +17,6 @@ const PLACEHOLDER_BY_RAW = new Map([
       id: SUB_LOOT_PLACEHOLDER_ID,
       nameEn: "Mountain Chromite Loft",
       nameJa: "Mountain Chromite Loft",
-      nameZhCN: "Mountain Chromite Loft",
       nameZhTW: "Mountain Chromite Loft",
     },
   ],
@@ -37,7 +36,6 @@ export function getPlaceholderCatalogEntry(idStr) {
         id: row.id,
         nameEn: row.nameEn,
         nameJa: row.nameJa,
-        nameZhCN: row.nameZhCN,
         nameZhTW: row.nameZhTW,
       };
     }

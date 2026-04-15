@@ -5,6 +5,7 @@ import { HomePage } from "./HomePage.tsx";
 import { SiteAccessGate } from "./SiteAccessGate.tsx";
 import { SubCalculatorPage } from "./SubCalculatorPage.tsx";
 import { SubLootPage } from "./SubLootPage.tsx";
+import { AirLootPage } from "./AirLootPage.tsx";
 import { hasSiteAccess } from "./siteAccess.ts";
 
 function navTabClass(isActive: boolean) {
@@ -40,6 +41,17 @@ function AppTopNav() {
               className={({ isActive }) => navTabClass(isActive)}
             >
               零件計算器
+            </NavLink>
+          </nav>
+          <span className="app-nav-section-label" aria-hidden="true">
+            飛空艇
+          </span>
+          <nav className="app-top-nav-tabs" aria-label="飛空艇">
+            <NavLink
+              to="/AirLoot"
+              className={({ isActive }) => navTabClass(isActive)}
+            >
+              打撈表
             </NavLink>
           </nav>
         </div>
@@ -82,6 +94,7 @@ export function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/SubLoot" element={<SubLootPage />} />
           <Route path="/SubCalculator" element={<SubCalculatorPage />} />
+          <Route path="/AirLoot" element={<AirLootPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>

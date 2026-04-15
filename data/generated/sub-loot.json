@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-04-14T05:13:30.083Z",
+    "generatedAt": "2026-04-15T02:06:22.005Z",
     "sourceCsv": "data/en/FFXIV Airship_Submersible Loot and Builder - Sub Loot.csv",
     "skippedRows": "NOTE on breakpoint values（含 T2/T3/Normal/Optimal/Favor 與 Minimum Surveillance… 說明）整列不納入",
     "voyageFields": "id：第一行 | 左段「Sector n」（或 Sectir）之 n，number。code：同列 | 右段位置代碼（A、AA 等），無 | 則空字串。顯示名稱以 id 對照 voyageTwCatalog／voyageEnCatalog。star、rank、unlockedBy、unlocks 同上。CSV 中無 Sector 編號之分隔列不寫入本檔，其順序用於產生 sea-area.json。",

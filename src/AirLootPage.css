@@ -1,0 +1,160 @@
+/* 與 SubLootPage.css 同構，class prefix 改為 air-loot */
+
+.air-loot-page.home-page {
+  max-width: var(--app-page-max-width);
+  width: 100%;
+}
+
+.air-loot-sea-tabs {
+  margin-bottom: 0.75rem;
+}
+
+.air-loot-sea-tablist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.air-loot-sea-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.15rem;
+  padding: 0.45rem 0.65rem;
+  border-radius: 0.35rem;
+  border: 1px solid rgba(167, 139, 250, 0.35);
+  background: rgba(18, 12, 29, 0.65);
+  color: #e5e7eb;
+  font: inherit;
+  font-size: 0.82rem;
+  line-height: 1.25;
+  cursor: pointer;
+  text-align: left;
+  transition:
+    border-color 0.15s ease,
+    background 0.15s ease,
+    color 0.15s ease;
+}
+
+.air-loot-sea-tab:hover {
+  border-color: rgba(251, 191, 36, 0.45);
+  background: rgba(124, 58, 237, 0.12);
+}
+
+.air-loot-sea-tab--active {
+  border-color: rgba(251, 191, 36, 0.65);
+  background: rgba(124, 58, 237, 0.22);
+  color: #fef3c7;
+  box-shadow: 0 0 0 1px rgba(251, 191, 36, 0.2);
+}
+
+.air-loot-sea-tab-name {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.air-loot-sea-tab-range {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: #9ca3af;
+}
+
+.air-loot-sea-tab--active .air-loot-sea-tab-range {
+  color: #d1d5db;
+}
+
+.air-loot-active-hint {
+  margin: 0 0 0.65rem;
+  font-size: 0.88rem;
+  color: #d1d5db;
+}
+
+.air-loot-active-range {
+  margin-left: 0.25rem;
+  color: #9ca3af;
+  font-weight: 500;
+}
+
+.air-loot-empty {
+  padding: 1.25rem 0.85rem !important;
+  text-align: center;
+  color: #9ca3af;
+  font-size: 0.9rem;
+  border-bottom: 1px solid rgba(167, 139, 250, 0.14);
+}
+
+.air-loot-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin: 0 -0.15rem;
+  padding: 0 0.15rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.air-loot-table {
+  width: 100%;
+  min-width: 0;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.air-loot-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 0.55rem 0.65rem;
+  text-align: left;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #fbbf24;
+  background: rgba(18, 12, 29, 0.97);
+  border-bottom: 1px solid rgba(251, 191, 36, 0.35);
+  box-shadow: 0 1px 0 rgba(167, 139, 250, 0.15);
+  white-space: nowrap;
+}
+
+.air-loot-table thead th:nth-child(1) {
+  width: 3%;
+}
+
+.air-loot-table thead th:nth-child(2) {
+  width: 10%;
+  white-space: normal;
+}
+
+.air-loot-table thead th:nth-child(3) {
+  width: 5%;
+  white-space: normal;
+}
+
+.air-loot-table thead th:nth-child(4) {
+  width: 5%;
+}
+
+.air-loot-table thead th:nth-child(5) {
+  width: 5%;
+}
+
+.air-loot-table thead th:nth-child(6) {
+  width: 6%;
+  white-space: normal;
+}
+
+.air-loot-table thead th:nth-child(n + 7) {
+  width: 15%;
+  white-space: normal;
+}
+
+.air-loot-table tbody td {
+  padding: 0.55rem 0.65rem;
+  vertical-align: top;
+  border-bottom: 1px solid rgba(167, 139, 250, 0.14);
+  color: #e5e7eb;
+}
+
+.air-loot-table tbody tr:hover td {
+  background: rgba(124, 58, 237, 0.08);
+}

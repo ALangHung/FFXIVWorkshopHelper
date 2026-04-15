@@ -1,0 +1,2830 @@
+{
+  "meta": {
+    "generatedAt": "2026-04-15T02:25:45.181Z",
+    "sourceCsv": "data/en/FFXIV Airship_Submersible Loot and Builder - Air Loot.csv",
+    "skippedRows": "NOTE on breakpoint values（含 T2/T3/Mid/High/Lost/DD 說明）整列不納入",
+    "voyageFields": "id：第一行 | 左段「Sector n」之 n，number。code：同列 | 右段位置代碼（A、B 等），無 | 則空字串。star、rank、unlocks 同上。",
+    "airArea": "air-area.json",
+    "breakpointFields": "Surveillance：CSV 斷點數值之前兩格（T2/T3），各為可解析之整數序列（0～2 個），空則 []。Retrieval：次兩格（Mid/High）。Favor：第五格（Lost），number 或 null。DD：第六格，number 或 null。",
+    "unresolvedTierNames": [],
+    "itemCatalog": "air-loot-item-catalog.json"
+  },
+  "rows": [
+    {
+      "id": 1,
+      "star": 1,
+      "rank": 1,
+      "XP": 10610,
+      "unlocks": [
+        3
+      ],
+      "Surveillance": [
+        46,
+        54
+      ],
+      "Retrieval": [
+        58,
+        60
+      ],
+      "Favor": [
+        0,
+        46
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Bamboo Weave",
+              "resolvedNameEn": "Bamboo Weave",
+              "itemId": 12923
+            },
+            {
+              "rawNameEn": "Lightning Crystal",
+              "resolvedNameEn": "Lightning Crystal",
+              "itemId": 12
+            },
+            {
+              "rawNameEn": "Skill Speed II",
+              "resolvedNameEn": "Quickarm Materia II",
+              "itemId": 5715
+            },
+            {
+              "rawNameEn": "Vivianite",
+              "resolvedNameEn": "Vivianite",
+              "itemId": 12224
+            },
+            {
+              "rawNameEn": "Wind Crystal",
+              "resolvedNameEn": "Wind Crystal",
+              "itemId": 10
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "Bamboo Weave",
+              "resolvedNameEn": "Bamboo Weave",
+              "itemId": 12923
+            },
+            {
+              "rawNameEn": "Ferberite",
+              "resolvedNameEn": "Ferberite",
+              "itemId": 7588
+            },
+            {
+              "rawNameEn": "Potters Stone",
+              "resolvedNameEn": "Potters Stone",
+              "itemId": 13751
+            },
+            {
+              "rawNameEn": "Skill Speed III",
+              "resolvedNameEn": "Quickarm Materia III",
+              "itemId": 5716
+            },
+            {
+              "rawNameEn": "Vivanite",
+              "resolvedNameEn": "Vivianite",
+              "itemId": 12224
+            },
+            {
+              "rawNameEn": "Wind Crystal",
+              "resolvedNameEn": "Wind Crystal",
+              "itemId": 10
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Direct Hit Rate III",
+              "resolvedNameEn": "Heavens' Eye Materia III",
+              "itemId": 5666
+            },
+            {
+              "rawNameEn": "Ferberite",
+              "resolvedNameEn": "Ferberite",
+              "itemId": 7588
+            },
+            {
+              "rawNameEn": "Lightning Crystal",
+              "resolvedNameEn": "Lightning Crystal",
+              "itemId": 12
+            },
+            {
+              "rawNameEn": "Potters Stone",
+              "resolvedNameEn": "Potters Stone",
+              "itemId": 13751
+            },
+            {
+              "rawNameEn": "Skill Speed III",
+              "resolvedNameEn": "Quickarm Materia III",
+              "itemId": 5716
+            },
+            {
+              "rawNameEn": "Unaspected Crystal",
+              "resolvedNameEn": "Unaspected Crystal",
+              "itemId": 10099
+            },
+            {
+              "rawNameEn": "Vivianite",
+              "resolvedNameEn": "Vivianite",
+              "itemId": 12224
+            }
+          ]
+        }
+      ],
+      "unlockedBy": null
+    },
+    {
+      "id": 2,
+      "star": 1,
+      "rank": 1,
+      "XP": 10610,
+      "unlocks": [
+        4,
+        5
+      ],
+      "Surveillance": [
+        46,
+        54
+      ],
+      "Retrieval": [
+        58,
+        60
+      ],
+      "Favor": [
+        0,
+        46
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Bamboo Weave",
+              "resolvedNameEn": "Bamboo Weave",
+              "itemId": 12923
+            },
+            {
+              "rawNameEn": "Fire Crystal",
+              "resolvedNameEn": "Fire Crystal",
+              "itemId": 8
+            },
+            {
+              "rawNameEn": "Gold Ore",
+              "resolvedNameEn": "Gold Ore",
+              "itemId": 5118
+            },
+            {
+              "rawNameEn": "Vivianite",
+              "resolvedNameEn": "Vivianite",
+              "itemId": 12224
+            },
+            {
+              "rawNameEn": "Water Crystal",
+              "resolvedNameEn": "Water Crystal",
+              "itemId": 13
+            },
+            {
+              "rawNameEn": "Wind Crystal",
+              "resolvedNameEn": "Wind Crystal",
+              "itemId": 10
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "Bamboo Weave",
+              "resolvedNameEn": "Bamboo Weave",
+              "itemId": 12923
+            },
+            {
+              "rawNameEn": "Fire Crystal",
+              "resolvedNameEn": "Fire Crystal",
+              "itemId": 8
+            },
+            {
+              "rawNameEn": "Cold Ore",
+              "resolvedNameEn": "Gold Ore",
+              "itemId": 5118
+            },
+            {
+              "rawNameEn": "Shrub Seedling",
+              "resolvedNameEn": "Shrub Seedling",
+              "itemId": 12656
+            },
+            {
+              "rawNameEn": "Tenacity III",
+              "resolvedNameEn": "Battledance Materia III",
+              "itemId": 5681
+            },
+            {
+              "rawNameEn": "Vivanite",
+              "resolvedNameEn": "Vivianite",
+              "itemId": 12224
+            },
+            {
+              "rawNameEn": "Water Crystal",
+              "resolvedNameEn": "Water Crystal",
+              "itemId": 13
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Deep-red Crystal",
+              "resolvedNameEn": "Deep-red Crystal",
+              "itemId": 12225
+            },
+            {
+              "rawNameEn": "Gold Ore",
+              "resolvedNameEn": "Gold Ore",
+              "itemId": 5118
+            },
+            {
+              "rawNameEn": "Shrub Seedling",
+              "resolvedNameEn": "Shrub Seedling",
+              "itemId": 12656
+            },
+            {
+              "rawNameEn": "Spell Speed III",
+              "resolvedNameEn": "Quicktongue Materia III",
+              "itemId": 5721
+            },
+            {
+              "rawNameEn": "Tenacity III",
+              "resolvedNameEn": "Battledance Materia III",
+              "itemId": 5681
+            },
+            {
+              "rawNameEn": "Water Crystal",
+              "resolvedNameEn": "Water Crystal",
+              "itemId": 13
+            }
+          ]
+        }
+      ],
+      "unlockedBy": null
+    },
+    {
+      "id": 3,
+      "star": 1,
+      "rank": 4,
+      "XP": 27840,
+      "unlocks": [],
+      "Surveillance": [
+        46,
+        54
+      ],
+      "Retrieval": [
+        58,
+        62
+      ],
+      "Favor": [
+        0,
+        46
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Balsa Wood Lumber",
+              "resolvedNameEn": "Balsa Wood Lumber",
+              "itemId": 12925
+            },
+            {
+              "rawNameEn": "Balsa Wood Scrap",
+              "resolvedNameEn": "Balsa Wood Scrap",
+              "itemId": 12924
+            },
+            {
+              "rawNameEn": "Earth Crystal",
+              "resolvedNameEn": "Earth Crystal",
+              "itemId": 11
+            },
+            {
+              "rawNameEn": "Platinum Ore",
+              "resolvedNameEn": "Platinum Ore",
+              "itemId": 5120
+            },
+            {
+              "rawNameEn": "Red Moko Grass",
+              "resolvedNameEn": "Red Moko Grass",
+              "itemId": 12220
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "Balsa Wood Scrap",
+              "resolvedNameEn": "Balsa Wood Scrap",
+              "itemId": 12924
+            },
+            {
+              "rawNameEn": "Control III",
+              "resolvedNameEn": "Craftsman's Cunning Materia III",
+              "itemId": 5706
+            },
+            {
+              "rawNameEn": "Earth Crystal",
+              "resolvedNameEn": "Earth Crystal",
+              "itemId": 11
+            },
+            {
+              "rawNameEn": "Far Eastern Coin",
+              "resolvedNameEn": "Far Eastern Coin",
+              "itemId": 12653
+            },
+            {
+              "rawNameEn": "Ice Crystal",
+              "resolvedNameEn": "Ice Crystal",
+              "itemId": 9
+            },
+            {
+              "rawNameEn": "Platinum Ore",
+              "resolvedNameEn": "Platinum Ore",
+              "itemId": 5120
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Control III",
+              "resolvedNameEn": "Craftsman's Cunning Materia III",
+              "itemId": 5706
+            },
+            {
+              "rawNameEn": "Craftsmanship III",
+              "resolvedNameEn": "Craftsman's Competence Materia III",
+              "itemId": 5701
+            },
+            {
+              "rawNameEn": "Deep-green Crystal",
+              "resolvedNameEn": "Deep-green Crystal",
+              "itemId": 12227
+            },
+            {
+              "rawNameEn": "Earth Crystal",
+              "resolvedNameEn": "Earth Crystal",
+              "itemId": 11
+            },
+            {
+              "rawNameEn": "Far Eastern Coin",
+              "resolvedNameEn": "Far Eastern Coin",
+              "itemId": 12653
+            },
+            {
+              "rawNameEn": "Platinum Ore",
+              "resolvedNameEn": "Platinum Ore",
+              "itemId": 5120
+            }
+          ]
+        }
+      ],
+      "unlockedBy": 1
+    },
+    {
+      "id": 4,
+      "star": 1,
+      "rank": 7,
+      "XP": 46660,
+      "unlocks": [],
+      "Surveillance": [
+        46,
+        54
+      ],
+      "Retrieval": [
+        60,
+        64
+      ],
+      "Favor": [
+        0,
+        46
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Balsa Wood Scrap",
+              "resolvedNameEn": "Balsa Wood Scrap",
+              "itemId": 12924
+            },
+            {
+              "rawNameEn": "Fire Crystal",
+              "resolvedNameEn": "Fire Crystal",
+              "itemId": 8
+            },
+            {
+              "rawNameEn": "Red Moko Grass",
+              "resolvedNameEn": "Red Moko Grass",
+              "itemId": 12220
+            },
+            {
+              "rawNameEn": "Scarlet Sap",
+              "resolvedNameEn": "Scarlet Sap",
+              "itemId": 7590
+            },
+            {
+              "rawNameEn": "Water Crystal",
+              "resolvedNameEn": "Water Crystal",
+              "itemId": 13
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "Balsa Wood Scrap",
+              "resolvedNameEn": "Balsa Wood Scrap",
+              "itemId": 12924
+            },
+            {
+              "rawNameEn": "Fine Alumen",
+              "resolvedNameEn": "Fine Alumen",
+              "itemId": 12655
+            },
+            {
+              "rawNameEn": "Perception III",
+              "resolvedNameEn": "Gatherer's Guerdon Materia III",
+              "itemId": 5686
+            },
+            {
+              "rawNameEn": "Red Moko Grass",
+              "resolvedNameEn": "Red Moko Grass",
+              "itemId": 12220
+            },
+            {
+              "rawNameEn": "Water Crystal",
+              "resolvedNameEn": "Water Crystal",
+              "itemId": 13
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Deep-blue Crystal",
+              "resolvedNameEn": "Deep-blue Crystal",
+              "itemId": 12229
+            },
+            {
+              "rawNameEn": "Fine Alumen",
+              "resolvedNameEn": "Fine Alumen",
+              "itemId": 12655
+            },
+            {
+              "rawNameEn": "Fire Crystal",
+              "resolvedNameEn": "Fire Crystal",
+              "itemId": 8
+            },
+            {
+              "rawNameEn": "GP III",
+              "resolvedNameEn": "Gatherer's Guile Materia III",
+              "itemId": 5691
+            },
+            {
+              "rawNameEn": "Perception III",
+              "resolvedNameEn": "Gatherer's Guerdon Materia III",
+              "itemId": 5686
+            },
+            {
+              "rawNameEn": "Scarlet Sap",
+              "resolvedNameEn": "Scarlet Sap",
+              "itemId": 7590
+            },
+            {
+              "rawNameEn": "Unaspected Crystal",
+              "resolvedNameEn": "Unaspected Crystal",
+              "itemId": 10099
+            }
+          ]
+        }
+      ],
+      "unlockedBy": 2
+    },
+    {
+      "id": 5,
+      "star": 1,
+      "rank": 10,
+      "XP": 75920,
+      "unlocks": [
+        6,
+        7
+      ],
+      "Surveillance": [
+        46,
+        54
+      ],
+      "Retrieval": [
+        62,
+        66
+      ],
+      "Favor": [
+        0,
+        46
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Birch Branch",
+              "resolvedNameEn": "Birch Branch",
+              "itemId": 12586
+            },
+            {
+              "rawNameEn": "Deep-red Crystal",
+              "resolvedNameEn": "Deep-red Crystal",
+              "itemId": 12225
+            },
+            {
+              "rawNameEn": "Empty Crystal",
+              "resolvedNameEn": "Empty Crystal",
+              "itemId": 12928
+            },
+            {
+              "rawNameEn": "Lightning Crystal",
+              "resolvedNameEn": "Lightning Crystal",
+              "itemId": 12
+            },
+            {
+              "rawNameEn": "Wind Crystal",
+              "resolvedNameEn": "Wind Crystal",
+              "itemId": 10
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "Birch Branch",
+              "resolvedNameEn": "Birch Branch",
+              "itemId": 12586
+            },
+            {
+              "rawNameEn": "Deep-red Crystal",
+              "resolvedNameEn": "Deep-red Crystal",
+              "itemId": 12225
+            },
+            {
+              "rawNameEn": "Empty Crystal",
+              "resolvedNameEn": "Empty Crystal",
+              "itemId": 12928
+            },
+            {
+              "rawNameEn": "Lightning Crystal",
+              "resolvedNameEn": "Lightning Crystal",
+              "itemId": 12
+            },
+            {
+              "rawNameEn": "Skill Speed III",
+              "resolvedNameEn": "Quickarm Materia III",
+              "itemId": 5716
+            },
+            {
+              "rawNameEn": "Toy Box Schema",
+              "resolvedNameEn": "Toy Box Schema",
+              "itemId": 12654
+            },
+            {
+              "rawNameEn": "Wind Crystal",
+              "resolvedNameEn": "Wind Crystal",
+              "itemId": 10
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Deep-red Crystal",
+              "resolvedNameEn": "Deep-red Crystal",
+              "itemId": 12225
+            },
+            {
+              "rawNameEn": "Determination III",
+              "resolvedNameEn": "Savage Might Materia III",
+              "itemId": 5676
+            },
+            {
+              "rawNameEn": "Skill Speed III",
+              "resolvedNameEn": "Quickarm Materia III",
+              "itemId": 5716
+            },
+            {
+              "rawNameEn": "Toy Box Schema",
+              "resolvedNameEn": "Toy Box Schema",
+              "itemId": 12654
+            },
+            {
+              "rawNameEn": "Unaspected Crystal",
+              "resolvedNameEn": "Unaspected Crystal",
+              "itemId": 10099
+            },
+            {
+              "rawNameEn": "Wind Crystal",
+              "resolvedNameEn": "Wind Crystal",
+              "itemId": 10
+            }
+          ]
+        }
+      ],
+      "unlockedBy": 2
+    },
+    {
+      "id": 6,
+      "star": 2,
+      "rank": 14,
+      "XP": 102600,
+      "unlocks": [
+        11
+      ],
+      "Surveillance": [
+        46,
+        58
+      ],
+      "Retrieval": [
+        64,
+        68
+      ],
+      "Favor": [
+        0,
+        46
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Dark Chestnut Branch",
+              "resolvedNameEn": "Dark Chestnut Branch",
+              "itemId": 12585
+            },
+            {
+              "rawNameEn": "Deep-green Crystal",
+              "resolvedNameEn": "Deep-green Crystal",
+              "itemId": 12227
+            },
+            {
+              "rawNameEn": "Empty Crystal",
+              "resolvedNameEn": "Empty Crystal",
+              "itemId": 12928
+            },
+            {
+              "rawNameEn": "Ice Crystal",
+              "resolvedNameEn": "Ice Crystal",
+              "itemId": 9
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "Dark Chestnut Branch",
+              "resolvedNameEn": "Dark Chestnut Branch",
+              "itemId": 12585
+            },
+            {
+              "rawNameEn": "Deep-green Crystal",
+              "resolvedNameEn": "Deep-green Crystal",
+              "itemId": 12227
+            },
+            {
+              "rawNameEn": "Dravanian Mote",
+              "resolvedNameEn": "Dravanian Mote",
+              "itemId": 13756
+            },
+            {
+              "rawNameEn": "Earth Crystal",
+              "resolvedNameEn": "Earth Crystal",
+              "itemId": 11
+            },
+            {
+              "rawNameEn": "Empty Crystal",
+              "resolvedNameEn": "Empty Crystal",
+              "itemId": 12928
+            },
+            {
+              "rawNameEn": "Ice Crystal",
+              "resolvedNameEn": "Ice Crystal",
+              "itemId": 9
+            },
+            {
+              "rawNameEn": "Shrub Seedling",
+              "resolvedNameEn": "Shrub Seedling",
+              "itemId": 12656
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Dark Chestnut Branch",
+              "resolvedNameEn": "Dark Chestnut Branch",
+              "itemId": 12585
+            },
+            {
+              "rawNameEn": "Deep-green Crystal",
+              "resolvedNameEn": "Deep-green Crystal",
+              "itemId": 12227
+            },
+            {
+              "rawNameEn": "Dravanian Mote",
+              "resolvedNameEn": "Dravanian Mote",
+              "itemId": 13756
+            },
+            {
+              "rawNameEn": "Earth Crystal",
+              "resolvedNameEn": "Earth Crystal",
+              "itemId": 11
+            },
+            {
+              "rawNameEn": "Ice Crystal",
+              "resolvedNameEn": "Ice Crystal",
+              "itemId": 9
+            },
+            {
+              "rawNameEn": "Piety III",
+              "resolvedNameEn": "Piety Materia III",
+              "itemId": 5631
+            },
+            {
+              "rawNameEn": "Spell Speed III",
+              "resolvedNameEn": "Quicktongue Materia III",
+              "itemId": 5721
+            },
+            {
+              "rawNameEn": "Unaspected Crystal",
+              "resolvedNameEn": "Unaspected Crystal",
+              "itemId": 10099
+            }
+          ]
+        }
+      ],
+      "unlockedBy": 5
+    },
+    {
+      "id": 7,
+      "star": 2,
+      "rank": 17,
+      "XP": 118350,
+      "unlocks": [
+        8,
+        10
+      ],
+      "Surveillance": [
+        46,
+        58
+      ],
+      "Retrieval": [
+        66,
+        70
+      ],
+      "Favor": [
+        46,
+        54
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Control II",
+              "resolvedNameEn": "Craftsman's Cunning Materia II",
+              "itemId": 5705
+            },
+            {
+              "rawNameEn": "Deep-blue Crystal",
+              "resolvedNameEn": "Deep-blue Crystal",
+              "itemId": 12229
+            },
+            {
+              "rawNameEn": "Ferberite",
+              "resolvedNameEn": "Ferberite",
+              "itemId": 7588
+            },
+            {
+              "rawNameEn": "Fire Crystal",
+              "resolvedNameEn": "Fire Crystal",
+              "itemId": 8
+            },
+            {
+              "rawNameEn": "Red Clay",
+              "resolvedNameEn": "Red Clay",
+              "itemId": 12920
+            },
+            {
+              "rawNameEn": "Water Crystal",
+              "resolvedNameEn": "Water Crystal",
+              "itemId": 13
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "CP III",
+              "resolvedNameEn": "Craftsman's Command Materia III",
+              "itemId": 5711
+            },
+            {
+              "rawNameEn": "Deep-blue Crystal",
+              "resolvedNameEn": "Deep-blue Crystal",
+              "itemId": 12229
+            },
+            {
+              "rawNameEn": "Fine Alumen",
+              "resolvedNameEn": "Fine Alumen",
+              "itemId": 12655
+            },
+            {
+              "rawNameEn": "Red Clay",
+              "resolvedNameEn": "Red Clay",
+              "itemId": 12920
+            },
+            {
+              "rawNameEn": "Tincalconite",
+              "resolvedNameEn": "Tincalconite",
+              "itemId": 14933
+            },
+            {
+              "rawNameEn": "Water Crystal",
+              "resolvedNameEn": "Water Crystal",
+              "itemId": 13
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Control III",
+              "resolvedNameEn": "Craftsman's Cunning Materia III",
+              "itemId": 5706
+            },
+            {
+              "rawNameEn": "CP III",
+              "resolvedNameEn": "Craftsman's Command Materia III",
+              "itemId": 5711
+            },
+            {
+              "rawNameEn": "Deep-blue Crystal",
+              "resolvedNameEn": "Deep-blue Crystal",
+              "itemId": 12229
+            },
+            {
+              "rawNameEn": "Ferberite",
+              "resolvedNameEn": "Ferberite",
+              "itemId": 7588
+            },
+            {
+              "rawNameEn": "Fire Crystal",
+              "resolvedNameEn": "Fire Crystal",
+              "itemId": 8
+            },
+            {
+              "rawNameEn": "Tincalconite",
+              "resolvedNameEn": "Tincalconite",
+              "itemId": 14933
+            },
+            {
+              "rawNameEn": "Water Crystal",
+              "resolvedNameEn": "Water Crystal",
+              "itemId": 13
+            }
+          ]
+        }
+      ],
+      "unlockedBy": 5
+    },
+    {
+      "id": 8,
+      "star": 2,
+      "rank": 20,
+      "XP": 146210,
+      "unlocks": [
+        9
+      ],
+      "Surveillance": [
+        46,
+        58
+      ],
+      "Retrieval": [
+        68,
+        72
+      ],
+      "Favor": [
+        46,
+        58
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Balsa Wood Lumber",
+              "resolvedNameEn": "Balsa Wood Lumber",
+              "itemId": 12925
+            },
+            {
+              "rawNameEn": "Determination III",
+              "resolvedNameEn": "Savage Might Materia III",
+              "itemId": 5676
+            },
+            {
+              "rawNameEn": "Gold Ore",
+              "resolvedNameEn": "Gold Ore",
+              "itemId": 5118
+            },
+            {
+              "rawNameEn": "Raw Celestine",
+              "resolvedNameEn": "Raw Celestine",
+              "itemId": 12223
+            },
+            {
+              "rawNameEn": "Wind Crystal",
+              "resolvedNameEn": "Wind Crystal",
+              "itemId": 10
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "Balsa Wood Lumber",
+              "resolvedNameEn": "Balsa Wood Lumber",
+              "itemId": 12925
+            },
+            {
+              "rawNameEn": "Critical Hit III",
+              "resolvedNameEn": "Savage Aim Materia III",
+              "itemId": 5671
+            },
+            {
+              "rawNameEn": "Determination III",
+              "resolvedNameEn": "Savage Might Materia III",
+              "itemId": 5676
+            },
+            {
+              "rawNameEn": "Iron Giant Core",
+              "resolvedNameEn": "Iron Giant Core",
+              "itemId": 13003
+            },
+            {
+              "rawNameEn": "Gold Ore",
+              "resolvedNameEn": "Gold Ore",
+              "itemId": 5118
+            },
+            {
+              "rawNameEn": "Lightning Crystal",
+              "resolvedNameEn": "Lightning Crystal",
+              "itemId": 12
+            },
+            {
+              "rawNameEn": "Oriental Grass Plot",
+              "resolvedNameEn": "Oriental Grass Plot",
+              "itemId": 13090
+            },
+            {
+              "rawNameEn": "Raw Celestine",
+              "resolvedNameEn": "Raw Celestine",
+              "itemId": 12223
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Critical Hit III",
+              "resolvedNameEn": "Savage Aim Materia III",
+              "itemId": 5671
+            },
+            {
+              "rawNameEn": "Deep-red Crystal",
+              "resolvedNameEn": "Deep-red Crystal",
+              "itemId": 12225
+            },
+            {
+              "rawNameEn": "Determination III",
+              "resolvedNameEn": "Savage Might Materia III",
+              "itemId": 5676
+            },
+            {
+              "rawNameEn": "Gold Ore",
+              "resolvedNameEn": "Gold Ore",
+              "itemId": 5118
+            },
+            {
+              "rawNameEn": "Lightning Crystal",
+              "resolvedNameEn": "Lightning Crystal",
+              "itemId": 12
+            }
+          ]
+        }
+      ],
+      "unlockedBy": 7
+    },
+    {
+      "id": 9,
+      "star": 3,
+      "rank": 24,
+      "XP": 174980,
+      "unlocks": [],
+      "Surveillance": [
+        46,
+        58
+      ],
+      "Retrieval": [
+        70,
+        74
+      ],
+      "Favor": [
+        46,
+        62
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Balsa Wood Lumber",
+              "resolvedNameEn": "Balsa Wood Lumber",
+              "itemId": 12925
+            },
+            {
+              "rawNameEn": "Lightning Crystal",
+              "resolvedNameEn": "Lightning Crystal",
+              "itemId": 12
+            },
+            {
+              "rawNameEn": "Platinum Ore",
+              "resolvedNameEn": "Platinum Ore",
+              "itemId": 5120
+            },
+            {
+              "rawNameEn": "Raw Celestine",
+              "resolvedNameEn": "Raw Celestine",
+              "itemId": 12223
+            },
+            {
+              "rawNameEn": "Wind Crystal",
+              "resolvedNameEn": "Wind Crystal",
+              "itemId": 10
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "Balsa Wood Lumber",
+              "resolvedNameEn": "Balsa Wood Lumber",
+              "itemId": 12925
+            },
+            {
+              "rawNameEn": "Copper Voyage Spoil",
+              "resolvedNameEn": "Copper Voyage Spoil",
+              "itemId": 15111
+            },
+            {
+              "rawNameEn": "Lightning Crystal",
+              "resolvedNameEn": "Lightning Crystal",
+              "itemId": 12
+            },
+            {
+              "rawNameEn": "Platinum Ore",
+              "resolvedNameEn": "Platinum Ore",
+              "itemId": 5120
+            },
+            {
+              "rawNameEn": "Raw Celestine",
+              "resolvedNameEn": "Raw Celestine",
+              "itemId": 12223
+            },
+            {
+              "rawNameEn": "Skill Speed III",
+              "resolvedNameEn": "Quickarm Materia III",
+              "itemId": 5716
+            },
+            {
+              "rawNameEn": "Toy Box",
+              "resolvedNameEn": "Toy Box",
+              "itemId": 12094
+            },
+            {
+              "rawNameEn": "Wind Crystal",
+              "resolvedNameEn": "Wind Crystal",
+              "itemId": 10
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Copper Voyage Spoil",
+              "resolvedNameEn": "Copper Voyage Spoil",
+              "itemId": 15111
+            },
+            {
+              "rawNameEn": "Critical Hit III",
+              "resolvedNameEn": "Savage Aim Materia III",
+              "itemId": 5671
+            },
+            {
+              "rawNameEn": "Deep-gren Crystal",
+              "resolvedNameEn": "Deep-green Crystal",
+              "itemId": 12227
+            },
+            {
+              "rawNameEn": "Lightning Crystal",
+              "resolvedNameEn": "Lightning Crystal",
+              "itemId": 12
+            },
+            {
+              "rawNameEn": "Platinum Ore",
+              "resolvedNameEn": "Platinum Ore",
+              "itemId": 5120
+            },
+            {
+              "rawNameEn": "Skill Speed III",
+              "resolvedNameEn": "Quickarm Materia III",
+              "itemId": 5716
+            },
+            {
+              "rawNameEn": "Unaspected Crystal",
+              "resolvedNameEn": "Unaspected Crystal",
+              "itemId": 10099
+            },
+            {
+              "rawNameEn": "Wind Crystal",
+              "resolvedNameEn": "Wind Crystal",
+              "itemId": 10
+            }
+          ]
+        }
+      ],
+      "unlockedBy": 8
+    },
+    {
+      "id": 10,
+      "star": 3,
+      "rank": 27,
+      "XP": 200430,
+      "unlocks": [
+        12
+      ],
+      "Surveillance": [
+        46,
+        60
+      ],
+      "Retrieval": [
+        72,
+        76
+      ],
+      "Favor": [
+        46,
+        66
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Balsa Wood Lumber",
+              "resolvedNameEn": "Balsa Wood Lumber",
+              "itemId": 12925
+            },
+            {
+              "rawNameEn": "Black Clay",
+              "resolvedNameEn": "Black Clay",
+              "itemId": 12921
+            },
+            {
+              "rawNameEn": "Fire Crystal",
+              "resolvedNameEn": "Fire Crystal",
+              "itemId": 8
+            },
+            {
+              "rawNameEn": "Raw Celestine",
+              "resolvedNameEn": "Raw Celestine",
+              "itemId": 12223
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "Black Clay",
+              "resolvedNameEn": "Black Clay",
+              "itemId": 12921
+            },
+            {
+              "rawNameEn": "Fire Crystal",
+              "resolvedNameEn": "Fire Crystal",
+              "itemId": 8
+            },
+            {
+              "rawNameEn": "Gathering III",
+              "resolvedNameEn": "Gatherer's Grasp Materia III",
+              "itemId": 5696
+            },
+            {
+              "rawNameEn": "Magnanimous Mogcrown",
+              "resolvedNameEn": "Magnanimous Mogcrown",
+              "itemId": 12657
+            },
+            {
+              "rawNameEn": "Perception III",
+              "resolvedNameEn": "Gatherer's Guerdon Materia III",
+              "itemId": 5686
+            },
+            {
+              "rawNameEn": "Potters Stone",
+              "resolvedNameEn": "Potters Stone",
+              "itemId": 13751
+            },
+            {
+              "rawNameEn": "Raw Celestine",
+              "resolvedNameEn": "Raw Celestine",
+              "itemId": 12223
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Fire Crystal",
+              "resolvedNameEn": "Fire Crystal",
+              "itemId": 8
+            },
+            {
+              "rawNameEn": "Gathering III",
+              "resolvedNameEn": "Gatherer's Grasp Materia III",
+              "itemId": 5696
+            },
+            {
+              "rawNameEn": "Perception III",
+              "resolvedNameEn": "Gatherer's Guerdon Materia III",
+              "itemId": 5686
+            },
+            {
+              "rawNameEn": "Potters Stone",
+              "resolvedNameEn": "Potters Stone",
+              "itemId": 13751
+            },
+            {
+              "rawNameEn": "Scarlet Sap",
+              "resolvedNameEn": "Scarlet Sap",
+              "itemId": 7590
+            },
+            {
+              "rawNameEn": "Unaspected Crystal",
+              "resolvedNameEn": "Unaspected Crystal",
+              "itemId": 10099
+            }
+          ]
+        }
+      ],
+      "unlockedBy": 7
+    },
+    {
+      "id": 11,
+      "star": 3,
+      "rank": 30,
+      "XP": 231750,
+      "unlocks": [
+        13,
+        14
+      ],
+      "Surveillance": [
+        46,
+        60
+      ],
+      "Retrieval": [
+        74,
+        78
+      ],
+      "Favor": [
+        46,
+        72
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Althuk Lavender Seeds",
+              "resolvedNameEn": "Althyk Lavender Seeds",
+              "itemId": 15855
+            },
+            {
+              "rawNameEn": "Chemically Treated Chimera Hide",
+              "resolvedNameEn": "Chemically Treated Chimera Hide",
+              "itemId": 12222
+            },
+            {
+              "rawNameEn": "Earth Crystal",
+              "resolvedNameEn": "Earth Crystal",
+              "itemId": 11
+            },
+            {
+              "rawNameEn": "Ice Crystal",
+              "resolvedNameEn": "Ice Crystal",
+              "itemId": 9
+            },
+            {
+              "rawNameEn": "Synthetic Fiber",
+              "resolvedNameEn": "Synthetic Fiber",
+              "itemId": 12926
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "Althyk Lavender Seeds",
+              "resolvedNameEn": "Althyk Lavender Seeds",
+              "itemId": 15855
+            },
+            {
+              "rawNameEn": "Earth Crystal",
+              "resolvedNameEn": "Earth Crystal",
+              "itemId": 11
+            },
+            {
+              "rawNameEn": "Ice Crystal",
+              "resolvedNameEn": "Ice Crystal",
+              "itemId": 9
+            },
+            {
+              "rawNameEn": "Magnanimous Mogcrown",
+              "resolvedNameEn": "Magnanimous Mogcrown",
+              "itemId": 12657
+            },
+            {
+              "rawNameEn": "Synthetic Fiber",
+              "resolvedNameEn": "Synthetic Fiber",
+              "itemId": 12926
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Althyk Lavender Seeds",
+              "resolvedNameEn": "Althyk Lavender Seeds",
+              "itemId": 15855
+            },
+            {
+              "rawNameEn": "Earth Crystal",
+              "resolvedNameEn": "Earth Crystal",
+              "itemId": 11
+            },
+            {
+              "rawNameEn": "Magnanimous Mogcrown",
+              "resolvedNameEn": "Magnanimous Mogcrown",
+              "itemId": 12657
+            },
+            {
+              "rawNameEn": "Spell Speed IV",
+              "resolvedNameEn": "Quicktongue Materia IV",
+              "itemId": 5722
+            },
+            {
+              "rawNameEn": "Tenacity IV",
+              "resolvedNameEn": "Battledance Materia IV",
+              "itemId": 5682
+            }
+          ]
+        }
+      ],
+      "unlockedBy": 6
+    },
+    {
+      "id": 12,
+      "star": 4,
+      "rank": 34,
+      "XP": 263530,
+      "unlocks": [
+        16
+      ],
+      "Surveillance": [
+        46,
+        62
+      ],
+      "Retrieval": [
+        76,
+        80
+      ],
+      "Favor": [
+        46,
+        76
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Chemically Treated Chimera Hide",
+              "resolvedNameEn": "Chemically Treated Chimera Hide",
+              "itemId": 12222
+            },
+            {
+              "rawNameEn": "Direct Hit Rate III",
+              "resolvedNameEn": "Heavens' Eye Materia III",
+              "itemId": 5666
+            },
+            {
+              "rawNameEn": "Fire Crystal",
+              "resolvedNameEn": "Fire Crystal",
+              "itemId": 8
+            },
+            {
+              "rawNameEn": "Synthetic Fiber",
+              "resolvedNameEn": "Synthetic Fiber",
+              "itemId": 12926
+            },
+            {
+              "rawNameEn": "Voidrake Seeds",
+              "resolvedNameEn": "Voidrake Seeds",
+              "itemId": 15856
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "Fire Crystal",
+              "resolvedNameEn": "Fire Crystal",
+              "itemId": 8
+            },
+            {
+              "rawNameEn": "Shrub Seedling",
+              "resolvedNameEn": "Shrub Seedling",
+              "itemId": 12656
+            },
+            {
+              "rawNameEn": "Tenacity IV",
+              "resolvedNameEn": "Battledance Materia IV",
+              "itemId": 5682
+            },
+            {
+              "rawNameEn": "Water Crystal",
+              "resolvedNameEn": "Water Crystal",
+              "itemId": 13
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Deep-green Cluster",
+              "resolvedNameEn": "Deep-green Cluster",
+              "itemId": 12228
+            },
+            {
+              "rawNameEn": "Piety IV",
+              "resolvedNameEn": "Piety Materia IV",
+              "itemId": 5632
+            },
+            {
+              "rawNameEn": "Shrub Seedling",
+              "resolvedNameEn": "Shrub Seedling",
+              "itemId": 12656
+            },
+            {
+              "rawNameEn": "Voidrake Seeds",
+              "resolvedNameEn": "Voidrake Seeds",
+              "itemId": 15856
+            }
+          ]
+        }
+      ],
+      "unlockedBy": 10
+    },
+    {
+      "id": 13,
+      "star": 4,
+      "rank": 37,
+      "XP": 292170,
+      "unlocks": [
+        15
+      ],
+      "Surveillance": [
+        46,
+        62
+      ],
+      "Retrieval": [
+        78,
+        82
+      ],
+      "Favor": [
+        46,
+        82
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Chemically Treated Chimera Hide",
+              "resolvedNameEn": "Chemically Treated Chimera Hide",
+              "itemId": 12222
+            },
+            {
+              "rawNameEn": "Earth Crystal",
+              "resolvedNameEn": "Earth Crystal",
+              "itemId": 11
+            },
+            {
+              "rawNameEn": "Ice Crystal",
+              "resolvedNameEn": "Ice Crystal",
+              "itemId": 9
+            },
+            {
+              "rawNameEn": "Synthetic Resin",
+              "resolvedNameEn": "Synthetic Resin",
+              "itemId": 12922
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "Althyk Lavender Seeds",
+              "resolvedNameEn": "Althyk Lavender Seeds",
+              "itemId": 15855
+            },
+            {
+              "rawNameEn": "Craftsmanship IV",
+              "resolvedNameEn": "Craftsman's Competence Materia IV",
+              "itemId": 5702
+            },
+            {
+              "rawNameEn": "Dravanian Mote",
+              "resolvedNameEn": "Dravanian Mote",
+              "itemId": 13756
+            },
+            {
+              "rawNameEn": "Feberite",
+              "resolvedNameEn": "Ferberite",
+              "itemId": 7588
+            },
+            {
+              "rawNameEn": "Fine Alumen",
+              "resolvedNameEn": "Fine Alumen",
+              "itemId": 12655
+            },
+            {
+              "rawNameEn": "Ice Crystal",
+              "resolvedNameEn": "Ice Crystal",
+              "itemId": 9
+            },
+            {
+              "rawNameEn": "Synthetic Resin",
+              "resolvedNameEn": "Synthetic Resin",
+              "itemId": 12922
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Althyk Lavender Seeds",
+              "resolvedNameEn": "Althyk Lavender Seeds",
+              "itemId": 15855
+            },
+            {
+              "rawNameEn": "CP IV",
+              "resolvedNameEn": "Craftsman's Command Materia IV",
+              "itemId": 5712
+            },
+            {
+              "rawNameEn": "Deep-blue Cluster",
+              "resolvedNameEn": "Deep-blue Cluster",
+              "itemId": 12230
+            },
+            {
+              "rawNameEn": "Dravanian Mote",
+              "resolvedNameEn": "Dravanian Mote",
+              "itemId": 13756
+            },
+            {
+              "rawNameEn": "Ice Crystal",
+              "resolvedNameEn": "Ice Crystal",
+              "itemId": 9
+            }
+          ]
+        }
+      ],
+      "unlockedBy": 11
+    },
+    {
+      "id": 14,
+      "star": 4,
+      "rank": 40,
+      "XP": 338330,
+      "unlocks": [],
+      "Surveillance": [
+        46,
+        64
+      ],
+      "Retrieval": [
+        80,
+        84
+      ],
+      "Favor": [
+        46,
+        86
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Aetherochemical Fiber",
+              "resolvedNameEn": "Aetherochemical Fiber",
+              "itemId": 12927
+            },
+            {
+              "rawNameEn": "Cassia Log",
+              "resolvedNameEn": "Cassia Log",
+              "itemId": 12221
+            },
+            {
+              "rawNameEn": "Earth Crystal",
+              "resolvedNameEn": "Earth Crystal",
+              "itemId": 11
+            },
+            {
+              "rawNameEn": "Ice Crystal",
+              "resolvedNameEn": "Ice Crystal",
+              "itemId": 9
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "Aetherochemical Fiber",
+              "resolvedNameEn": "Aetherochemical Fiber",
+              "itemId": 12927
+            },
+            {
+              "rawNameEn": "Cassia Log",
+              "resolvedNameEn": "Cassia Log",
+              "itemId": 12221
+            },
+            {
+              "rawNameEn": "Oriental Grass Plot",
+              "resolvedNameEn": "Oriental Grass Plot",
+              "itemId": 13090
+            },
+            {
+              "rawNameEn": "Iron Giant Core",
+              "resolvedNameEn": "Iron Giant Core",
+              "itemId": 13003
+            },
+            {
+              "rawNameEn": "Spell Speed IV",
+              "resolvedNameEn": "Quicktongue Materia IV",
+              "itemId": 5722
+            },
+            {
+              "rawNameEn": "Voidrake Seeds",
+              "resolvedNameEn": "Voidrake Seeds",
+              "itemId": 15856
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Aetherochemical Fiber",
+              "resolvedNameEn": "Aetherochemical Fiber",
+              "itemId": 12927
+            },
+            {
+              "rawNameEn": "Deep-red Cluster",
+              "resolvedNameEn": "Deep-red Cluster",
+              "itemId": 12226
+            },
+            {
+              "rawNameEn": "Direct Hit Rate IV",
+              "resolvedNameEn": "Heavens' Eye Materia IV",
+              "itemId": 5667
+            },
+            {
+              "rawNameEn": "Spell Speed IV",
+              "resolvedNameEn": "Quicktongue Materia IV",
+              "itemId": 5722
+            }
+          ]
+        }
+      ],
+      "unlockedBy": 11
+    },
+    {
+      "id": 15,
+      "star": 5,
+      "rank": 44,
+      "XP": 374020,
+      "unlocks": [
+        19
+      ],
+      "Surveillance": [
+        46,
+        64
+      ],
+      "Retrieval": [
+        82,
+        86
+      ],
+      "Favor": [
+        46,
+        92
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Aetherochemical Fiber",
+              "resolvedNameEn": "Aetherochemical Fiber",
+              "itemId": 12927
+            },
+            {
+              "rawNameEn": "Cassia Log",
+              "resolvedNameEn": "Cassia Log",
+              "itemId": 12221
+            },
+            {
+              "rawNameEn": "Ice Crystal",
+              "resolvedNameEn": "Ice Crystal",
+              "itemId": 9
+            },
+            {
+              "rawNameEn": "Platinum Ore",
+              "resolvedNameEn": "Platinum Ore",
+              "itemId": 5120
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "Aetherochemical Fiber",
+              "resolvedNameEn": "Aetherochemical Fiber",
+              "itemId": 12927
+            },
+            {
+              "rawNameEn": "Althyk Lavender Seeds",
+              "resolvedNameEn": "Althyk Lavender Seeds",
+              "itemId": 15855
+            },
+            {
+              "rawNameEn": "Dinosaur Fossil",
+              "resolvedNameEn": "Dinosaur Fossil",
+              "itemId": 14934
+            },
+            {
+              "rawNameEn": "Magnanimous Mogcrown",
+              "resolvedNameEn": "Magnanimous Mogcrown",
+              "itemId": 12657
+            },
+            {
+              "rawNameEn": "Skill Speed IV",
+              "resolvedNameEn": "Quickarm Materia IV",
+              "itemId": 5717
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Critical Hit IV",
+              "resolvedNameEn": "Savage Aim Materia IV",
+              "itemId": 5672
+            },
+            {
+              "rawNameEn": "Deep-green Cluster",
+              "resolvedNameEn": "Deep-green Cluster",
+              "itemId": 12228
+            },
+            {
+              "rawNameEn": "Dinosaur Fossil",
+              "resolvedNameEn": "Dinosaur Fossil",
+              "itemId": 14934
+            },
+            {
+              "rawNameEn": "Skill Speed IV",
+              "resolvedNameEn": "Quickarm Materia IV",
+              "itemId": 5717
+            }
+          ]
+        }
+      ],
+      "unlockedBy": 13
+    },
+    {
+      "id": 16,
+      "star": 5,
+      "rank": 47,
+      "XP": 406590,
+      "unlocks": [
+        17
+      ],
+      "Surveillance": [
+        46,
+        66
+      ],
+      "Retrieval": [
+        84,
+        88
+      ],
+      "Favor": [
+        46,
+        96
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Cassia Log",
+              "resolvedNameEn": "Cassia Log",
+              "itemId": 12221
+            },
+            {
+              "rawNameEn": "Empty Cluster",
+              "resolvedNameEn": "Empty Cluster",
+              "itemId": 12929
+            },
+            {
+              "rawNameEn": "Fire Crystal",
+              "resolvedNameEn": "Fire Crystal",
+              "itemId": 8
+            },
+            {
+              "rawNameEn": "Water Crystal",
+              "resolvedNameEn": "Water Crystal",
+              "itemId": 13
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "Cassia Log",
+              "resolvedNameEn": "Cassia Log",
+              "itemId": 12221
+            },
+            {
+              "rawNameEn": "Far Eastern Coin",
+              "resolvedNameEn": "Far Eastern Coin",
+              "itemId": 12653
+            },
+            {
+              "rawNameEn": "Gathering IV",
+              "resolvedNameEn": "Gatherer's Grasp Materia IV",
+              "itemId": 5697
+            },
+            {
+              "rawNameEn": "Voidrake Seeds",
+              "resolvedNameEn": "Voidrake Seeds",
+              "itemId": 15856
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Deep-blue Crystal",
+              "resolvedNameEn": "Deep-blue Crystal",
+              "itemId": 12229
+            },
+            {
+              "rawNameEn": "Far Eastern Coin",
+              "resolvedNameEn": "Far Eastern Coin",
+              "itemId": 12653
+            },
+            {
+              "rawNameEn": "Gathering IV",
+              "resolvedNameEn": "Gatherer's Grasp Materia IV",
+              "itemId": 5697
+            },
+            {
+              "rawNameEn": "GP IV",
+              "resolvedNameEn": "Gatherer's Guile Materia IV",
+              "itemId": 5692
+            },
+            {
+              "rawNameEn": "Scarlet Sap",
+              "resolvedNameEn": "Scarlet Sap",
+              "itemId": 7590
+            }
+          ]
+        }
+      ],
+      "unlockedBy": 12
+    },
+    {
+      "id": 17,
+      "star": 5,
+      "rank": 50,
+      "XP": 0,
+      "unlocks": [
+        18
+      ],
+      "Surveillance": [
+        0,
+        90
+      ],
+      "Retrieval": [
+        86,
+        90
+      ],
+      "Favor": [
+        74,
+        102
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Cassia Log",
+              "resolvedNameEn": "Cassia Log",
+              "itemId": 12221
+            },
+            {
+              "rawNameEn": "Control III",
+              "resolvedNameEn": "Craftsman's Cunning Materia III",
+              "itemId": 5706
+            },
+            {
+              "rawNameEn": "Craftsmanship III",
+              "resolvedNameEn": "Craftsman's Competence Materia III",
+              "itemId": 5701
+            },
+            {
+              "rawNameEn": "Deep-red Cluster",
+              "resolvedNameEn": "Deep-red Cluster",
+              "itemId": 12226
+            },
+            {
+              "rawNameEn": "Dusk Leather",
+              "resolvedNameEn": "Dusk Leather",
+              "itemId": 12658
+            },
+            {
+              "rawNameEn": "Silver Ore",
+              "resolvedNameEn": "Silver Ore",
+              "itemId": 5113
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "Cassia Log",
+              "resolvedNameEn": "Cassia Log",
+              "itemId": 12221
+            },
+            {
+              "rawNameEn": "Cloudsbreath Seeds",
+              "resolvedNameEn": "Cloudsbreath Seeds",
+              "itemId": 20792
+            },
+            {
+              "rawNameEn": "Control IV",
+              "resolvedNameEn": "Craftsman's Cunning Materia IV",
+              "itemId": 5707
+            },
+            {
+              "rawNameEn": "Craftsmanship IV",
+              "resolvedNameEn": "Craftsman's Competence Materia IV",
+              "itemId": 5702
+            },
+            {
+              "rawNameEn": "Deep-red Cluster",
+              "resolvedNameEn": "Deep-red Cluster",
+              "itemId": 12226
+            },
+            {
+              "rawNameEn": "Dusk Leather",
+              "resolvedNameEn": "Dusk Leather",
+              "itemId": 12658
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Control IV",
+              "resolvedNameEn": "Craftsman's Cunning Materia IV",
+              "itemId": 5707
+            },
+            {
+              "rawNameEn": "Craftsmanship IV",
+              "resolvedNameEn": "Craftsman's Competence Materia IV",
+              "itemId": 5702
+            },
+            {
+              "rawNameEn": "Dusk Leather",
+              "resolvedNameEn": "Dusk Leather",
+              "itemId": 12658
+            }
+          ]
+        }
+      ],
+      "unlockedBy": 16
+    },
+    {
+      "id": 18,
+      "star": 5,
+      "rank": 50,
+      "XP": 0,
+      "unlocks": [],
+      "Surveillance": [
+        0,
+        90
+      ],
+      "Retrieval": [
+        86,
+        90
+      ],
+      "Favor": [
+        74,
+        102
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Cassia Log",
+              "resolvedNameEn": "Cassia Log",
+              "itemId": 12221
+            },
+            {
+              "rawNameEn": "Critical Hit III",
+              "resolvedNameEn": "Savage Aim Materia III",
+              "itemId": 5671
+            },
+            {
+              "rawNameEn": "Deep-green Cluster",
+              "resolvedNameEn": "Deep-green Cluster",
+              "itemId": 12228
+            },
+            {
+              "rawNameEn": "Electrum Ore",
+              "resolvedNameEn": "Electrum Ore",
+              "itemId": 5115
+            },
+            {
+              "rawNameEn": "Skill Speed III",
+              "resolvedNameEn": "Quickarm Materia III",
+              "itemId": 5716
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "Cassia Log",
+              "resolvedNameEn": "Cassia Log",
+              "itemId": 12221
+            },
+            {
+              "rawNameEn": "Cloudsbreath Seeds",
+              "resolvedNameEn": "Cloudsbreath Seeds",
+              "itemId": 20792
+            },
+            {
+              "rawNameEn": "Critical Hit IV",
+              "resolvedNameEn": "Savage Aim Materia IV",
+              "itemId": 5672
+            },
+            {
+              "rawNameEn": "Faded Copy of Engage",
+              "resolvedNameEn": "Faded Copy of Engage",
+              "itemId": 15839
+            },
+            {
+              "rawNameEn": "Iron Giant Core",
+              "resolvedNameEn": "Iron Giant Core",
+              "itemId": 13003
+            },
+            {
+              "rawNameEn": "Skill Speed IV",
+              "resolvedNameEn": "Quickarm Materia IV",
+              "itemId": 5717
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Critical Hit V",
+              "resolvedNameEn": "Savage Aim Materia V",
+              "itemId": 5673
+            },
+            {
+              "rawNameEn": "Faded Copy of Engage",
+              "resolvedNameEn": "Faded Copy of Engage",
+              "itemId": 15839
+            },
+            {
+              "rawNameEn": "Deep-green Cluster",
+              "resolvedNameEn": "Deep-green Cluster",
+              "itemId": 12228
+            },
+            {
+              "rawNameEn": "Skill Speed V",
+              "resolvedNameEn": "Quickarm Materia V",
+              "itemId": 5718
+            }
+          ]
+        }
+      ],
+      "unlockedBy": 17
+    },
+    {
+      "id": 19,
+      "star": 5,
+      "rank": 50,
+      "XP": 0,
+      "unlocks": [
+        20,
+        23
+      ],
+      "Surveillance": [
+        0,
+        90
+      ],
+      "Retrieval": [
+        86,
+        90
+      ],
+      "Favor": [
+        74,
+        102
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Cassia Log",
+              "resolvedNameEn": "Cassia Log",
+              "itemId": 12221
+            },
+            {
+              "rawNameEn": "Deep-blue Cluster",
+              "resolvedNameEn": "Deep-blue Cluster",
+              "itemId": 12230
+            },
+            {
+              "rawNameEn": "Determination III",
+              "resolvedNameEn": "Savage Might Materia III",
+              "itemId": 5676
+            },
+            {
+              "rawNameEn": "Dusk Leather",
+              "resolvedNameEn": "Dusk Leather",
+              "itemId": 12658
+            },
+            {
+              "rawNameEn": "Gold Sand",
+              "resolvedNameEn": "Gold Sand",
+              "itemId": 5273
+            },
+            {
+              "rawNameEn": "Piety III",
+              "resolvedNameEn": "Piety Materia III",
+              "itemId": 5631
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "Cassia Log",
+              "resolvedNameEn": "Cassia Log",
+              "itemId": 12221
+            },
+            {
+              "rawNameEn": "Cloudsbreath Seeds",
+              "resolvedNameEn": "Cloudsbreath Seeds",
+              "itemId": 20792
+            },
+            {
+              "rawNameEn": "Determination IV",
+              "resolvedNameEn": "Savage Might Materia IV",
+              "itemId": 5677
+            },
+            {
+              "rawNameEn": "Dinosaur Leather",
+              "resolvedNameEn": "Dinosaur Leather",
+              "itemId": 13745
+            },
+            {
+              "rawNameEn": "Dusk Leather",
+              "resolvedNameEn": "Dusk Leather",
+              "itemId": 12658
+            },
+            {
+              "rawNameEn": "Piety IV",
+              "resolvedNameEn": "Piety Materia IV",
+              "itemId": 5632
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Cloudsbreath",
+              "resolvedNameEn": "Cloudsbreath",
+              "itemId": 20791
+            },
+            {
+              "rawNameEn": "Determination V",
+              "resolvedNameEn": "Savage Might Materia V",
+              "itemId": 5678
+            },
+            {
+              "rawNameEn": "Dinosaur Leather",
+              "resolvedNameEn": "Dinosaur Leather",
+              "itemId": 13745
+            },
+            {
+              "rawNameEn": "Dusk Leather",
+              "resolvedNameEn": "Dusk Leather",
+              "itemId": 12658
+            },
+            {
+              "rawNameEn": "Piety V",
+              "resolvedNameEn": "Piety Materia V",
+              "itemId": 5633
+            }
+          ]
+        }
+      ],
+      "unlockedBy": 15
+    },
+    {
+      "id": 20,
+      "star": 5,
+      "rank": 50,
+      "XP": 0,
+      "unlocks": [
+        21,
+        22
+      ],
+      "Surveillance": [
+        0,
+        90
+      ],
+      "Retrieval": [
+        86,
+        90
+      ],
+      "Favor": [
+        74,
+        102
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Cassia Log",
+              "resolvedNameEn": "Cassia Log",
+              "itemId": 12221
+            },
+            {
+              "rawNameEn": "Deep-red Cluster",
+              "resolvedNameEn": "Deep-red Cluster",
+              "itemId": 12226
+            },
+            {
+              "rawNameEn": "Dusk Leather",
+              "resolvedNameEn": "Dusk Leather",
+              "itemId": 12658
+            },
+            {
+              "rawNameEn": "Mythrite Sand",
+              "resolvedNameEn": "Mythrite Sand",
+              "itemId": 12531
+            },
+            {
+              "rawNameEn": "Tenacity III",
+              "resolvedNameEn": "Battledance Materia III",
+              "itemId": 5681
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "Antique Leather",
+              "resolvedNameEn": "Antique Leather",
+              "itemId": 14932
+            },
+            {
+              "rawNameEn": "Cassia Log",
+              "resolvedNameEn": "Cassia Log",
+              "itemId": 12221
+            },
+            {
+              "rawNameEn": "Cloudsbreath Seeds",
+              "resolvedNameEn": "Cloudsbreath Seeds",
+              "itemId": 20792
+            },
+            {
+              "rawNameEn": "Direct Hit Rate IV",
+              "resolvedNameEn": "Heavens' Eye Materia IV",
+              "itemId": 5667
+            },
+            {
+              "rawNameEn": "Iron Giant Core",
+              "resolvedNameEn": "Iron Giant Core",
+              "itemId": 13003
+            },
+            {
+              "rawNameEn": "Tenacity IV",
+              "resolvedNameEn": "Battledance Materia IV",
+              "itemId": 5682
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Antique Leather",
+              "resolvedNameEn": "Antique Leather",
+              "itemId": 14932
+            },
+            {
+              "rawNameEn": "Cloudsbreath Seeds",
+              "resolvedNameEn": "Cloudsbreath Seeds",
+              "itemId": 20792
+            },
+            {
+              "rawNameEn": "Direct Hit Rate V",
+              "resolvedNameEn": "Heavens' Eye Materia V",
+              "itemId": 5668
+            },
+            {
+              "rawNameEn": "Tenacity V",
+              "resolvedNameEn": "Battledance Materia V",
+              "itemId": 5683
+            }
+          ]
+        }
+      ],
+      "unlockedBy": 19
+    },
+    {
+      "id": 21,
+      "star": 5,
+      "rank": 50,
+      "XP": 0,
+      "unlocks": [
+        24
+      ],
+      "Surveillance": [
+        0,
+        90
+      ],
+      "Retrieval": [
+        86,
+        90
+      ],
+      "Favor": [
+        74,
+        102
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Cassia Log",
+              "resolvedNameEn": "Cassia Log",
+              "itemId": 12221
+            },
+            {
+              "rawNameEn": "Deep-green Cluster",
+              "resolvedNameEn": "Deep-green Cluster",
+              "itemId": 12228
+            },
+            {
+              "rawNameEn": "Determination III",
+              "resolvedNameEn": "Savage Might Materia III",
+              "itemId": 5676
+            },
+            {
+              "rawNameEn": "Platinum Ore",
+              "resolvedNameEn": "Platinum Ore",
+              "itemId": 5120
+            },
+            {
+              "rawNameEn": "Spell Speed III",
+              "resolvedNameEn": "Quicktongue Materia III",
+              "itemId": 5721
+            },
+            {
+              "rawNameEn": "Spoken Blood",
+              "resolvedNameEn": "Spoken Blood",
+              "itemId": 5494
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "Cassia Log",
+              "resolvedNameEn": "Cassia Log",
+              "itemId": 12221
+            },
+            {
+              "rawNameEn": "Determination IV",
+              "resolvedNameEn": "Savage Might Materia IV",
+              "itemId": 5677
+            },
+            {
+              "rawNameEn": "Spell Speed IV",
+              "resolvedNameEn": "Quicktongue Materia IV",
+              "itemId": 5722
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Cloudsbreath Seeds",
+              "resolvedNameEn": "Cloudsbreath Seeds",
+              "itemId": 20792
+            },
+            {
+              "rawNameEn": "Determination V",
+              "resolvedNameEn": "Savage Might Materia V",
+              "itemId": 5678
+            },
+            {
+              "rawNameEn": "Spell Speed V",
+              "resolvedNameEn": "Quicktongue Materia V",
+              "itemId": 5723
+            },
+            {
+              "rawNameEn": "Wind Silk",
+              "resolvedNameEn": "Wind Silk",
+              "itemId": 13744
+            }
+          ]
+        }
+      ],
+      "unlockedBy": 20
+    },
+    {
+      "id": 22,
+      "star": 5,
+      "rank": 50,
+      "XP": 0,
+      "unlocks": [],
+      "Surveillance": [
+        0,
+        90
+      ],
+      "Retrieval": [
+        86,
+        90
+      ],
+      "Favor": [
+        74,
+        102
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Cassia Log",
+              "resolvedNameEn": "Cassia Log",
+              "itemId": 12221
+            },
+            {
+              "rawNameEn": "Deepeye Tears",
+              "resolvedNameEn": "Deepeye Tears",
+              "itemId": 12628
+            },
+            {
+              "rawNameEn": "GP III",
+              "resolvedNameEn": "Gatherer's Guile Materia III",
+              "itemId": 5691
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "Antique Rug",
+              "resolvedNameEn": "Antique Rug",
+              "itemId": 14931
+            },
+            {
+              "rawNameEn": "Cassia Log",
+              "resolvedNameEn": "Cassia Log",
+              "itemId": 12221
+            },
+            {
+              "rawNameEn": "Cloudsbreath Seeds",
+              "resolvedNameEn": "Cloudsbreath Seeds",
+              "itemId": 20792
+            },
+            {
+              "rawNameEn": "Deep-blue Cluster",
+              "resolvedNameEn": "Deep-blue Cluster",
+              "itemId": 12230
+            },
+            {
+              "rawNameEn": "GP IV",
+              "resolvedNameEn": "Gatherer's Guile Materia IV",
+              "itemId": 5692
+            },
+            {
+              "rawNameEn": "Iron Giant Core",
+              "resolvedNameEn": "Iron Giant Core",
+              "itemId": 13003
+            },
+            {
+              "rawNameEn": "Perception IV",
+              "resolvedNameEn": "Gatherer's Guerdon Materia IV",
+              "itemId": 5687
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Cloudsbreath Seeds",
+              "resolvedNameEn": "Cloudsbreath Seeds",
+              "itemId": 20792
+            },
+            {
+              "rawNameEn": "Deep-blue Cluster",
+              "resolvedNameEn": "Deep-blue Cluster",
+              "itemId": 12230
+            },
+            {
+              "rawNameEn": "GP IV",
+              "resolvedNameEn": "Gatherer's Guile Materia IV",
+              "itemId": 5692
+            },
+            {
+              "rawNameEn": "Perception IV",
+              "resolvedNameEn": "Gatherer's Guerdon Materia IV",
+              "itemId": 5687
+            }
+          ]
+        }
+      ],
+      "unlockedBy": 20
+    },
+    {
+      "id": 23,
+      "star": 5,
+      "rank": 50,
+      "XP": 0,
+      "unlocks": [],
+      "Surveillance": [
+        0,
+        90
+      ],
+      "Retrieval": [
+        86,
+        90
+      ],
+      "Favor": [
+        74,
+        102
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Bear Fat",
+              "resolvedNameEn": "Bear Fat",
+              "itemId": 12609
+            },
+            {
+              "rawNameEn": "Cassia Log",
+              "resolvedNameEn": "Cassia Log",
+              "itemId": 12221
+            },
+            {
+              "rawNameEn": "Direct Hit Rate III",
+              "resolvedNameEn": "Heavens' Eye Materia III",
+              "itemId": 5666
+            },
+            {
+              "rawNameEn": "Spell Speed III",
+              "resolvedNameEn": "Quicktongue Materia III",
+              "itemId": 5721
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "Cassia Log",
+              "resolvedNameEn": "Cassia Log",
+              "itemId": 12221
+            },
+            {
+              "rawNameEn": "Direct Hit Rare IV",
+              "resolvedNameEn": "Heavens' Eye Materia IV",
+              "itemId": 5667
+            },
+            {
+              "rawNameEn": "Faded Copy of A World Apart",
+              "resolvedNameEn": "Faded Copy of A World Apart",
+              "itemId": 14272
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Cloudsbreath Seeds",
+              "resolvedNameEn": "Cloudsbreath Seeds",
+              "itemId": 20792
+            },
+            {
+              "rawNameEn": "Direct Hit Rate V",
+              "resolvedNameEn": "Heavens' Eye Materia V",
+              "itemId": 5668
+            },
+            {
+              "rawNameEn": "Spell Speed V",
+              "resolvedNameEn": "Quicktongue Materia V",
+              "itemId": 5723
+            }
+          ]
+        }
+      ],
+      "unlockedBy": 19
+    },
+    {
+      "id": 24,
+      "star": 5,
+      "rank": 50,
+      "XP": 0,
+      "unlocks": [],
+      "Surveillance": [
+        0,
+        90
+      ],
+      "Retrieval": [
+        86,
+        90
+      ],
+      "Favor": [
+        74,
+        102
+      ],
+      "tiers": [
+        {
+          "tier": 1,
+          "items": [
+            {
+              "rawNameEn": "Cassia Log",
+              "resolvedNameEn": "Cassia Log",
+              "itemId": 12221
+            },
+            {
+              "rawNameEn": "Critical Hit III",
+              "resolvedNameEn": "Savage Aim Materia III",
+              "itemId": 5671
+            },
+            {
+              "rawNameEn": "Dark Chestnut Branch",
+              "resolvedNameEn": "Dark Chestnut Branch",
+              "itemId": 12585
+            },
+            {
+              "rawNameEn": "Deep-green Cluster",
+              "resolvedNameEn": "Deep-green Cluster",
+              "itemId": 12228
+            },
+            {
+              "rawNameEn": "Minium",
+              "resolvedNameEn": "Minium",
+              "itemId": 5274
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "items": [
+            {
+              "rawNameEn": "Cloudsbreath Seeds",
+              "resolvedNameEn": "Cloudsbreath Seeds",
+              "itemId": 20792
+            },
+            {
+              "rawNameEn": "Critical Hit IV",
+              "resolvedNameEn": "Savage Aim Materia IV",
+              "itemId": 5672
+            },
+            {
+              "rawNameEn": "Iron Voyage Spoil",
+              "resolvedNameEn": "Iron Voyage Spoil",
+              "itemId": 15112
+            },
+            {
+              "rawNameEn": "Skill Speed IV",
+              "resolvedNameEn": "Quickarm Materia IV",
+              "itemId": 5717
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "items": [
+            {
+              "rawNameEn": "Cloudsbreath Seeds",
+              "resolvedNameEn": "Cloudsbreath Seeds",
+              "itemId": 20792
+            },
+            {
+              "rawNameEn": "Critical Hit V",
+              "resolvedNameEn": "Savage Aim Materia V",
+              "itemId": 5673
+            },
+            {
+              "rawNameEn": "Iron Voyage Spoil",
+              "resolvedNameEn": "Iron Voyage Spoil",
+              "itemId": 15112
+            }
+          ]
+        }
+      ],
+      "unlockedBy": 21
+    }
+  ]
+}

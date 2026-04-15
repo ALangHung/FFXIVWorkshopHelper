@@ -10,6 +10,7 @@
     "data:build-sub-loot": "node scripts/build-sub-loot-data.mjs",
     "data:build-submarine-voyages": "node scripts/build-submarine-voyages.mjs",
     "data:build-sea-area": "node scripts/build-sub-loot-data.mjs",
+    "data:build-air-loot": "node scripts/build-air-loot-data.mjs",
     "data:build-sub-parts-combinations": "node scripts/build-sub-parts-combinations.mjs"
   },
   "dependencies": {
