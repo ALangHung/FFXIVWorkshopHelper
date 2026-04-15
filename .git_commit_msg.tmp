@@ -1,9 +1,0 @@
-feat(air-loot): 新增飛空艇打撈表頁面與資料建置流程
-
-- UI 與導航：在導航列新增「飛空艇」分類與「打撈表」按鈕，並實作 /AirLoot 頁面（AirLootPage）。依據資料特性客製化表格，移除無用的「代碼」欄位、新增「前置」欄位並根據實際顯示微調 CSS 欄寬。
-- 資料解析腳本：
-  - 新增 build-air-loot-data.mjs 解析飛空艇 CSV 原始資料，並在 package.json 註冊相對應指命。
-  - 將原本單一數值的 DD 資料結構合併進入 Favor 陣列中（對齊探索/收集門檻格式）。
-  - 對腳本新增自動檢查 unlocks 陣列以反向推導建立各航點 unlockedBy（前置條件）的邏輯。
-- 繁中翻譯來源優化：淘汰 opencc-js 與簡中 zh-items.json 的轉換流程，潛水艇與飛空艇的建置腳本皆改為直接抓取 tw-items.json 以還原最準確的遊戲內繁中名詞設定。
-- 資料產出：產出全新的飛空艇 JSON (air-loot, air-area, catalog)，並重新產出潛水艇資料套用新的翻譯設定與清除遺留的佔位簡中資料。
